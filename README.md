@@ -2,28 +2,20 @@
   
   ## CSS
   dsafdsa
-  - Tailwind CSS
-asasasa
-  - 
-
+     ### Tailwind CSS
+  
 
   ## HTML
   
   ## Javascript
   kdfsd
-  - React
-    sdsdsddsdsd
-  - React
-    
-  - React
-    
-  - React
-    
+     ### React
+  
 
 # Backend
   ## PHP
-  - Laravel
-    sdsds
+  sgfdfsgsfd
+     ### Laravel
 
   ## Golang
   
