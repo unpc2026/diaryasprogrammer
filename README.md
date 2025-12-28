@@ -1,13 +1,13 @@
 # Frontend
   
   ## CSS
-  
+  dsafdsa
   - Tailwind CSS
   
   ## HTML
   
   ## Javascript
-  
+  kdfsd
   - React
 
 # Backend
