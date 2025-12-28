@@ -1,1 +1,7 @@
-# diaryasprogrammer
+# Frontend
+
+# Backend
+
+# Fullstack
+
+# DevOps
