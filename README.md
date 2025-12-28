@@ -1,14 +1,18 @@
 # Frontend
-  ## Javascript
-  ### React
-  ## HTML
   
   ## CSS
-  ### Tailwind CSS
+  
+  - Tailwind CSS
+  
+  ## HTML
+  
+  ## Javascript
+  
+  - React
 
 # Backend
   ## PHP
-  ### Laravel
+  - Laravel
   
   ## Golang
   
