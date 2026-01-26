@@ -5,4 +5,3 @@
   - [Programmer Zaman Now : TUTORIAL PHP DASAR BAHASA INDONESIA](https://www.youtube.com/watch?v=TaBWhb5SPfc)
   - [Laracast : PHP For Beginners - Complete Laracasts Course](https://www.youtube.com/watch?v=fw5ObX8P6as)
   - [Kenapa Coding : TUTORIAL PHP TERLENGKAP UNTUK PEMULA DISINI](youtube.com/watch?v=IkD2y4ubFdw)
-  - [The Codeholic : PHP Tutorial for Beginners - PHP Crash Course (2025)](youtube.com/watch?v=ny4-hGENWVk)
