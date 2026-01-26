@@ -1,7 +1,7 @@
 # PHP Behind The Scene
 
   ## PHP Code Execution via Web Server (keywords : how php works with the web server)
-  The process of how PHP works involves a user's browser, a web server (like Apache or Nginx), and the PHP interpreter. This interaction is a server-side process that generates HTML content to be sent back to the client's browser. 
+  The process of how PHP works involves a user's browser, a web server (like Apache or Nginx), and the PHP interpreter. This interaction is a server-side process that generates dynamic content before the final output is sent to the user's browser. 
   
   - The typical flow can be visualized in the following steps:
     1. User Request: A user enters a URL in their web browser or clicks a link, which sends an HTTP request for a specific file (e.g., index.php) to the web server.
