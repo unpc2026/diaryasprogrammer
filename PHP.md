@@ -29,7 +29,7 @@
     + PHP Interpreter (Processor): The core component that reads, parses, and executes the PHP code into machine-readable opcodes, ultimately generating output. [What is PHP and How PHP Interpreter Works](https://dev.to/patricia1988hernandez2/what-is-php-and-how-php-interpreter-works-38k8)
     + Database (e.g., MySQL): Stores and retrieves data as instructed by the PHP script.  
   
-  This flow demonstrates that PHP is a server-side language, dynamically generating content before the final page is sent to the client. This approach ensures that sensitive server-side logic and database interactions remain hidden from the client, enhancing security.
+  This flow demonstrates that PHP is a server-side language, dynamically generating content before the final page is sent to the client. This approach ensures that sensitive server-side logic and database interactions remain hidden from the client (enhancing security).
 
 # Tutorial
 - [Official Documentation PHP](https://www.php.net/manual/en/)
