@@ -21,7 +21,7 @@
     6. Web Server Sends Response :  
         The web server receives the generated output from the PHP interpreter and sends it back to the user's browser as an HTTP response.
     7. Browser Renders Page :  
-        The user's web browser receives the HTML response and renders the complete, dynamic web page on the user's screen. The user's browser never sees the underlying PHP source code, only the resulting HTML, CSS, or other content. 
+        The user's web browser receives the HTML response and renders the complete dynamic web page on the user's screen. The user's browser never sees the underlying PHP source code, only the resulting HTML, CSS, or other content. 
     
   - Key Components
     + Web Browser (Client): Initiates the request and displays the final HTML output.
