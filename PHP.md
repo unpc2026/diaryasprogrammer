@@ -7,9 +7,9 @@
     1. User Request: A user enters a URL in their web browser or clicks a link, which sends an HTTP request for a specific file (e.g., index.php) to the web server.
     2. Web Server Receives Request: The web server receives the request and analyzes the file extension. If the file has a .php extension, the web server passes the file to the PHP interpreter.
     3. PHP Processes Script: The PHP interpreter (which contains the Zend Engine) processes the PHP code. During this stage, PHP may:
-      1. Perform server-side logic and calculations.
-      2. Interact with a database (e.g., MySQL) using SQL queries to fetch or store data.
-      3. Communicate with external APIs or the server's file system.
+       1. Perform server-side logic and calculations.
+       2. Interact with a database (e.g., MySQL) using SQL queries to fetch or store data.
+       3. Communicate with external APIs or the server's file system.
     4. PHP Generates Output: After execution, the PHP interpreter generates an output, typically in the form of plain HTML or other content types like JSON or XML. All PHP code is removed in this output.
     5. Web Server Sends Response: The web server receives the generated HTML output from the PHP interpreter and sends it back to the user's browser as an HTTP response.
     6. Browser Renders Page: The user's web browser receives the HTML response and renders the complete, dynamic web page on the user's screen. The user never sees the underlying PHP source code, only the resulting HTML. 
