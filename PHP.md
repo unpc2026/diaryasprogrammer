@@ -5,14 +5,14 @@
   
   - The typical flow can be visualized in the following steps:
     1. User Request: A user enters a URL in their web browser or clicks a link, which sends an HTTP request for a specific file (e.g., index.php) to the web server.
-    2. Web Server Receives Request: The web server receives the request and examines the file extension (.php) to identify it as a PHP file, distinguishing it from static files like HTML or images.
+    2. Web Server Receives Request: The web server receives the request and examines the file extension (.php) to identify it as a PHP file. If the file is a static asset (like an image, CSS, or plain HTML file), the web server serves it directly to the browser.
     3. Request Passed to PHP Interpreter: The web server does not process PHP code itself. Instead, it uses a Server API (SAPI) like FastCGI, CGI, or mod_php to pass the request and the PHP file to the PHP interpreter (or PHP engine).
     4. PHP Code Execution: The PHP interpreter reads and executes the script, line by line (or compiles it to bytecode and runs it, especially with optimizations like OPcache). During this process, PHP can:
        1. Perform server-side logic and calculations.
        2. Process form data
        3. Interact with a database (e.g., MySQL) using SQL queries to fetch/retrieve/store data.
        4. Communicate with external APIs or the server's file system.
-    5. Output Returned to Web Server: Once execution is complete, the PHP interpreter sends the generated output (pure HTML, JSON, etc.) back to the web server (All PHP code is removed in this output).
+    5. Output Returned to Web Server: Once execution is complete, the PHP interpreter sends the generated output (pure HTML, JSON, etc.) back to the web server. All PHP code is removed in this output.
     6. Web Server Sends Response: The web server receives the generated output from the PHP interpreter and sends it back to the user's browser as an HTTP response.
     7. Browser Renders Page: The user's web browser receives the HTML response and renders the complete, dynamic web page on the user's screen. The user's browser never sees the underlying PHP source code, only the resulting HTML, CSS, or other content. 
     
