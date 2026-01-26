@@ -7,6 +7,7 @@
 ### PHP Behind The Scene
 
 - PHP Code Execution via Web Server (keywords : how php works with the web server or how php works diagram)  
+
   The process of how PHP works involves a user's browser, a web server (like Apache or Nginx), and the PHP interpreter. This interaction is a server-side process that generates dynamic content before the final output is sent to the user's browser.
 
   - The typical flow can be visualized in the following steps:
