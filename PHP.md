@@ -11,7 +11,7 @@
     3. Request Passed to PHP Interpreter :  
        The web server does not process PHP code itself. Instead, it uses a Server API (SAPI) like FastCGI, CGI, or mod_php to pass the request and the PHP file to the PHP interpreter (or PHP engine).
     4. PHP Code Execution :  
-       The PHP interpreter reads and executes the script line by line through stages called lexing, parsing, compilation (into Opcode), and execution. During the execution stage, PHP can perform various tasks :
+       The PHP interpreter reads and executes the script line by line through stages called Lexing, Parsing (PHP Parser), Compilation, and Interpretation/Execution. During the Execution stage, PHP can perform various tasks :
        1. Perform server-side logic and calculations.
        2. Process form data
        3. Interact with a database (e.g., MySQL) using SQL queries to fetch/retrieve/store data.
