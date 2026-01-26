@@ -25,7 +25,7 @@
     
   - Key Components
     + Web Browser (Client): Initiates the request and displays the final HTML output.
-  Web Server (e.g., Apache): An intermediary that handles HTTP requests and responses, directing PHP files to the PHP interpreter.
+    + Web Server (e.g., Apache): An intermediary that handles HTTP requests and responses, directing PHP files to the PHP interpreter.
     + PHP Interpreter (Processor): The core component that reads, parses, and executes the PHP code into machine-readable opcodes, ultimately generating output. [What is PHP and How PHP Interpreter Works](https://dev.to/patricia1988hernandez2/what-is-php-and-how-php-interpreter-works-38k8)
     + Database (e.g., MySQL): Stores and retrieves data as instructed by the PHP script.  
   
