@@ -36,18 +36,21 @@ This flow demonstrates that PHP is a server-side language, dynamically generatin
 ## PHP Linefeeds/Newline
 When the PHP interpreter encounters a closing ?> tag, it generally switches back to "HTML mode," meaning any subsequent text (including whitespace and new lines) is output directly. However, there's a specific exception for the single linefeed (or newline) character that directly follows the closing tag. PHP "eats" this newline to prevent accidental unwanted output. 
 
-Example 1: The linefeed is removed
+Example 1 : The linefeed is removed
+```php
 <?php echo "Hello"; ?>
 World
+```
 
 Output:
 HelloWorld
 The linefeed after ?> is removed, so "World" appears on the same line as "Hello". 
 
-Example 2: The linefeed is kept (due to an extra space)
+Example 2 : The linefeed is kept (due to an extra space)
+```php
 <?php echo "Hello"; ?> 
 World
-
+```
 Output:
 Hello World
 Here, a space was added after ?> before the linefeed. PHP does not remove the linefeed if there is any other character (like a space) in between. 
