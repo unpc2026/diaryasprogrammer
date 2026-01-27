@@ -52,7 +52,8 @@ Example 2 : The linefeed is kept (due to an extra space)
 World
 ```
 Output :  
-Hello World  
+Hello
+World  
 Here, a space was added after ?> before the linefeed. PHP does not remove the linefeed if there is any other character (like a space) in between. 
 
 This behavior is particularly useful in two scenarios :
