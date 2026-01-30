@@ -11,7 +11,7 @@ Here’s what I expect in your response:
 2. For each section:
    * Explain the concepts clearly and thoroughly.
    * Describe how things work internally (to the best of what’s documented or known about PHP). 
-   * Explain why PHP behaves the way it does in each case, not just *what it does*. 
+   * Explain why PHP behaves the way it does in each case, not just what it does. 
    * Include relevant code examples that illustrate each concept and aid understanding. 
    * Show step-by-step explanations where appropriate, especially for tricky behaviors. 
 3. Do not provide a summary or high‑level overview only. I want detailed, deep explanations. 
