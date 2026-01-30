@@ -19,10 +19,9 @@ Here’s what I expect in your response:
 
 If you need anything clarified before starting, please ask me first. Do not begin until all requirements and questions are confirmed.
 
-```markdown
+```text
 Please carefully read the entire official PHP documentation about strings on the following page:
-<https://www.php.net/manual/en/language.types.string.php>
-[Click here](https://example.com) to visit a website.
+https://www.php.net/manual/en/language.types.string.php
 
 After reading it, I want you to explain every section in order, with a very clear, comprehensive explanation of how PHP strings work - from the absolute basics up through advanced concepts. Your explanation should include the “why” behind behaviors and not just the "what". 
 
@@ -40,3 +39,4 @@ Here’s what I expect in your response:
 5. Make sure your explanation is accessible even for someone who is new to PHP strings, but still useful for experienced developers.
 
 If you need anything clarified before starting, please ask me first. Do not begin until all requirements and questions are confirmed.
+```
