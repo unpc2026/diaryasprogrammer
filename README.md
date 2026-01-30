@@ -21,7 +21,7 @@ If you need anything clarified before starting, please ask me first. Do not begi
 
 ```markdown
 Please carefully read the entire official PHP documentation about strings on the following page: 
-👉 (Link Website)[https://www.php.net/manual/en/language.types.string.php] 
+👉 [Link Website](https://www.php.net/manual/en/language.types.string.php)
 
 After reading it, I want you to explain every section in order, with a very clear, comprehensive explanation of how PHP strings work - from the absolute basics up through advanced concepts. Your explanation should include the “why” behind behaviors and not just the "what". 
 
