@@ -1,5 +1,20 @@
 ## Prompt to learn from a website in ChatGPT
-- Read this entire official PHP documentation about strings (https://www.php.net/manual/en/language.types.string.php) and I would like you to explain it to me in every section about how php strings works (also internally) in systematically, starting from fundamentals and building up, explaining why things behave the way they do, not just what they do. ask if the task is not totally clear and when you need more information. Do not guess!  
-- Read this entire official PHP documentation about strings (https://www.php.net/manual/en/language.types.string.php), and i want you to explain to me every section in order and super comprehensively, provide step-by-step explanation of how PHP strings work (also internally), starting from the basics and building up to more advanced concepts. Also, explaining why things behave the way they do, not just what they do. If needed, provide a code examples to help me understand clearly. If anything is unclear or you need more information, please ask for clarification and don't give me a summarize version. Do not guess!
-- Review this entire official PHP documentation page on strings (https://www.php.net/manual/en/language.types.string.php), then explain each section in order with super detailed and comprehensive explanations, and provide step-by-step code implementation examples along with their outputs in a real-world context with clear explanations. and you can also look for other sources besides that and ask if the task is not totally clear and when you need more information. Do not guess!  
-- Currently, I am studying PHP strings directly from the official PHP documentation (https://www.php.net/manual/en/language.types.string.php), but I would like you to explain it to me about how php strings works (also internally) in systematically, starting from fundamentals and building up, explaining why things behave the way they do, not just what they do and provide a more code examples as well as explanations. you can also point out common pitfalls and mental models to help me reason about strings. ask if the task is not totally clear and when you need more information. Do not guess!  
+Please carefully read the entire official PHP documentation about strings on the following page: 
+👉 [https://www.php.net/manual/en/language.types.string.php] 
+
+After reading it, I want you to explain every section in order, with a very clear, comprehensive explanation of how PHP strings work - from the absolute basics up through advanced concepts. Your explanation should include the “why” behind behaviors and not just the "what". 
+
+Here’s what I expect in your response:
+
+1. Go through the documentation section by section, in order, without skipping anything. 
+2. For each section:
+   * Explain the concepts clearly and thoroughly.
+   * Describe how things work internally (to the best of what’s documented or known about PHP). 
+   * Explain why PHP behaves the way it does in each case, not just *what it does*. 
+   * Include relevant code examples that illustrate each concept and aid understanding. 
+   * Show step-by-step explanations where appropriate, especially for tricky behaviors. 
+3. Do not provide a summary or high‑level overview only. I want detailed, deep explanations. 
+4. If any part of the documentation is unclear, incomplete, or ambiguous, ask me a clarifying question instead of guessing or filling in with assumptions. 
+5. Make sure your explanation is accessible even for someone who is new to PHP strings, but still useful for experienced developers.
+
+If you need anything clarified before starting, please ask me first. Do not begin until all requirements and questions are confirmed.
