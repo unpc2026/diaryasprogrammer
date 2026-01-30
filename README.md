@@ -22,6 +22,121 @@ If you need anything clarified before starting, please ask me first. Do not begi
 ```
 
 ```markdown
+Great — you’re already very close.
+Below is a **more structural, unambiguous, and model-friendly version** of your prompt that is designed to:
+
+* strictly follow the PHP manual **in order**,
+* force **deep, section-by-section explanations**,
+* include **internal behavior and rationale (“why”)**,
+* avoid shallow summaries,
+* and stop the model from guessing when the documentation is unclear.
+
+You can copy-paste this as-is.
+
+---
+
+### ✅ Improved, structured prompt
+
+**Task**
+
+You must read the entire official PHP documentation page about strings:
+
+[https://www.php.net/manual/en/language.types.string.php](https://www.php.net/manual/en/language.types.string.php)
+
+Your job is to explain the page **from top to bottom**, strictly following the order of sections as they appear on that page.
+
+Do not skip any section, subsection, or notable heading.
+
+You must use **the latest stable PHP version only** when explaining behavior (unless the documentation explicitly discusses historical behavior).
+
+---
+
+## Output structure (mandatory)
+
+Your response must be structured using the exact section titles from the PHP documentation as top-level headings.
+
+For each section, use the following fixed structure:
+
+### 1. What this section introduces
+
+Explain what concept(s) this section is about in plain, clear language.
+
+### 2. How it works (behavior and rules)
+
+Explain precisely how the feature behaves in PHP, including all important rules, edge cases, and constraints described in the documentation.
+
+### 3. Why it behaves this way
+
+Explain the design rationale and technical reasons behind the behavior where possible
+(e.g. parsing rules, language design decisions, backward compatibility, engine constraints, historical reasons, etc.).
+
+If the documentation itself does not explain the reason, explicitly say:
+
+> “The PHP documentation does not specify the reason for this behavior.”
+
+Do not invent reasons.
+
+### 4. Internal / engine-level perspective (when known or documented)
+
+Explain what is known about how PHP handles this internally (for example in Zend Engine terms), but only when this is documented or widely established.
+
+If internal behavior is not documented, clearly state that.
+
+### 5. Code examples
+
+Provide several small, focused code examples that demonstrate the concept.
+
+For each example:
+
+* show the code
+* show the output
+* explain step-by-step what PHP does when executing it
+
+### 6. Common pitfalls and confusing cases
+
+Point out mistakes or misunderstandings that commonly happen with this feature and explain exactly why they happen.
+
+---
+
+## Global rules
+
+1. You must follow the documentation strictly in order.
+2. You must not merge sections or reorganize the content.
+3. You must not skip minor subsections.
+4. You must not give a high-level or summarized explanation.
+5. Explanations must be suitable for:
+
+   * someone completely new to PHP strings, and
+   * an experienced PHP developer looking for deeper understanding.
+6. Every explanation must include both:
+
+   * *what happens*, and
+   * *why it happens* (when known).
+7. When something in the documentation is unclear, ambiguous, or underspecified:
+
+   * stop and ask me a clarifying question,
+   * and do not guess or fill the gap with assumptions.
+8. Clearly distinguish between:
+
+   * what is explicitly stated in the documentation, and
+   * what is inferred from PHP’s known internal behavior.
+
+---
+
+## Important constraint
+
+Do not start writing the explanation yet.
+
+First, confirm the following:
+
+1. You can access and read the page at the provided URL.
+2. You understand and will follow the output structure exactly.
+3. You will use only the latest stable PHP behavior unless the documentation explicitly states otherwise.
+
+If anything in this task is unclear or technically impossible, ask me before starting.
+```
+
+```markdown
 Here is a **clean, precise, and unambiguous version of your prompt**, rewritten so that an assistant clearly understands the depth, scope, order, and behavior you expect.
 
 You can copy-paste this as your final prompt:
