@@ -223,3 +223,90 @@ Before you begin the explanation:
 * If any part of this prompt is unclear or conflicting, ask me for clarification first.
 * Do not start the explanation until all requirements are fully understood.
 ```
+
+```markdown
+Here is a **clean, precise, and expectation-aligned version of your prompt** that removes ambiguity and makes it much harder for the model to under-deliver.
+
+You can copy-paste this as-is.
+
+---
+
+**Improved prompt (strict and clear version)**
+
+Please read the *entire* official PHP documentation page about strings:
+
+[https://www.php.net/manual/en/language.types.string.php](https://www.php.net/manual/en/language.types.string.php)
+
+Then produce a **full, in-order, section-by-section explanation** of that page.
+
+Your response must strictly follow these rules:
+
+---
+
+### Scope and ordering
+
+1. You must go through the documentation **in the exact order it appears on the page**.
+2. You must **not skip any section, subsection, note, or special case** that is part of the page.
+3. You must clearly label each part of your answer with the **exact section title** used in the documentation.
+
+---
+
+### Depth and content requirements (for *every* section)
+
+For each section, you must include all of the following:
+
+* A clear explanation of the concept in plain language.
+* A technically accurate explanation of **how it works internally in PHP** (based only on what is documented or widely known about PHP internals — do not invent details).
+* A clear explanation of **why PHP behaves this way** (design rationale, historical or technical reasons where applicable).
+* One or more **relevant code examples** that demonstrate the behavior.
+* **Step-by-step execution explanations** for any behavior that is non-obvious or commonly misunderstood.
+
+---
+
+### Level and style
+
+* The explanation must start from absolute beginner level and gradually build up to advanced behavior.
+* At the same time, it must still contain **technical depth useful for experienced PHP developers**.
+* Do **not** write a short overview or summary in place of a real explanation.
+* Do **not** compress multiple sections into one explanation.
+
+---
+
+### Handling unclear or missing information
+
+* If the official documentation does **not clearly explain** a behavior or leaves something ambiguous:
+
+  * explicitly say that it is unclear in the documentation, and
+  * ask me a clarifying question before continuing,
+  * do not guess and do not invent explanations.
+
+---
+
+### Version constraints
+
+* Explain behavior for:
+
+  * the latest stable PHP version, and
+  * older PHP versions where behavior differs (clearly mark differences when they exist).
+
+---
+
+### Important procedural rule
+
+Before you begin the explanation:
+
+* ask any clarifying questions you need **first**, and
+* wait for my confirmation before starting the explanation.
+
+Do not start the explanation until all questions and requirements are confirmed.
+
+---
+
+This version makes your expectations explicit in five critical ways:
+
+* ✔ forces **exact ordering**
+* ✔ forces **exact section coverage**
+* ✔ forces **internal / “why” explanations**
+* ✔ forces **version differences**
+* ✔ forces the model to **stop and ask questions instead of guessing**
+```
