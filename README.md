@@ -19,7 +19,7 @@ Here’s what I expect in your response:
 
 If you need anything clarified before starting, please ask me first. Do not begin until all requirements and questions are confirmed.
 
-```text
+```markdown
 Please carefully read the entire official PHP documentation about strings on the following page:
 https://www.php.net/manual/en/language.types.string.php
 
