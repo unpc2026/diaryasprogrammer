@@ -40,4 +40,3 @@ Here’s what I expect in your response:
 5. Make sure your explanation is accessible even for someone who is new to PHP strings, but still useful for experienced developers.
 
 If you need anything clarified before starting, please ask me first. Do not begin until all requirements and questions are confirmed.
-```
