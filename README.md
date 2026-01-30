@@ -1,4 +1,4 @@
-## Prompt to learn from a website in ChatGPT
+## Template Prompt for ChatGPT
 Please carefully read the entire official PHP documentation about strings on the following page: 
 👉 [https://www.php.net/manual/en/language.types.string.php] 
 
