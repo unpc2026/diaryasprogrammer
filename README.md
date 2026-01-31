@@ -225,88 +225,232 @@ Before you begin the explanation:
 ```
 
 ```markdown
-Here is a **clean, precise, and expectation-aligned version of your prompt** that removes ambiguity and makes it much harder for the model to under-deliver.
+Please carefully read the entire official PHP documentation about arrays on the following page:
 
-You can copy-paste this as-is.
+https://www.php.net/manual/en/language.types.array.php
 
----
+Your job is to explain the page from top to bottom, strictly following the order of sections as they appear on that page.
 
-**Improved prompt (strict and clear version)**
-
-Please read the *entire* official PHP documentation page about strings:
-
-[https://www.php.net/manual/en/language.types.string.php](https://www.php.net/manual/en/language.types.string.php)
-
-Then produce a **full, in-order, section-by-section explanation** of that page.
+Your goal is to teach how PHP arrays actually work — from the most basic concepts to advanced behavior — in a way that is both beginner-friendly and technically deep.
 
 Your response must strictly follow these rules:
 
----
-
 ### Scope and ordering
 
-1. You must go through the documentation **in the exact order it appears on the page**.
-2. You must **not skip any section, subsection, note, or special case** that is part of the page.
-3. You must clearly label each part of your answer with the **exact section title** used in the documentation.
+1. You must go through the documentation in the exact order it appears on the page.
+2. You must not skip any section, subsection, note, or special case that is part of the page.
+3. You must clearly label each part of your answer with the exact section title used in the documentation.
 
 ---
 
-### Depth and content requirements (for *every* section)
+### Depth and content requirements (for every section)
 
 For each section, you must include all of the following:
 
-* A clear explanation of the concept in plain language.
-* A technically accurate explanation of **how it works internally in PHP** (based only on what is documented or widely known about PHP internals — do not invent details).
-* A clear explanation of **why PHP behaves this way** (design rationale, historical or technical reasons where applicable).
-* One or more **relevant code examples** that demonstrate the behavior.
-* **Step-by-step execution explanations** for any behavior that is non-obvious or commonly misunderstood.
+1. Clearly identify the section name (the same title used in the official documentation).
+
+2. Explain (what, how, why):
+
+* what the feature or concept is,
+* how it is used,
+* and in what situations it matters.
+
+3. Explain how it works internally or behind the scene (based only on what is documented or widely known about PHP internals — do not invent details).
+
+4. Explain why PHP behaves that way, not only what the behavior is (design rationale, historical or technical reasons where applicable).
+
+5. Provide several small, focused code examples that demonstrate the concept.
+
+For each example:
+
+* show the code
+* show the output
+* explain step-by-step what PHP does when executing it
+
+6. Step-by-step execution explanations for any behavior that is non-obvious or commonly misunderstood.
+
+7. Common pitfalls and confusing cases (point out mistakes or misunderstandings that commonly happen with this feature and explain exactly why they happen).
 
 ---
 
 ### Level and style
 
 * The explanation must start from absolute beginner level and gradually build up to advanced behavior.
-* At the same time, it must still contain **technical depth useful for experienced PHP developers**.
-* Do **not** write a short overview or summary in place of a real explanation.
-* Do **not** compress multiple sections into one explanation.
+* At the same time, it must still contain technical depth useful for experienced PHP developers.
+* Do not write a short overview or summary in place of a real explanation.
+* Do not compress multiple sections into one explanation.
 
 ---
 
 ### Handling unclear or missing information
 
-* If the official documentation does **not clearly explain** a behavior or leaves something ambiguous:
+If the official documentation does not clearly explain a behavior or leaves something ambiguous:
 
-  * explicitly say that it is unclear in the documentation, and
-  * ask me a clarifying question before continuing,
-  * do not guess and do not invent explanations.
+* explicitly say that it is unclear in the documentation, and
+* ask me a clarifying question before continuing,
+* do not guess and do not invent explanations.
 
 ---
 
 ### Version constraints
 
-* Explain behavior for:
+Explain behavior for:
 
-  * the latest stable PHP version, and
-  * older PHP versions where behavior differs (clearly mark differences when they exist).
+* the latest stable PHP version, and
+* older PHP versions where behavior differs (clearly mark differences when they exist).
 
 ---
 
 ### Important procedural rule
 
-Before you begin the explanation:
+Before you begin the explanation, first confirm the following:
 
-* ask any clarifying questions you need **first**, and
-* wait for my confirmation before starting the explanation.
+1. You can access and read the page at the provided URL.
+2. You understand and will follow the output structure exactly.
+3. Ask any clarifying questions you need first, and
+4. Wait for my confirmation before starting the explanation.
 
 Do not start the explanation until all questions and requirements are confirmed.
+```
+
+```mardown
+Please carefully read the entire official PHP documentation about Sessions on the following page:
+
+https://www.php.net/manual/en/features.sessions.php
+
+Your job is to explain the page from top to bottom, strictly following the order of sections as they appear on that page.
+
+
+Your goal is to teach how PHP Sessions actually work — from the most basic concepts to advanced behavior — in a way that is both beginner-friendly and technically deep.
+
+
+Your response must strictly follow these rules:
+
+
+### Scope and ordering
+
+
+1. You must go through the documentation in the exact order it appears on the page.
+2. You must not skip any section, subsection, note, or special case that is part of the page.
+3. You must clearly label each part of your answer with the exact section title used in the documentation.
+
 
 ---
 
-This version makes your expectations explicit in five critical ways:
 
-* ✔ forces **exact ordering**
-* ✔ forces **exact section coverage**
-* ✔ forces **internal / “why” explanations**
-* ✔ forces **version differences**
-* ✔ forces the model to **stop and ask questions instead of guessing**
+### Depth and content requirements (for every section)
+
+
+For each section, you must include all of the following:
+
+
+1. Clearly identify the section name (the same title used in the official documentation).
+
+
+2. Explain (what, how, why):
+
+
+* what the feature or concept is,
+* how it is used,
+* and in what situations it matters.
+
+
+3. Explain how it works internally or behind the scene (based only on what is documented or widely known about PHP internals — do not invent details).
+
+
+4. Explain why PHP behaves that way, not only what the behavior is (design rationale, historical or technical reasons where applicable).
+
+
+5. Provide several small, focused code examples that demonstrate the concept.
+
+
+For each example:
+
+
+* show the code
+* show the output
+* explain step-by-step what PHP does when executing it
+
+
+6. Step-by-step execution explanations for any behavior that is non-obvious or commonly misunderstood.
+
+
+7. Common pitfalls and confusing cases (point out mistakes or misunderstandings that commonly happen with this feature and explain exactly why they happen).
+
+
+---
+
+
+### Global rules
+
+
+1. You must follow the documentation strictly in order.
+
+
+2. You must not merge sections or reorganize the content.
+
+
+3. You must not skip minor subsections.
+
+
+4. You must not give a high-level or summarized explanation.
+
+
+5. Explanations must be suitable for:
+
+
+* someone completely new to PHP, and
+* an experienced PHP developer looking for deeper understanding.
+
+
+6. Every explanation must include both:
+
+
+* what happens, and
+* why it happens (when known).
+
+
+7. When something in the documentation is unclear, ambiguous, or underspecified:
+
+
+* stop and ask me a clarifying question,
+* and do not guess or fill the gap with assumptions.
+
+
+8. Clearly distinguish between:
+
+
+* what is explicitly stated in the documentation, and
+* what is inferred from PHP’s known internal behavior.
+
+
+---
+
+
+### Version constraints
+
+
+Explain behavior for:
+
+
+* the latest stable PHP version, and
+* older PHP versions where behavior differs (clearly mark differences when they exist).
+
+
+---
+
+
+### Important procedural rule
+
+
+Before you begin the explanation, first confirm the following:
+
+
+1. You can access and read the page at the provided URL.
+2. You understand and will follow the output structure exactly.
+3. Ask any clarifying questions you need first, and
+4. Wait for my confirmation before starting the explanation.
+
+
+Do not start the explanation until all questions and requirements are confirmed.
 ```
