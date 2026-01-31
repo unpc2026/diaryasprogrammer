@@ -320,137 +320,97 @@ https://www.php.net/manual/en/features.sessions.php
 
 Your job is to explain the page from top to bottom, strictly following the order of sections as they appear on that page.
 
-
 Your goal is to teach how PHP Sessions actually work — from the most basic concepts to advanced behavior — in a way that is both beginner-friendly and technically deep.
-
 
 Your response must strictly follow these rules:
 
-
 ### Scope and ordering
-
 
 1. You must go through the documentation in the exact order it appears on the page.
 2. You must not skip any section, subsection, note, or special case that is part of the page.
 3. You must clearly label each part of your answer with the exact section title used in the documentation.
 
-
 ---
-
 
 ### Depth and content requirements (for every section)
 
-
 For each section, you must include all of the following:
-
 
 1. Clearly identify the section name (the same title used in the official documentation).
 
-
 2. Explain (what, how, why):
-
 
 * what the feature or concept is,
 * how it is used,
 * and in what situations it matters.
 
-
 3. Explain how it works internally or behind the scene (based only on what is documented or widely known about PHP internals — do not invent details).
-
 
 4. Explain why PHP behaves that way, not only what the behavior is (design rationale, historical or technical reasons where applicable).
 
-
 5. Provide several small, focused code examples that demonstrate the concept.
 
-
 For each example:
-
 
 * show the code
 * show the output
 * explain step-by-step what PHP does when executing it
 
-
 6. Step-by-step execution explanations for any behavior that is non-obvious or commonly misunderstood.
-
 
 7. Common pitfalls and confusing cases (point out mistakes or misunderstandings that commonly happen with this feature and explain exactly why they happen).
 
-
 ---
-
 
 ### Global rules
 
-
 1. You must follow the documentation strictly in order.
-
 
 2. You must not merge sections or reorganize the content.
 
-
 3. You must not skip minor subsections.
-
 
 4. You must not give a high-level or summarized explanation.
 
-
 5. Explanations must be suitable for:
-
 
 * someone completely new to PHP, and
 * an experienced PHP developer looking for deeper understanding.
 
-
 6. Every explanation must include both:
-
 
 * what happens, and
 * why it happens (when known).
 
-
 7. When something in the documentation is unclear, ambiguous, or underspecified:
-
 
 * stop and ask me a clarifying question,
 * and do not guess or fill the gap with assumptions.
 
-
 8. Clearly distinguish between:
-
 
 * what is explicitly stated in the documentation, and
 * what is inferred from PHP’s known internal behavior.
 
-
 ---
-
 
 ### Version constraints
 
-
 Explain behavior for:
-
 
 * the latest stable PHP version, and
 * older PHP versions where behavior differs (clearly mark differences when they exist).
 
-
 ---
-
 
 ### Important procedural rule
 
-
 Before you begin the explanation, first confirm the following:
-
 
 1. You can access and read the page at the provided URL.
 2. You understand and will follow the output structure exactly.
 3. Ask any clarifying questions you need first, and
 4. Wait for my confirmation before starting the explanation.
-
 
 Do not start the explanation until all questions and requirements are confirmed.
 ```
