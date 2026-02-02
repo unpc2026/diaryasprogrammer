@@ -63,6 +63,7 @@ in a way that is:
 
 [Probable section — structure uncertainty]
 
+* If structure uncertainty becomes excessive, prioritize conceptual clarity over perfect ordering.
 * If a topic is clearly part of **[LANGUAGE NAME]** **[TOPIC NAME]** behavior but is likely located on a linked or neighboring manual page rather than this exact page, include it only when you are reasonably confident that it is explicitly referenced from the **[TOPIC NAME]** page, and label it as:
 
 [Referenced page — structure boundary]
@@ -86,13 +87,15 @@ in a way that is:
 
 [Structure uncertainty — summary]
 
+* Avoid excessive hedging for well-known, stable behavior.
+
 ---
 
 ## Output pacing rules
 
-1. Explain one major section per response.
-2. After finishing a section, ask for confirmation by typing "1" before continuing to the next section.
-3. Do not continue without explicit confirmation.
+* Explain one major section per response.
+* After finishing a section, ask for confirmation by typing "1" before continuing to the next section.
+* Do not continue without explicit confirmation.
 
 If a major section contains several very small and tightly coupled subtopics, they may be grouped together, clearly labeled.
 
@@ -105,8 +108,8 @@ Each section must include:
 * Clear definitions and core concepts,
 * Documented or widely accepted under-the-hood behavior (no speculation),
 * The *why* behind behavior, not just the *what*, only when the reason is known,
-* Step-by-step reasoning for tricky or counter-intuitive behavior,
-* Multiple illustrative code examples, including edge cases, with expected output or behavior,
+* Step-by-step reasoning for tricky or counter-intuitive behaviour,
+* Multiple illustrative code examples, including edge cases, with expected output or behaviour,
 * Helpful analogies or comparisons when they clarify understanding,
 * Notes on common mistakes or misconceptions,
 * A short recap of the most important points of the section.
@@ -227,6 +230,7 @@ in a way that is:
 
 [Probable section — structure uncertainty]
 
+* If structure uncertainty becomes excessive, prioritize conceptual clarity over perfect ordering.
 * If a topic is clearly part of PHP string behavior but is likely located on a linked or neighboring manual page rather than this exact page, include it only when you are reasonably confident that it is explicitly referenced from the strings page, and label it as:
 
 [Referenced page — structure boundary]
@@ -249,6 +253,8 @@ in a way that is:
 * Repeated minor uncertainties may be summarized in a single:
 
 [Structure uncertainty — summary]
+
+* Avoid excessive hedging for well-known, stable behavior.
 
 ---
 
