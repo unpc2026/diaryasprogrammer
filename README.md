@@ -1,5 +1,8 @@
 # Template Prompt for ChatGPT
 
+## Prompts to Change/Modify/Adjust the Prompt
+- Modify and adjust this prompt without losing accuracy and discipline, while maintaining the same original purpose
+
 ## Prompt Learn from Docs 1
 ```markdown
 Please carefully read the entire official PHP documentation about strings on the following page:
