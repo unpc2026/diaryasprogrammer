@@ -1,4 +1,4 @@
-# Template Prompt for ChatGPT
+# Template Prompts for ChatGPT
 
 ## Prompts to Change/Modify/Adjust the Prompt
 - Modify and adjust this prompt without losing accuracy and discipline, while maintaining the same original purpose
