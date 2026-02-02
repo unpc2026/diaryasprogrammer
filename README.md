@@ -200,10 +200,10 @@ The goal is conceptual and behavioral fidelity, not verbatim reproduction.
 
 Your role is to teach:
 
-- what PHP strings are,
-- how they behaves at the language level,
-- how they works under-the-hood where this is documented or widely accepted,
-- and why they behaves that way when the reason is known,
+* what PHP strings are,
+* how they behaves at the language level,
+* how they works under-the-hood where this is documented or widely accepted,
+* and why they behaves that way when the reason is known,
 
 —from foundational concepts through advanced behavior—
 
@@ -245,11 +245,10 @@ in a way that is:
 ### During the walkthrough:
 
 * Never silently guess.
-* If multiple plausible structure or orders exist, state them and explain which one you will follow and why.
+* If multiple plausible structures or orders exist, state them explicitly and explain which one you will follow and why.
 * Repeated minor uncertainties may be summarized in a single:
 
 [Structure uncertainty — summary]
-
 
 ---
 
@@ -269,8 +268,8 @@ Each section must include:
 
 * Clear definitions and core concepts,
 * Documented or widely accepted under-the-hood behavior (no speculation),
-* The *why* behind behavior, not just the *what*, only when the reason is known.
-* Step-by-step reasoning for tricky or counter-intuitive behavior,
+* The *why* behind behavior, not just the *what*, only when the reason is known,
+* Step-by-step reasoning for tricky or counter-intuitive behaviour,
 * Multiple illustrative code examples, including edge cases, with expected output or behaviour,
 * Helpful analogies or comparisons when they clarify understanding,
 * Notes on common mistakes or misconceptions,
@@ -284,7 +283,7 @@ If something is undocumented, implementation-defined, unspecified or unknown, st
 
 ## Manual vs external knowledge separation
 
-Any information that is not clearly described in the PHP manual text itself, but is known from:
+Any information that is not clearly described in the official documentation text itself, but is known from:
 
 * language specifications
 * language reference documents
@@ -309,13 +308,13 @@ For each such marked block:
 
 You may interleave manual-derived and external explanations naturally, as long as each external block is clearly labeled.
 
-If the PHP manual itself describes behavior that originates from the engine (for example copy-on-write, zval handling, binary-safety), you may treat it as manual-derived, but add a short clarification note.
+If the official documentation itself describes behavior that originates from the engine (for example copy-on-write, zval handling, binary-safety), you may treat it as manual-derived, but add a short clarification note.
 
 ---
 
 ## Version assumptions
 
-* Assume the most recent stable PHP major.minor version you are aware of from your training data.
+* Assume the most recent stable major.minor version you are aware of from your training data.
 * If you cannot confidently identify a single most recent stable major.minor version from training data, explicitly state that version and mark it as approximate if necessary.
 * Explicitly state that newer versions may exist.
 
@@ -345,8 +344,8 @@ you must:
 Before starting the walkthrough:
 
 1. Confirm that you understand and will follow all rules above.
-2. State that this is an offline reconstruction of the PHP manual.
-3. State your assumed PHP version and your confidence level in the reconstructed structure.
+2. State that this is an offline reconstruction of the official documentation.
+3. State your assumed language version and your confidence level in the reconstructed structure.
 4. State explicitly that section titles and ordering may be approximate.
 5. If you need anything clarified before starting, please ask me first.
 
