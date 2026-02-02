@@ -23,7 +23,7 @@ Here’s what I expect in your response:
 If you need anything clarified before starting, please ask me first. Do not begin until all requirements and questions are confirmed.
 ```
 
-## Prompt Learn from Docs
+## Prompt Learn from Docs 2
 ```markdown
 I am currently studying PHP strings from the official documentation page:
 
