@@ -1,5 +1,7 @@
 # Roadmap from Zero to Hero
 
+
+
 ## Internet
 1. [Boot dev + TCP to HTTP | Full Course by @ThePrimeagen](https://www.youtube.com/watch?v=FknTw9bJsXM)
 
@@ -7,6 +9,8 @@
 1. [Theo t3.gg + I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
 
 ## Software
+
+1. [Boot dev + C Programming and Memory Management - Full Course](https://www.youtube.com/watch?v=rJrd2QMVbGM)
 
 ### Frontend
 1. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
@@ -26,8 +30,9 @@
 # Template Prompts for ChatGPT
 
 ## Prompts to Change/Modify/Adjust the Prompt
+```markdown
 - Modify and adjust this prompt without losing accuracy and discipline, while maintaining the same original purpose
-
+```
 ## Prompt Learn from Docs 1
 ```markdown
 Please carefully read the entire official PHP documentation about strings on the following page:
