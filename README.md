@@ -1,3 +1,28 @@
+# Roadmap from Zero to Hero
+
+## Internet
+1. [Boot dev + TCP to HTTP | Full Course by @ThePrimeagen](https://www.youtube.com/watch?v=FknTw9bJsXM)
+
+## Hardware
+1. [Theo t3.gg + I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
+
+## Software
+
+### Frontend
+1. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
+
+### Backend
+1. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
+
+### Fullstack
+1. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
+
+### DevOps
+1. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
+
+## Cybersecuriy
+1. [freeCodeCamp.org + Harvard CS50’s Intro to Cybersecurity – Full University Course](https://www.youtube.com/watch?v=9HOpanT0GRs)
+
 # Template Prompts for ChatGPT
 
 ## Prompts to Change/Modify/Adjust the Prompt
