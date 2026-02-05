@@ -247,7 +247,8 @@ Before starting the walkthrough:
 4. State explicitly that section titles and ordering may be approximate.
 5. If you need anything clarified before starting, please ask me first.
 
-After completing the start-up confirmation, ask my confirmation. Do not begin the first section until I explicitly confirm.
+After completing the start-up confirmation, ask my confirmation.
+Do not begin the first section until I explicitly confirm.
 ```
 
 ## Prompt Learn from Docs 3
@@ -414,5 +415,6 @@ Before starting the walkthrough:
 4. State explicitly that section titles and ordering may be approximate.
 5. If you need anything clarified before starting, please ask me first.
 
-After completing the start-up confirmation, ask my confirmation. Do not begin the first section until I explicitly confirm.
+After completing the start-up confirmation, ask my confirmation.
+Do not begin the first section until I explicitly confirm.
 ```
