@@ -13,7 +13,31 @@
 1. [Boot dev + C Programming and Memory Management - Full Course](https://www.youtube.com/watch?v=rJrd2QMVbGM)
 
 ### Frontend
-1. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
+
+#### HTML
+1. [Lydia Hallie + JavaScript Visualized - Promise Execution](https://www.youtube.com/watch?v=Xs1EMmBLpn4)
+2. [Lydia Hallie + JavaScript Visualized - Event Loop, Web APIs, (Micro)task Queue](https://www.youtube.com/watch?v=eiC58R16hb8)
+3. [Lydia Hallie + JavaScript Visualized - Execution Contexts](https://www.youtube.com/watch?v=zdGfo6I1yrA)
+4. [Lydia Hallie + JavaScript Visualized - Closures](https://www.youtube.com/watch?v=6Ixyltr8_R0)
+
+#### CSS
+1. [Lydia Hallie + JavaScript Visualized - Promise Execution](https://www.youtube.com/watch?v=Xs1EMmBLpn4)
+2. [Lydia Hallie + JavaScript Visualized - Event Loop, Web APIs, (Micro)task Queue](https://www.youtube.com/watch?v=eiC58R16hb8)
+3. [Lydia Hallie + JavaScript Visualized - Execution Contexts](https://www.youtube.com/watch?v=zdGfo6I1yrA)
+4. [Lydia Hallie + JavaScript Visualized - Closures](https://www.youtube.com/watch?v=6Ixyltr8_R0)
+
+##### Tailwind CSS
+1. []()
+
+#### JavaScript & TypeScript
+1. [Lydia Hallie + JavaScript Visualized - Promise Execution](https://www.youtube.com/watch?v=Xs1EMmBLpn4)
+2. [Lydia Hallie + JavaScript Visualized - Event Loop, Web APIs, (Micro)task Queue](https://www.youtube.com/watch?v=eiC58R16hb8)
+3. [Lydia Hallie + JavaScript Visualized - Execution Contexts](https://www.youtube.com/watch?v=zdGfo6I1yrA)
+4. [Lydia Hallie + JavaScript Visualized - Closures](https://www.youtube.com/watch?v=6Ixyltr8_R0)
+5. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
+
+##### ReactJS
+1. []
 
 ### Backend
 1. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
@@ -28,6 +52,8 @@
 1. [freeCodeCamp.org + Harvard CS50’s Intro to Cybersecurity – Full University Course](https://www.youtube.com/watch?v=9HOpanT0GRs)
 
 # Template Prompts for ChatGPT
+
+
 
 ## Prompts to Change/Modify/Adjust the Prompt
 ```markdown
