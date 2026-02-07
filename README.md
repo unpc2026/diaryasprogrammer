@@ -10,9 +10,12 @@
 
 ## Software
 
+### Low/Middle Level Language
+
+#### C & C++
 1. [Boot dev + C Programming and Memory Management - Full Course](https://www.youtube.com/watch?v=rJrd2QMVbGM)
 
-### Frontend
+### High Level Language
 
 #### HTML
 1. [Lydia Hallie + JavaScript Visualized - Promise Execution](https://www.youtube.com/watch?v=Xs1EMmBLpn4)
@@ -38,12 +41,6 @@
 
 ##### ReactJS
 1. []
-
-### Backend
-1. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
-
-### Fullstack
-1. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
 
 ### DevOps
 1. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
