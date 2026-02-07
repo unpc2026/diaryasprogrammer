@@ -5,13 +5,19 @@
 ## Internet
 1. [Boot dev + TCP to HTTP | Full Course by @ThePrimeagen](https://www.youtube.com/watch?v=FknTw9bJsXM)
 
+### DNS (Domain Name System)
+1. []()
+
+### Web Browser
+1. []()
+
 ## Hardware
 1. [Theo t3.gg + I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
 
 ## Software
 
-### Compiler or Interpreter
-1. []()
+### Compiler or Interpreter (and Parser)
+1. [Compiler or Interpreter (and Parser)](https://www.youtube.com/playlist?list=PLWaJCgc9HpL1FX8WFt4EcgrJgZSVPL1L7)
 
 ### Low or Middle Level Language
 
