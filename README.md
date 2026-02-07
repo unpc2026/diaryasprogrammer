@@ -10,9 +10,12 @@
 
 ## Software
 
-### Low/Middle Level Language
+### Compiler or Interpreter
+1. []()
 
-#### C & C++
+### Low or Middle Level Language
+
+#### C and C++
 1. [Boot dev + C Programming and Memory Management - Full Course](https://www.youtube.com/watch?v=rJrd2QMVbGM)
 
 ### High Level Language
@@ -32,7 +35,7 @@
 ##### Tailwind CSS
 1. []()
 
-#### JavaScript & TypeScript
+#### JavaScript and TypeScript
 1. [Lydia Hallie + JavaScript Visualized - Promise Execution](https://www.youtube.com/watch?v=Xs1EMmBLpn4)
 2. [Lydia Hallie + JavaScript Visualized - Event Loop, Web APIs, (Micro)task Queue](https://www.youtube.com/watch?v=eiC58R16hb8)
 3. [Lydia Hallie + JavaScript Visualized - Execution Contexts](https://www.youtube.com/watch?v=zdGfo6I1yrA)
