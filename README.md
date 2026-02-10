@@ -16,8 +16,8 @@
 
 ## Software
 
-### Compiler, Interpreter, & Transpiler
-1. [Compiler, Interpreter, & Transpiler](https://www.youtube.com/playlist?list=PLWaJCgc9HpL1FX8WFt4EcgrJgZSVPL1L7)
+### Compiler, Interpreter, and Transpiler
+1. [Compiler, Interpreter, and Transpiler](https://www.youtube.com/playlist?list=PLWaJCgc9HpL1FX8WFt4EcgrJgZSVPL1L7)
 
 ### Low or Middle Level Language
 
@@ -61,7 +61,7 @@
 
 
 
-## Prompts to Change/Modify/Adjust the Prompt
+## Prompts to Change, Modify, and Adjust the Prompt
 ```markdown
 - Modify and adjust this prompt without losing accuracy and discipline, while maintaining the same original purpose
 ```
