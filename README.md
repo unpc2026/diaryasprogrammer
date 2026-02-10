@@ -16,8 +16,8 @@
 
 ## Software
 
-### Compiler/Interpreter/Transpiler
-1. [Compiler/Interpreter/Transpiler](https://www.youtube.com/playlist?list=PLWaJCgc9HpL1FX8WFt4EcgrJgZSVPL1L7)
+### Compiler, Interpreter, & Transpiler
+1. [Compiler, Interpreter, & Transpiler](https://www.youtube.com/playlist?list=PLWaJCgc9HpL1FX8WFt4EcgrJgZSVPL1L7)
 
 ### Low or Middle Level Language
 
