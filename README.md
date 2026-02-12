@@ -242,6 +242,44 @@ you must:
 
 ---
 
+## Final Consolidated Reconstruction (Mandatory)
+
+After all individual sections have been fully explained and explicitly confirmed:
+
+* Produce one complete, unified document that combines all previously explained sections into a single cohesive reconstruction.
+* Preserve the reconstructed heading and subheading structure as presented during the walkthrough.
+* Retain all:
+
+  * definitions
+  * explanations
+  * step-by-step reasoning
+  * code examples and edge cases
+  * recap summaries
+  * uncertainty disclosures
+  * structure uncertainty labels
+  * external source and engine-level markers
+* Remove pacing artifacts such as:
+
+  * confirmation prompts (e.g., “Type 1 to continue”)
+  * transitional interaction markers
+  * section-completion acknowledgments
+* Minor wording refinements are allowed strictly for:
+
+  * improving logical flow
+  * eliminating redundancy created by segmented pacing
+  * smoothing transitions between sections
+* Do not introduce new conceptual material unless required to maintain structural continuity.
+* Do not expand or deepen explanations beyond what was already presented in earlier sections.
+* Preserve version assumptions, confidence statements, and documentation boundary clarifications.
+* Ensure the final result reads as a deliberate, structured reconstruction of the official manual rather than a stitched sequence of responses.
+* Clearly label the final output as:
+
+**Complete Offline Reconstruction — Consolidated Version**
+
+This consolidated version should represent the most internally consistent, structurally faithful, and pedagogically coherent reconstruction achievable from the previously completed sections.
+
+---
+
 ## Start-up confirmation (mandatory)
 
 Before starting the walkthrough:
@@ -284,7 +322,7 @@ in a way that is:
 
 ---
 
-## Structure & fidelity rules
+## Structure & Fidelity Rules
 
 * Reconstruct the manual’s headings and subheadings in the order you most confidently know.
 * Treat each heading or subheading as one “section” unit.
@@ -302,7 +340,7 @@ in a way that is:
 
 ---
 
-## Uncertainty handling (mandatory)
+## Uncertainty Handling (Mandatory)
 
 ### Before starting the first section:
 
@@ -323,7 +361,7 @@ in a way that is:
 
 ---
 
-## Output pacing rules
+## Output Pacing Rules
 
 * Explain one major section per response.
 * After finishing a section, ask for confirmation by typing "1" before continuing to the next section.
@@ -333,7 +371,7 @@ If a major section contains several very small and tightly coupled subtopics, th
 
 ---
 
-## Section explanation requirements
+## Section Explanation Requirements
 
 Each section must include:
 
@@ -352,7 +390,7 @@ If something is undocumented, implementation-defined, unspecified or unknown, st
 
 ---
 
-## Manual vs external knowledge separation
+## Manual vs External Knowledge Separation
 
 Any information that is not clearly described in the official documentation text itself, but is known from:
 
@@ -383,7 +421,7 @@ If the official documentation itself describes behavior that originates from the
 
 ---
 
-## Version assumptions
+## Version Assumptions
 
 * Assume the most recent stable major.minor version you are aware of from your training data.
 * If you cannot confidently identify a single most recent stable major.minor version from training data, explicitly state that version and mark it as approximate if necessary.
@@ -393,7 +431,7 @@ If behavior differs across versions, describe the differences and the versions i
 
 ---
 
-## Ambiguity and documentation limits
+## Ambiguity and Documentation Limits
 
 If the official documentation is known to:
 
@@ -410,7 +448,45 @@ you must:
 
 ---
 
-## Start-up confirmation (mandatory)
+## Final Consolidated Reconstruction (Mandatory)
+
+After all individual sections have been fully explained and explicitly confirmed:
+
+* Produce one complete, unified document that combines all previously explained sections into a single cohesive reconstruction.
+* Preserve the reconstructed heading and subheading structure as presented during the walkthrough.
+* Retain all:
+
+  * definitions
+  * explanations
+  * step-by-step reasoning
+  * code examples and edge cases
+  * recap summaries
+  * uncertainty disclosures
+  * structure uncertainty labels
+  * external source and engine-level markers
+* Remove pacing artifacts such as:
+
+  * confirmation prompts (e.g., “Type 1 to continue”)
+  * transitional interaction markers
+  * section-completion acknowledgments
+* Minor wording refinements are allowed strictly for:
+
+  * improving logical flow
+  * eliminating redundancy created by segmented pacing
+  * smoothing transitions between sections
+* Do not introduce new conceptual material unless required to maintain structural continuity.
+* Do not expand or deepen explanations beyond what was already presented in earlier sections.
+* Preserve version assumptions, confidence statements, and documentation boundary clarifications.
+* Ensure the final result reads as a deliberate, structured reconstruction of the official manual rather than a stitched sequence of responses.
+* Clearly label the final output as:
+
+**Complete Offline Reconstruction — Consolidated Version**
+
+This consolidated version should represent the most internally consistent, structurally faithful, and pedagogically coherent reconstruction achievable from the previously completed sections.
+
+---
+
+## Start-up confirmation (Mandatory)
 
 Before starting the walkthrough:
 
