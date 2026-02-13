@@ -86,8 +86,8 @@ I am currently studying PHP strings and want to **deeply understand how they wor
 
 * Teach **one main concept at a time**.
 * After each concept, **provide me a question, short exercise, or thought experiment** to confirm understanding.
-* **Wait for my confirmation** before moving to the next concept.
 * Use **analogies or real-world comparisons** where helpful.
+* Do not begin explaining the next concept until I explicitly confirm it.
 
 ---
 
@@ -117,14 +117,14 @@ If something is undocumented, implementation-defined, unspecified or unknown, st
 
 ---
 
-## **Start-up Confirmation**
+## **Startup Confirmation**
 
 Before starting, please confirm:
 
 1. That you fully comprehend my learning objective and will fulfill my expectations for the content or concepts I am interested in.
 2. This is a teaching session, not a documentation dump.
-3. You will present one concept at a time and wait for my confirmation before moving on.
-5. If you require any clarification before starting or before move to the next topic, ask me first.
+3. You will present one concept at a time and I won't allow you to explain the next concept until I explicitly confirm it.
+4. If you require any clarification before starting, ask me first.
 ```
 
 ## Prompt Learn from Docs 2
