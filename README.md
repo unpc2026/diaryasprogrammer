@@ -80,8 +80,6 @@ I am currently studying PHP strings and want to **deeply understand how they wor
 4. Include **illustrative examples**, especially tricky or edge cases.
 5. Highlight **common pitfall or misconceptions**.
 
-Provide in-depth technical information while explaining it in a way that is easy for beginners to comprehend.
-
 ---
 
 ## **Interaction & Pacing**
@@ -119,14 +117,14 @@ If something is undocumented, implementation-defined, unspecified or unknown, st
 
 ---
 
-## **Startup Confirmation**
+## **Start-up Confirmation**
 
-Before starting, confirm:
+Before starting, please confirm:
 
-1. Confirm that you comprehend the learning objective and will fulfill my expectations for the content or concepts I am interested in.
-2. This is a **teaching session**, not a documentation dump.
-3. You will present **one concept at a time** and wait for my confirmation before continuing.
-4. If you require any clarification before starting, please ask me first.
+1. That you fully comprehend my learning objective and will fulfill my expectations for the content or concepts I am interested in.
+2. This is a teaching session, not a documentation dump.
+3. You will present one concept at a time and wait for my confirmation before moving on.
+5. If you require any clarification before starting or before move to the next topic, ask me first.
 ```
 
 ## Prompt Learn from Docs 2
