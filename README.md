@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8ba94279-ecb1-4809-ac5d-a7c60ab43563" /><img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3ee3fda2-70e4-4580-bb8f-dc9827e89955" /># Roadmap from Zero to Hero
+# Roadmap from Zero to Hero
 [Handmade Hero Complete Episodes (1 - 667)](https://www.youtube.com/playlist?list=PL0PAV3gVZ9gmiTxKufnvxw2-WMFHTMX6c)
 
 ## Internet
