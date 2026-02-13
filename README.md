@@ -1,4 +1,4 @@
-# Roadmap from Zero to Hero
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8ba94279-ecb1-4809-ac5d-a7c60ab43563" /><img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3ee3fda2-70e4-4580-bb8f-dc9827e89955" /># Roadmap from Zero to Hero
 [Handmade Hero Complete Episodes (1 - 667)](https://www.youtube.com/playlist?list=PL0PAV3gVZ9gmiTxKufnvxw2-WMFHTMX6c)
 
 ## Internet
@@ -66,25 +66,67 @@
 ```
 ## Prompt Learn from Docs 1
 ```markdown
-Please carefully read the entire official PHP documentation about strings on the following page:
-https://www.php.net/manual/en/language.types.string.php
+I am currently studying PHP strings and want to **deeply understand how they works**, both conceptually and in practice.
 
-After reading it, I want you to explain every section in order, with a very clear, comprehensive explanation of how PHP strings work - from the absolute basics up through advanced concepts. Your explanation should include the “why” behind behaviors and not just the "what". 
+**Your role** is to teach me PHP strings thoroughly, like a tutor, starting from foundational concepts and moving on to advanced behaviors. Focus on **building clear mental models**, explaining **why things behave the way they do**, and **always include tricky, counter-intuitive, or edge-case examples**. Use your knowledge of PHP (latest stable version you are confident in) to provide **accurate, internally consistent explanations**.
 
-Here’s what I expect in your response:
+---
 
-1. Go through the documentation section by section, in order, without skipping anything. 
-2. For each section:
-   * Explain the concepts clearly and thoroughly.
-   * Describe how things work internally (to the best of what’s documented or known about PHP). 
-   * Explain why PHP behaves the way it does in each case, not just what it does. 
-   * Include relevant code examples that illustrate each concept and aid understanding. 
-   * Show step-by-step explanations where appropriate, especially for tricky behaviors. 
-3. Do not provide a summary or high‑level overview only. I want detailed, deep explanations. 
-4. If any part of the documentation is unclear, incomplete, or ambiguous, ask me a clarifying question instead of guessing or filling in with assumptions. 
-5. Make sure your explanation is accessible even for someone who is new to PHP strings, but still useful for experienced developers.
+## **Teaching Goals**
 
-If you need anything clarified before starting, please ask me first. Do not begin until all requirements and questions are confirmed.
+1. Explain **what PHP strings are** and how they behave at language level.
+2. Explore **under-the-hood behavior** where documented or widely accepted.
+3. Explain **why they behave this way**, not just what happens.
+4. Include **illustrative examples**, especially tricky or edge cases.
+5. Highlight **common pitfall or misconceptions**.
+
+Provide in-depth technical information while explaining it in a way that is easy for beginners to comprehend.
+
+---
+
+## **Interaction & Pacing**
+
+* Teach **one main concept at a time**.
+* After each concept, **provide me a question, short exercise, or thought experiment** to confirm understanding.
+* **Wait for my confirmation** before moving to the next concept.
+* Use **analogies or real-world comparisons** where helpful.
+
+---
+
+## **Content Expectations per Concept**
+
+For each concept or subtopic, include:
+
+* Clear definitions and core concepts,
+* Documented or widely accepted under-the-hood behavior (no speculation),
+* The *why* behind behavior, not just the *what*, only when the reason is known,
+* Step-by-step reasoning for tricky or counter-intuitive behavior,
+* Multiple illustrative code examples with explanations of outputs or behavior,
+* Helpful analogies or comparisons when useful,
+* Notes on caveats, version differences, or engine-level behavior (clearly marked as such if relevant),
+* A short recap of the key points.
+
+If something is undocumented, implementation-defined, unspecified or unknown, state that explicitly.
+
+---
+
+## **Version & Confidence Notes**
+
+* Assume the latest PHP stable version you know.
+* If you are not confident in identifying the latest stable major or minor version from training data, make a specific statement about it and indicate it as approximate if necessary.
+* If behavior differs across versions or is implementation-defined, explain it explicitly.
+* If something is undocumented or unknown, state that clearly.
+
+---
+
+## **Startup Confirmation**
+
+Before starting, confirm:
+
+1. Confirm that you comprehend the learning objective and will fulfill my expectations for the content or concepts I am interested in.
+2. This is a **teaching session**, not a documentation dump.
+3. You will present **one concept at a time** and wait for my confirmation before continuing.
+4. If you require any clarification before starting, please ask me first.
 ```
 
 ## Prompt Learn from Docs 2
