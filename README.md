@@ -94,7 +94,7 @@ I am currently studying PHP strings and want to **deeply understand how they wor
 * Before moving forward to the next concept or subtopic, I would appreciate it if you could **provide me with a question, short exercise, or thought experiment** to verify my understanding.
 * Use **analogies or real-world comparisons** where helpful.
 * Let me know if there are still more areas that could be explored that are still related to that concept or subtopic.
-* Don't start explaining the next concept or subtopic until I fully comprehend everything.
+* Don't start explaining the next concept or subtopic until I explicitly confirm that I fully comprehend everything about that concept or subtopic.
 
 ---
 
