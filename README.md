@@ -66,11 +66,11 @@
 
 # Template Prompts for ChatGPT
 
-## Prompts to Change, Modify, and Adjust the Prompt
+## Change, Modify, and Adjust the Prompt
 ```markdown
 - Modify and adjust this prompt without losing accuracy and discipline, while maintaining the same original purpose
 ```
-## Prompt Learn from Docs 1
+## Learn the Subject of Study
 ```markdown
 I am currently studying PHP strings and want to **deeply understand how they works**, both conceptually and in practice.
 
