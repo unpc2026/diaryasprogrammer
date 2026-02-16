@@ -133,7 +133,7 @@ Before starting, please confirm:
 4. If you require any clarification before starting, ask me first.
 ```
 
-## Prompt Learn from Docs 2
+## Learn from Docs 1
 
 ```markdown
 I am currently studying **[LANGUAGE NAME]** from the official documentation page:
@@ -340,7 +340,7 @@ After completing the start-up confirmation, ask my confirmation.
 Do not begin the first section until I explicitly confirm.
 ```
 
-## Prompt Learn from Docs 3
+## Learn from Docs 2
 ```markdown
 I am currently studying PHP strings from the official documentation page:
 
