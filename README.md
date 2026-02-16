@@ -41,7 +41,7 @@
 1. []()
 
 #### JavaScript and TypeScript
-1. [Lydia Hallie + JavaScript Visualized - Promise Execution](https://www.youtube.com/watch?v=Xs1EMmBLpn4)
+1. [FreeCodeCamp.org + Full HTTP Networking Course - Fetch and REST APIs in JavaScript](https://www.youtube.com/watch?v=2JYT5f2isg4)
 2. [Lydia Hallie + JavaScript Visualized - Event Loop, Web APIs, (Micro)task Queue](https://www.youtube.com/watch?v=eiC58R16hb8)
 3. [Lydia Hallie + JavaScript Visualized - Execution Contexts](https://www.youtube.com/watch?v=zdGfo6I1yrA)
 4. [Lydia Hallie + JavaScript Visualized - Closures](https://www.youtube.com/watch?v=6Ixyltr8_R0)
@@ -52,6 +52,11 @@
 
 ### DevOps
 1. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
+
+### APIs
+
+#### RESTful API
+1. [FreeCodeCamp.org + Full HTTP Networking Course - Fetch and REST APIs in JavaScript](https://www.youtube.com/watch?v=2JYT5f2isg4)
 
 ## Cybersecuriy
 1. [freeCodeCamp.org + Harvard CS50’s Intro to Cybersecurity – Full University Course](https://www.youtube.com/watch?v=9HOpanT0GRs)
