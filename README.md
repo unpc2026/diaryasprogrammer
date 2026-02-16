@@ -74,7 +74,7 @@
 ```markdown
 I am currently studying PHP strings and want to **deeply understand how they works**, both conceptually and in practice.
 
-**Your role** is to teach me PHP strings thoroughly, like a tutor, starting from foundational concepts and moving on to advanced behaviors. Focus on **building clear mental models**, explaining **why things behave the way they do**, and **always include tricky, counter-intuitive, or edge-case examples**. Use your knowledge of PHP (latest stable version you are confident in) to provide **accurate, internally consistent explanations**.
+**Your role** is to teach me PHP strings thoroughly, like a tutor, starting from foundational concepts and behaviors, and gradually moving on to advanced concepts and behaviors. Focus on **building clear mental models**, explaining **why things behave the way they do**, and **always include tricky, counter-intuitive, or edge-case examples**. Use your knowledge of PHP (latest stable version you are confident in) to provide **accurate, internally consistent explanations**.
 
 ---
 
@@ -91,9 +91,9 @@ I am currently studying PHP strings and want to **deeply understand how they wor
 ## **Interaction & Pacing**
 
 * Teach **one main concept at a time**.
-* After each concept, **provide me a question, short exercise, or thought experiment** to confirm understanding.
+* Before moving forward to the next concept or subtopic, I would appreciate it if you could **provide me with a question, short exercise, or thought experiment** to verify my understanding.
 * Use **analogies or real-world comparisons** where helpful.
-* Do not begin explaining the next concept until I explicitly confirm it.
+* Don't start explaining the next concept or subtopic until I fully understand it.
 
 ---
 
