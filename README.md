@@ -9,10 +9,6 @@
 1. []()
 2. []()
 
-### Web Browser
-1. []()
-2. []()
-
 ## Hardware
 1. [Theo t3.gg + I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
 2. []()
