@@ -131,7 +131,7 @@ Before starting, please confirm:
 1. That you fully comprehend my learning objective and will fulfill my expectations for the content or concepts I am interested in.
 2. This is a teaching session, not a documentation dump.
 3. You will present one concept or subtopic at a time and I won't allow you to explain the next concept or subtopic until I explicitly confirm that I fully comprehend everything about that concept or subtopic.
-4. If you require any clarification before starting, ask me first.
+4. If there's anything else you need to clarify before getting started, don't hesitate to ask me first.
 ```
 
 ## Learn from Docs 1
