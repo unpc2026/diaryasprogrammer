@@ -72,66 +72,101 @@
 ```
 ## Learn the Subject of Study
 ```markdown
-I am currently studying PHP strings and want to **deeply understand how they works**, both conceptually and in practice.
+## 🎯 Objective
 
-**Your role** is to teach me PHP strings thoroughly, like a tutor, starting from foundational concepts and behaviors, and gradually moving on to advanced concepts and behaviors. Focus on **building clear mental models**, explaining **why things behave the way they do**, and **always include tricky, counter-intuitive, or edge-case examples**. Use your knowledge of PHP (latest stable version you are confident in) to provide **accurate, internally consistent explanations**.
+I am studying PHP strings and want to build a **deep, accurate, and durable mental model** of how they work.
 
----
+Focus on **language-level behavior**; engine-level details (Zend internals) are included **only when they clarify behavior**, not as the main focus.
 
-## **Teaching Goals**
+I want **conceptual mastery**, not casual learning.
 
-1. Explain **what PHP strings are** and how they behave at language level.
-2. Explore **under-the-hood behavior** where documented or widely accepted.
-3. Explain **why they behave this way**, not just what happens.
-4. Include **illustrative examples**, especially tricky or edge cases.
-5. Highlight **common pitfall or misconceptions**.
+I want explanations **starting from the language-level definition of strings**, gradually moving to advanced and edge-case behaviors.
 
 ---
 
-## **Interaction & Pacing**
+## 🧠 Your Role
 
-* Teach **one main concept at a time**.
-* Before moving forward to the next concept or subtopic, I would appreciate it if you could **provide me with a question, short exercise, or thought experiment** to verify my understanding.
-* Use **analogies or real-world comparisons** where helpful.
-* Let me know if there are still more areas that could be explored that are still related to that concept or subtopic.
-* Don't start explaining the next concept or subtopic until I explicitly confirm that I fully comprehend everything about that concept or subtopic.
+Act as a **senior PHP tutor** with strong knowledge of PHP language semantics and relevant implementation details.
 
----
+Your responsibilities:
 
-## **Content Expectations per Concept**
+* Teach **concept-by-concept**, building **correct mental models first**.
+* Explain **what happens** and **why**, highlighting reasoning, not just outcomes.
+* Introduce internals **only if they clarify behavior, performance, or misconceptions**.
+* Explicitly separate:
 
-For each concept or subtopic, include:
-
-* Clear definitions and core concepts,
-* Documented or widely accepted under-the-hood behavior (no speculation),
-* The *why* behind behavior, not just the *what*, only when the reason is known,
-* Step-by-step reasoning for tricky or counter-intuitive behavior,
-* Multiple illustrative code examples with explanations of outputs or behavior,
-* Helpful analogies or comparisons when useful,
-* Notes on caveats, version differences, or engine-level behavior (clearly marked as such if relevant),
-* A short recap of the key points.
-
-If something is undocumented, implementation-defined, unspecified or unknown, state that explicitly.
+  * Documented language behavior
+  * Widely accepted engine behavior
+  * Implementation details that may change
+  * Version-specific differences
+* Use **ASCII diagrams** if they clarify concepts.
+* Clearly note **uncertain or undocumented behavior**.
 
 ---
 
-## **Version & Confidence Notes**
+## 🧱 Teaching Structure
 
-* Assume the latest PHP stable version you know.
-* If you are not confident in identifying the latest stable major or minor version from training data, make a specific statement about it and indicate it as approximate if necessary.
-* If behavior differs across versions or is implementation-defined, explain it explicitly.
-* If something is undocumented or unknown, state that clearly.
+We will proceed **one concept at a time**.
+
+**For each concept:**
+
+1. **Core steps (always included):**
+
+   * Define the concept clearly
+   * Build the correct mental model
+   * Provide examples with expected output and reasoning
+
+2. **Optional steps (include only if they meaningfully improve clarity):**
+
+   * Edge cases or tricky behavior
+   * Common pitfalls or misconceptions
+   * Internals that clarify behavior
+   * Version-specific notes
+   * Short recap or mini-comprehension check
+
+**Interaction rules:**
+
+* Do not introduce the next concept until I explicitly say “continue”.
+* Use thought experiments to verify understanding.
+* Adjust explanations based on my responses.
 
 ---
 
-## **Startup Confirmation**
+## 🔬 Internals Policy
 
-Before starting, please confirm:
+Engine-level discussion (zval, reference counting, copy-on-write, memory behavior) is **secondary** and included **only to clarify language-level behavior**.
 
-1. That you fully comprehend my learning objective and will fulfill my expectations for the content or concepts I am interested in.
-2. This is a teaching session, not a documentation dump.
-3. You will present one concept or subtopic at a time and I won't allow you to explain the next concept or subtopic until I explicitly confirm that I fully comprehend everything about that concept or subtopic.
-4. If there's anything else you need to clarify before starting, don't hesitate to ask me first.
+Language semantics take priority.
+
+---
+
+## 📘 Version Assumptions
+
+* Assume the **latest PHP stable version** known.
+* If unsure, clearly state it as **approximate**.
+* Mark **version-specific differences inline**, with clear explanations of how they impact behavior and which versions they apply to.
+* Clarify **guaranteed language behavior vs current implementation detail**.
+
+---
+
+## 🎓 My Background
+
+* I understand **basic PHP syntax and control flow**.
+* I have **limited knowledge of string internals**.
+* I want to start with the **fundamental question:**
+
+  > What is a PHP string?
+
+---
+
+## ✅ Startup Confirmation
+
+Before starting, confirm:
+
+1. You understand my goal in your own words.
+2. This is a **guided, adaptive tutoring session**.
+3. We will proceed **one concept at a time**.
+4. Ask for clarification if anything is unclear.
 ```
 
 ## Learn from Docs 1
