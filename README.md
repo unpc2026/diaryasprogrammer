@@ -2,7 +2,7 @@
 [Handmade Hero Complete Episodes (1 - 667)](https://www.youtube.com/playlist?list=PL0PAV3gVZ9gmiTxKufnvxw2-WMFHTMX6c)
 
 ## Internet
-1. [Boot dev + TCP to HTTP | Full Course by @ThePrimeagen](https://www.youtube.com/watch?v=FknTw9bJsXM)
+1. [Boot dev = TCP to HTTP | Full Course by @ThePrimeagen](https://www.youtube.com/watch?v=FknTw9bJsXM)
 2. []()
 
 ### DNS (Domain Name System)
@@ -10,7 +10,7 @@
 2. []()
 
 ## Hardware
-1. [Theo t3.gg + I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
+1. [Theo t3.gg = I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
 2. []()
 
 ## Software
@@ -22,7 +22,7 @@
 ### Low or Middle Level Language
 
 #### C and C++
-1. [Boot dev + C Programming and Memory Management - Full Course](https://www.youtube.com/watch?v=rJrd2QMVbGM)
+1. [Boot dev = C Programming and Memory Management - Full Course](https://www.youtube.com/watch?v=rJrd2QMVbGM)
 2. []()
 
 ### High Level Language
@@ -40,10 +40,10 @@
 2. []()
 
 #### JavaScript and TypeScript
-1. [Lydia Hallie + JavaScript Visualized - Event Loop, Web APIs, (Micro)task Queue](https://www.youtube.com/watch?v=eiC58R16hb8)
-2. [Lydia Hallie + JavaScript Visualized - Execution Contexts](https://www.youtube.com/watch?v=zdGfo6I1yrA)
-3. [Lydia Hallie + JavaScript Visualized - Closures](https://www.youtube.com/watch?v=6Ixyltr8_R0)
-4. [Boot dev + The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
+1. [Lydia Hallie = JavaScript Visualized - Event Loop, Web APIs, (Micro)task Queue](https://www.youtube.com/watch?v=eiC58R16hb8)
+2. [Lydia Hallie = JavaScript Visualized - Execution Contexts](https://www.youtube.com/watch?v=zdGfo6I1yrA)
+3. [Lydia Hallie = JavaScript Visualized - Closures](https://www.youtube.com/watch?v=6Ixyltr8_R0)
+4. [Boot dev = The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
 5. []()
 
 ##### ReactJS
@@ -57,11 +57,11 @@
 ### APIs
 
 #### RESTful API
-1. [FreeCodeCamp.org + Full HTTP Networking Course - Fetch and REST APIs in JavaScript](https://www.youtube.com/watch?v=2JYT5f2isg4)
+1. [FreeCodeCamp.org = Full HTTP Networking Course - Fetch and REST APIs in JavaScript](https://www.youtube.com/watch?v=2JYT5f2isg4)
 2. []()
 
 ## Cybersecuriy
-1. [freeCodeCamp.org + Harvard CS50’s Intro to Cybersecurity – Full University Course](https://www.youtube.com/watch?v=9HOpanT0GRs)
+1. [freeCodeCamp.org = Harvard CS50’s Intro to Cybersecurity – Full University Course](https://www.youtube.com/watch?v=9HOpanT0GRs)
 2. []()
 
 # Template Prompts for ChatGPT
