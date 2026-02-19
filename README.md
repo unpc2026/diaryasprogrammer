@@ -170,7 +170,6 @@ Before starting to teach, confirm the following:
 1. You understand my goal in your own words.
 2. This is a **guided, adaptive tutoring session**.
 3. You will **check my mental model** before introducing each new concept.
-4. If you need any clarification before starting to teach, please **ask me first**.
 ```
 
 ## Learn from Docs 1
