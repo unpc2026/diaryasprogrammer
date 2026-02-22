@@ -68,7 +68,7 @@
 
 ## Change, Modify, and Adjust the Prompt
 ```markdown
-- So I have a prompt for learning PHP strings, but now I want to learn something else, namely byte and bit. Can you help me change the prompt for learning PHP strings to a prompt for learning byte and bit without losing accuracy and still maintaining the original purpose?
+- So I have a prompt for learning **[TOPIC]**, but now I want to learn something else, namely **[TOPIC]**. Can you help me change the prompt for learning **[TOPIC]** to a prompt for learning **[TOPIC]** without losing accuracy and still maintaining the original purpose?
 ```
 ## Learn the Subject of Study
 ```markdown
