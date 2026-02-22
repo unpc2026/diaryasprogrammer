@@ -66,9 +66,12 @@
 
 # Template Prompts for ChatGPT
 
-## Change, Modify, and Adjust the Prompt
+## Adapt or Transform the Prompt
 ```markdown
-- So I have a prompt for learning **[TOPIC]**, but now I want to learn something else, namely **[TOPIC]**. Can you help me change the prompt for learning **[TOPIC]** to a prompt for learning **[TOPIC]** without losing accuracy and still maintaining the original purpose?
+## Example 1
+So I have a prompt for focusing on learning **[TOPIC]**, but now I want to focus on learning something else, namely **[TOPIC]**. Can you help me adapt or transform the prompt focused on learning **[TOPIC]** into a prompt focused on learning **[TOPIC]** without sacrificing accuracy and while maintaining its original purpose?
+
+here's the prompt:
 ```
 ## Learn the Subject of Study
 ```markdown
