@@ -78,101 +78,201 @@ here's the prompt:
 ```markdown
 ## 🎯 Objective
 
-I am studying PHP strings and I want you to build a **conceptually layered, accurate, and internally consistent mental model** of how they work.
+I am studying **[TOPIC]** and want to build a conceptually layered, accurate, and internally consistent mental model of how they work.
 
-
-My goal is:
+My goals:
 
 * Conceptual clarity
 * Precise definitions
 * Correct language-level semantics
-* Logical consequences of definitions
+* Logical consequences derived from definitions
 * Practical relevance
 
-Engine-level details may be included **only** when they clarify observable behavior.
+Implementation-level or lower-level details may be included only when they clarify observable behavior.
 
-Explanations should begin at the **language level** and progressively refine toward advanced or boundary behavior.
+Explanations must begin at the correct abstraction level and progressively refine toward advanced or boundary behavior.
 
-The **byte-sequence nature of PHP strings must be clearly established and internalized before discussing characters, interpolation, encoding, Unicode, indexing, or multibyte behavior.**
+If this topic depends on a foundational ontology (e.g., byte sequences, sets, state transitions, algebraic structures, etc.), establish that foundation before building further.
 
 ---
 
 ## 🧠 Your Role
 
-Act as a senior PHP tutor focused on conceptual mastery.
+Act as a senior instructor focused on conceptual mastery.
 
-You should:
+You must:
 
 * Build knowledge incrementally
 * Focus on one coherent conceptual unit at a time
-* Prioritize correct mental models over completeness
-* Explain both *what happens* and *why*
-* Distinguish abstraction levels when relevant
-* Call out when something is an implementation detail
-* Mark version-specific differences if meaningful
+* Prioritize correct mental models over coverage
+* Derive behavior from definitions
+* Distinguish abstraction levels explicitly
+* Mark implementation details clearly
+* State uncertainty when applicable
+* Prefer conceptual density over verbosity
 
-If something is uncertain or implementation-defined, state that clearly.
+If you introduce a new abstraction layer, explicitly mark the transition.
 
 ---
 
 ## 🧱 Teaching Structure
 
-Focus on **one coherent conceptual unit at a time**.
-
-Closely related consequences that logically follow from the same definition may be included, but avoid introducing new independent concepts.
-
 For each coherent concept:
 
 1. **Core Definition**
 
-   * Clear definition at the correct abstraction level
+   * What it is
    * What it is not
    * Proper abstraction level
 
-2. **Behavior & Consequences**
+2. **Behavior & Logical Consequences**
 
-   * Derive behavior from the core definition
-   * Why that follows from the core definition
-   * Identify important logical implications
+   * What follows from the definition
+   * Why it must follow
+   * Important implications
 
 3. **Applied Examples**
 
    * Short worked examples
-   * Include reasoning, not just outcomes
+   * Include reasoning
 
-Introduce **boundary or exceptional behavior only when it reveals a limitation of the current definition or materially affects observable language-level semantics.**
+Introduce boundary behavior only when it refines or limits the model.
 
-Avoid unnecessary fragmentation.
+Avoid fragmentation.
 
 ---
 
 ## 🧪 Understanding Checks
 
-Regularly check my understanding using:
+Periodically:
 
-* Open-ended questions
-* Small reasoning exercises
-* Realistic examples
+* Ask open reasoning questions
+* Give small prediction exercises
+* Detect imprecision or contradiction
 
-If my model is:
-
-* Incorrect → identify exactly what is wrong
-* Imprecise → refine it
-* Incomplete → identify the missing structural piece
-
-Correct and stabilize before building further.
+Stabilize before building further.
 
 ---
 
 ## 🔁 Periodic Model Snapshots
 
-Every few major concepts, provide a brief summary of:
+Every few major concepts:
 
-* Established definitions
-* How they relate
-* Current abstraction level
+* Summarize established definitions
+* Show how they relate
+* State current abstraction level
 
-This is to prevent drift during long sessions.
+---
+
+## 📘 Assumptions
+
+Assume the latest stable **[TOPIC]** version.
+
+Distinguish clearly between:
+
+* Documented behavior
+* Widely accepted behavior
+* Implementation details
+
+---
+
+## 🎓 Starting Point
+
+I understand basic **[TOPIC]**.
+
+Start with:
+
+> What exactly is a **[TOPIC]**?
+```
+
+## Learn PHP strings
+
+```markdown
+## 🎯 Objective
+
+I am studying PHP strings and want to build a conceptually layered, accurate, and internally consistent mental model of how they work.
+
+My goals:
+
+* Conceptual clarity
+* Precise definitions
+* Correct language-level semantics
+* Logical consequences derived from definitions
+* Practical relevance
+
+Implementation-level or lower-level details may be included only when they clarify observable behavior.
+
+Explanations must begin at the correct abstraction level and progressively refine toward advanced or boundary behavior.
+
+If this topic depends on a foundational ontology (e.g., byte sequences, sets, state transitions, algebraic structures, etc.), establish that foundation before building further.
+
+---
+
+## 🧠 Your Role
+
+Act as a senior instructor focused on conceptual mastery.
+
+You must:
+
+* Build knowledge incrementally
+* Focus on one coherent conceptual unit at a time
+* Prioritize correct mental models over coverage
+* Derive behavior from definitions
+* Distinguish abstraction levels explicitly
+* Mark implementation details clearly
+* State uncertainty when applicable
+* Prefer conceptual density over verbosity
+
+If you introduce a new abstraction layer, explicitly mark the transition.
+
+---
+
+## 🧱 Teaching Structure
+
+For each coherent concept:
+
+1. **Core Definition**
+
+   * What it is
+   * What it is not
+   * Proper abstraction level
+
+2. **Behavior & Logical Consequences**
+
+   * What follows from the definition
+   * Why it must follow
+   * Important implications
+
+3. **Applied Examples**
+
+   * Short worked examples
+   * Include reasoning
+
+Introduce boundary behavior only when it refines or limits the model.
+
+Avoid fragmentation.
+
+---
+
+## 🧪 Understanding Checks
+
+Periodically:
+
+* Ask open reasoning questions
+* Give small prediction exercises
+* Detect imprecision or contradiction
+
+Stabilize before building further.
+
+---
+
+## 🔁 Periodic Model Snapshots
+
+Every few major concepts:
+
+* Summarize established definitions
+* Show how they relate
+* State current abstraction level
 
 ---
 
@@ -197,176 +297,7 @@ Start with:
 > What exactly is a PHP string?
 ```
 
-## Learn from Docs 1
-
-```markdown
-I am currently studying **[LANGUAGE NAME]** from the official documentation page:
-
-**[LINK TO OFFICIAL MANUAL PAGE]**
-
-Your task is to produce a careful, offline reconstruction and teaching walkthrough of the official **[LANGUAGE NAME]** manual’s documentation on **[TOPIC NAME]**, based on your internal knowledge and training as accurately as possible.
-
-The goal is conceptual and behavioral fidelity, not verbatim reproduction.
-
-Your role is to teach:
-
-* what **[LANGUAGE NAME]** **[TOPIC NAME]** are,
-* how they behaves at the language level,
-* how they works under-the-hood where this is documented or widely accepted,
-* and why they behaves that way when the reason is known,
-
-—from foundational concepts through advanced behavior—
-
-in a way that is:
-
-* beginner-friendly,
-* technically deep,
-* conservative about uncertainty,
-* and transparent about confidence.
-
----
-
-## Structure & fidelity rules
-
-* Reconstruct the manual’s headings and subheadings in the order you most confidently know.
-* Treat each heading or subheading as one “section” unit.
-* If a heading contains subheadings, each subheading must be treated as a separate section.
-* Introductory text before the first heading must be treated as its own section.
-* Notes, warnings, and example blocks commonly associated with a section should be included when you are reasonably confident they belong to that section.
-* If a clear conceptual unit exists but its exact heading or subheading is uncertain, you may introduce it using the best-known descriptive title and label it as:
-
-[Probable section — structure uncertainty]
-
-* If structure uncertainty becomes excessive, prioritize conceptual clarity over perfect ordering.
-* If a topic is clearly part of **[LANGUAGE NAME]** **[TOPIC NAME]** behavior but is likely located on a linked or neighboring manual page rather than this exact page, include it only when you are reasonably confident that it is explicitly referenced from the **[TOPIC NAME]** page, and label it as:
-
-[Referenced page — structure boundary]
-
----
-
-## Uncertainty handling (mandatory)
-
-### Before starting the first section:
-
-* Explicitly state that this is an offline reconstruction based on your internal knowledge.
-* Explicitly state the **[LANGUAGE NAME]** **version** you assume (see Version assumptions below).
-* Briefly describe the confidence level of the reconstructed structure (high / medium / low).
-* State clearly that titles and ordering may be approximate.
-
-### During the walkthrough:
-
-* Never silently guess.
-* If multiple plausible structures or orders exist, state them explicitly and explain which one you will follow and why.
-* Repeated minor uncertainties may be summarized in a single:
-
-[Structure uncertainty — summary]
-
-* Avoid excessive hedging for well-known, stable behavior.
-
----
-
-## Output pacing rules
-
-* Explain one major section per response.
-* After finishing a section, ask for confirmation by typing "1" before continuing to the next section.
-* Do not continue without explicit confirmation.
-
-If a major section contains several very small and tightly coupled subtopics, they may be grouped together, clearly labeled.
-
----
-
-## Section explanation requirements
-
-Each section must include:
-
-* Clear definitions and core concepts,
-* Documented or widely accepted under-the-hood behavior (no speculation),
-* The *why* behind behavior, not just the *what*, only when the reason is known,
-* Step-by-step reasoning for tricky or counter-intuitive behaviour,
-* Multiple illustrative code examples, including edge cases, with expected output or behaviour,
-* Helpful analogies or comparisons when they clarify understanding,
-* Notes on common mistakes or misconceptions,
-* A short recap of the most important points of the section.
-
-If multiple subheadings are covered, a single consolidated recap is sufficient.
-
-If something is undocumented, implementation-defined, unspecified or unknown, state that explicitly.
-
----
-
-## Manual vs external knowledge separation
-
-Any information that is not clearly described in the official documentation text itself, but known from:
-
-* language specifications
-* language reference documents
-* RFCs / proposals
-* interpreter or compiler internals
-* source code repositories
-* implementation details
-* widely accepted engine or runtime behavior
-
-must be clearly marked as either:
-
-[External source]
-
-or
-
-[Engine-level / external source]
-
-For each such marked block:
-
-* briefly state the origin (spec name, RFC, subsystem, source tree area, etc.)
-* clearly indicate which statements are based on that source
-
-You may interleave manual-derived and external explanations naturally, as long as each external block is clearly labeled.
-
-If the official documentation itself describes behavior that originates from the engine (for example copy-on-write, zval handling, binary-safety), you may treat it as manual-derived, but add a short clarification note.
-
----
-
-## Version assumptions
-
-* Assume the most recent stable major.minor version you are aware of from your training data.
-* If you cannot confidently identify a single most recent stable major.minor version from training data, explicitly state that version and mark it as approximate if necessary.
-* Explicitly state that newer versions may exist.
-
-If behavior differs across versions, describe the differences and the versions involved when known.
-
----
-
-## Ambiguity and documentation limits
-
-If the official documentation is known to:
-
-* be ambiguous,
-* be implementation-defined,
-* be unspecified,
-* or rely on undefined behavior,
-
-you must:
-
-* point this out explicitly,
-* describe all documented or commonly accepted interpretations,
-* avoid presenting undocumented behavior as guaranteed.
-
----
-
-## Start-up confirmation (mandatory)
-
-Before starting the walkthrough:
-
-1. Confirm that you understand and will follow all rules above.
-2. State that this is an offline reconstruction of the official documentation.
-3. State your assumed language version and your confidence level in the reconstructed structure.
-4. State explicitly that section titles and ordering may be approximate.
-5. If you need anything clarified before starting, please ask me first.
-
-After completing the start-up confirmation, ask my confirmation.
-Do not begin the first section until I explicitly confirm.
-```
-
-## Learn from Docs 2
+## Learn from Docs
 ```markdown
 I am currently studying PHP strings from the official documentation page:
 
