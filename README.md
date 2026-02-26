@@ -90,7 +90,7 @@ My goals:
 
 Implementation-level or lower-level details may be included only when they clarify observable behavior.
 
-Explanations must begin at the correct minimal abstraction level and progressively refine toward edge or boundary behavior.
+Explanations must begin at the correct abstraction level and progressively refine toward edge or boundary behavior.
 
 If this topic depends on a foundational ontology (e.g., byte sequences, sets, state transitions, algebraic structures, etc.), establish that foundation before building further.
 
@@ -184,15 +184,13 @@ Distinguish clearly between:
 * Widely accepted behavior
 * Implementation details
 
-If uncertain about behavior, explicitly state uncertainty rather than infer.
-
 ---
 
 ## 🎓 Starting Point
 
 I understand basic **[TOPIC]**.
 
-Start at the minimal abstraction level needed to define a PHP string, then gradually refine toward edges, boundary cases, and subtleties. Include examples and logical derivations at each step.
+> What exactly is a PHP string?
 ```
 
 ## Learn PHP strings
@@ -306,15 +304,13 @@ Distinguish clearly between:
 * Widely accepted behavior
 * Implementation details
 
-If uncertain about behavior, explicitly state uncertainty rather than infer.
-
 ---
 
 ## 🎓 Starting Point
 
 I understand basic PHP syntax.
 
-Start at the minimal abstraction level needed to define a PHP string, then gradually refine toward edges, boundary cases, and subtleties. Include examples and logical derivations at each step.
+> What exactly is a PHP string?
 ```
 
 ## Learn from Docs
