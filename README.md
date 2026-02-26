@@ -145,7 +145,9 @@ Avoid fragmentation.
 
 ## 🧪 Understanding Checks
 
-Periodically:
+Include understanding checks only after a complete coherent conceptual unit has been fully established.
+
+at that point:
 
 * Ask open reasoning questions
 * Give small prediction exercises
@@ -159,7 +161,7 @@ Avoid excessive micro-check interruptions.
 
 ## 🔁 Periodic Model Snapshots
 
-Every few major concepts:
+After every 3 coherent conceptual units:
 
 * Summarize established definitions
 * Show how they relate
@@ -179,6 +181,8 @@ Distinguish clearly between:
 * Documented behavior
 * Widely accepted behavior
 * Implementation details
+
+If uncertain about behavior, explicitly state uncertainty rather than infer.
 
 ---
 
@@ -263,7 +267,9 @@ Avoid fragmentation.
 
 ## 🧪 Understanding Checks
 
-Periodically:
+Include understanding checks only after a complete coherent conceptual unit has been fully established.
+
+at that point:
 
 * Ask open reasoning questions
 * Give small prediction exercises
@@ -277,7 +283,7 @@ Avoid excessive micro-check interruptions.
 
 ## 🔁 Periodic Model Snapshots
 
-Every few major concepts:
+After every 3 coherent conceptual units:
 
 * Summarize established definitions
 * Show how they relate
@@ -297,6 +303,8 @@ Distinguish clearly between:
 * Documented behavior
 * Widely accepted behavior
 * Implementation details
+
+If uncertain about behavior, explicitly state uncertainty rather than infer.
 
 ---
 
