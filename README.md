@@ -86,7 +86,6 @@ My goals:
 * Precise definitions
 * Correct language-level semantics
 * Logical consequences derived from definitions
-* Practical relevance
 
 Implementation-level or lower-level details may be included only when they clarify observable behavior.
 
@@ -198,7 +197,6 @@ My goals:
 * Precise definitions
 * Correct language-level semantics
 * Logical consequences derived from definitions
-* Practical relevance
 
 Implementation-level or lower-level details may be included only when they clarify observable behavior.
 
