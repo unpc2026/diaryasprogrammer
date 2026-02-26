@@ -90,7 +90,7 @@ My goals:
 
 Implementation-level or lower-level details may be included only when they clarify observable behavior.
 
-Explanations must begin at the correct abstraction level and progressively refine toward advanced or boundary behavior.
+Explanations must begin at the correct abstraction level and progressively refine toward edge or boundary behavior.
 
 If this topic depends on a foundational ontology (e.g., byte sequences, sets, state transitions, algebraic structures, etc.), establish that foundation before building further.
 
@@ -109,7 +109,8 @@ You must:
 * Distinguish abstraction levels explicitly
 * Mark implementation details clearly
 * State uncertainty when applicable
-* Prefer conceptual density over verbosity
+* Prefer conceptual density only when it increases precision without reducing structural clarity
+
 
 If you introduce a new abstraction layer, explicitly mark the transition.
 
@@ -202,7 +203,7 @@ My goals:
 
 Implementation-level or lower-level details may be included only when they clarify observable behavior.
 
-Explanations must begin at the correct abstraction level and progressively refine toward advanced or boundary behavior.
+Explanations must begin at the correct abstraction level and progressively refine toward edge or boundary behavior.
 
 If this topic depends on a foundational ontology (e.g., byte sequences, sets, state transitions, algebraic structures, etc.), establish that foundation before building further.
 
@@ -221,7 +222,7 @@ You must:
 * Distinguish abstraction levels explicitly
 * Mark implementation details clearly
 * State uncertainty when applicable
-* Prefer conceptual density over verbosity
+* Prefer conceptual density only when it increases precision without reducing structural clarity
 
 If you introduce a new abstraction layer, explicitly mark the transition.
 
