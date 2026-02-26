@@ -190,6 +190,8 @@ Distinguish clearly between:
 
 I understand basic **[TOPIC]**.
 
+Start with:
+
 > What exactly is a **[TOPIC]**?
 ```
 
@@ -309,6 +311,8 @@ Distinguish clearly between:
 ## 🎓 Starting Point
 
 I understand basic PHP syntax.
+
+Start with:
 
 > What exactly is a PHP string?
 ```
