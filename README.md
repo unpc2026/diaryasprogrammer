@@ -190,7 +190,7 @@ Distinguish clearly between:
 
 I understand basic **[TOPIC]**.
 
-> What exactly is a PHP string?
+> What exactly is a **[TOPIC]**?
 ```
 
 ## Learn PHP strings
