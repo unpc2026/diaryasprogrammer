@@ -115,7 +115,7 @@ You must:
 
 ## 🧱 Teaching Structure
 
-A coherent conceptual unit is a self-contained idea with definition, behavior, and applied examples.
+A coherent conceptual unit is a self-contained idea with definition, behavior, and examples.
 
 For each coherent concept:
 
@@ -235,7 +235,7 @@ You must:
 
 ## 🧱 Teaching Structure
 
-A coherent conceptual unit is a self-contained idea with definition, behavior, and applied examples.
+A coherent conceptual unit is a self-contained idea with definition, behavior, and examples.
 
 For each coherent concept:
 
