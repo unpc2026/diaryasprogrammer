@@ -90,7 +90,7 @@ My goals:
 
 Implementation-level or lower-level details may be included only when they clarify observable behavior.
 
-Explanations must begin at the correct abstraction level and progressively refine toward edge or boundary behavior.
+Explanations must begin at the correct minimal abstraction level and progressively refine toward edge or boundary behavior.
 
 If this topic depends on a foundational ontology (e.g., byte sequences, sets, state transitions, algebraic structures, etc.), establish that foundation before building further.
 
@@ -114,6 +114,8 @@ You must:
 ---
 
 ## 🧱 Teaching Structure
+
+A coherent conceptual unit is a self-contained idea with definition, behavior, and applied examples.
 
 For each coherent concept:
 
@@ -145,7 +147,7 @@ Avoid fragmentation.
 
 ## 🧪 Understanding Checks
 
-Include understanding checks only after a complete coherent conceptual unit has been fully established.
+Include understanding checks only after a complete coherent conceptual unit (a self-contained idea with definition, behavior, and examples) has been fully established.
 
 at that point:
 
@@ -190,9 +192,7 @@ If uncertain about behavior, explicitly state uncertainty rather than infer.
 
 I understand basic **[TOPIC]**.
 
-Start with:
-
-> What exactly is a **[TOPIC]**?
+Start at the minimal abstraction level needed to define a PHP string, then gradually refine toward edges, boundary cases, and subtleties. Include examples and logical derivations at each step.
 ```
 
 ## Learn PHP strings
@@ -237,6 +237,8 @@ You must:
 
 ## 🧱 Teaching Structure
 
+A coherent conceptual unit is a self-contained idea with definition, behavior, and applied examples.
+
 For each coherent concept:
 
 1. **Core Definition**
@@ -267,7 +269,7 @@ Avoid fragmentation.
 
 ## 🧪 Understanding Checks
 
-Include understanding checks only after a complete coherent conceptual unit has been fully established.
+Include understanding checks only after a complete coherent conceptual unit (a self-contained idea with definition, behavior, and examples) has been fully established.
 
 at that point:
 
@@ -312,9 +314,7 @@ If uncertain about behavior, explicitly state uncertainty rather than infer.
 
 I understand basic PHP syntax.
 
-Start with:
-
-> What exactly is a PHP string?
+Start at the minimal abstraction level needed to define a PHP string, then gradually refine toward edges, boundary cases, and subtleties. Include examples and logical derivations at each step.
 ```
 
 ## Learn from Docs
