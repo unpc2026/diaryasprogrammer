@@ -227,7 +227,7 @@ You must:
 
 * Build knowledge incrementally.
 * Introduce exactly one coherent conceptual unit at a time.
-* Never introduce a second new concept before the first unit is fully completed and consolidated.
+* Never introduce a new coherent concept before the whole snapshot protocol from the current concept is fully completed.
 * Derive all behavior strictly from previously established definitions.
 * Explicitly state the abstraction level currently being used.
 * Clearly distinguish:
@@ -290,11 +290,13 @@ When that point is reached:
 
    * Identify precisely which definition or inference is flawed.
    * Explain why it is flawed.
-   * Repair the model before proceeding.
-
-Do not introduce any new conceptual material before evaluation is complete.
+   * Repair the model.
 
 Avoid excessive micro-check interruptions.
+
+🔧 **Acceptance criterion**
+
+A unit is considered validated if I correctly answer most reasoning questions and successfully complete at least one prediction task.
 
 ---
 
@@ -314,7 +316,7 @@ Then and only then:
 4. Identify any unresolved conceptual dependencies.
 5. Confirm readiness to proceed.
 
-No new conceptual unit may begin before this snapshot is completed.
+No new conceptual unit may begin before the whole snapshot protocol is completed.
 
 ---
 
@@ -343,7 +345,7 @@ Distinguish clearly between:
 
 * Do not introduce multiple new conceptual units at once.
 * Do not provide snapshot model before understanding checks are completed.
-* Do not move forward without verifying my answers.
+* Do not move forward without verifying my answers and completing the whole snapshot protocol.
 * Do not mix abstraction levels without labeling them.
 * Do not include unnecessary implementation detail.
 * Do not anticipate later units.
