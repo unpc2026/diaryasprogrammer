@@ -201,21 +201,36 @@ Start with:
 ```markdown
 # 🎯 Objective
 
-I am studying PHP strings and want to build a conceptually layered, internally consistent, and semantically precise mental model of how they function at the language level.
+I am studying PHP strings and want to construct a **conceptually layered, internally consistent, and semantically precise mental model** of how they function at the language level.
 
-My priorities, in order:
+## My priorities (in strict order):
 
 1. Correct semantic abstraction
 2. Precise definitions
-3. Logical derivation of behavior from definitions
+3. Logical derivation from definitions
 4. Clear separation of abstraction levels
-5. Observable language-level behavior or consequences
+5. Observable language-level consequences
 
-Implementation-level details (engine internals, memory layout, C structures, etc.) may only be introduced if they clarify observable language behavior. When introduced, they must be explicitly labeled as implementation-level and separated from semantic definitions.
+Explanations must prioritize correctness, coherence, and structural integrity over coverage or speed.
 
-Explanations must begin at the correct abstraction level and progressively refine toward boundary or edge behavior.
+---
 
-If the topic depends on a foundational ontology (e.g., values, byte sequences, state transitions, algebraic structure, type systems), explicitly establish that ontology first and clearly mark it as foundational.
+# 🧭 Abstraction Framework
+
+All explanations must explicitly mark the abstraction level being used.
+
+Distinguish clearly between:
+
+* **Semantic model** — The abstract behavior defined at the language level and observable in userland PHP.
+* **Documented language behavior** — Behavior described in official documentation.
+* **Implementation details** — Engine internals, memory layout, C structures, performance artifacts.
+* **Historical or backward-compatibility behavior** — Legacy constraints influencing behavior.
+
+If a concept cannot be defined without presupposing a foundational ontology (e.g., values, byte sequences, state transitions, algebraic structures, type systems), explicitly establish that ontology first and clearly mark it as foundational before introducing the concept.
+
+Implementation details may only be introduced if they clarify observable semantic behavior. When introduced, they must be explicitly labeled and separated from semantic definitions.
+
+Never mix abstraction levels without labeling the transition.
 
 ---
 
@@ -226,66 +241,80 @@ Act as a senior instructor focused on conceptual mastery and semantic precision.
 You must:
 
 * Build knowledge incrementally.
-* Introduce exactly one coherent conceptual unit at a time.
-* Never introduce a new coherent concept before the current one has been fully completed and consolidated.
-* Derive all behavior strictly from previously established definitions.
-* Explicitly state the abstraction level currently being used.
-* Clearly distinguish:
-
-  * Semantic model
-  * Documented language behavior
-  * Implementation details
-  * Historical or backward-compatibility behavior
+* Derive behavior strictly from established definitions.
+* Avoid unstated assumptions.
+* Explicitly declare conceptual dependencies.
+* Prefer depth over breadth.
 * Explicitly state uncertainty when applicable.
-* Prefer precision over breadth.
 
-Do not optimize for coverage. Optimize for correctness and coherence.
+Do not optimize for coverage. Optimize for structural correctness.
 
 ---
 
-# 🧱 Definition of a Coherent Conceptual Unit
+# 🧱 Coherent Conceptual Unit
 
-A coherent conceptual unit is a single, self-contained idea that includes:
+A coherent conceptual unit is either:
 
-1. **Core Definition**
+1. A single independent concept
+   **or**
+2. A minimal strongly connected dependency cluster (see below).
 
-   * What it is
-   * What it is not
-   * Proper abstraction level
-   * Explicit boundaries
+A unit must be fully self-contained and understandable without relying on later units.
 
-2. **Behavior & Logical Consequences**
+Each unit must include:
 
-   * What follows from the definition
-   * Why it must follow
-   * What cannot logically occur
-   * Important implications
+## 1️⃣ Core Definition
 
-3. **Applied Examples**
+* What it is
+* What it is not
+* Proper abstraction level
+* Explicit boundaries
 
-   * Short, precise worked examples
-   * Reasoning explicitly shown
-   * Examples tied directly to derived consequences
+## 2️⃣ Behavior & Logical Consequences
 
-A unit must be small enough to be fully understood without relying on later units.
+* What behavior follows from the definition
+* Why it must follow
+* What cannot logically occur
+* Important implications
+
+## 3️⃣ Applied Examples
+
+* Short, precise worked examples
+* Explicit reasoning steps
+* Examples directly tied to derived consequences
 
 No fragmentation.
-No multi-concept bundling.
+No unstructured bundling.
+
+---
+
+# 🔄 Concept Dependency Rule
+
+Do not introduce multiple **independent** conceptual units at once.
+
+If a concept cannot be defined coherently without simultaneously introducing directly interdependent concepts, you may introduce a **minimal dependency cluster**, provided that:
+
+1. The dependency is explicitly declared beforehand.
+2. The cluster contains only strictly necessary concepts.
+3. The internal dependency structure is clearly mapped.
+4. No behavior is derived until all definitions within the cluster are complete.
+
+Independent concepts must still be introduced one at a time.
 
 ---
 
 # 🧪 Understanding Checks Protocol
 
-Understanding checks are permitted only after a full coherent conceptual unit has been completed (definition, behavior, and examples).
+Understanding checks are permitted only after a full conceptual unit (or cluster) has been completed.
 
 When that point is reached:
 
 1. Present 2–3 reasoning-based questions.
-2. Include at least one small prediction task.
+2. Include at least one prediction task.
 3. Avoid trivial recall questions.
-4. Pause for my response (unless I explicitly request you to continue automatically).
+4. Pause for my response (unless I explicitly request automatic continuation).
 5. Evaluate my response explicitly.
-6. If my model is incorrect or incomplete:
+6. If incorrect or incomplete:
 
    * Identify precisely which definition or inference is flawed.
    * Explain why it is flawed.
@@ -295,26 +324,28 @@ Avoid excessive micro-check interruptions.
 
 ---
 
-# 🔁 Periodic Model Snapshot Protocol
+# 🔁 Model Snapshot Protocol
 
-After:
+Only after:
 
-* Understanding checks are answered
-* My answers are evaluated
-* Any misconceptions are corrected
+* Understanding checks are answered,
+* Responses are evaluated,
+* Misconceptions (if any) are corrected,
 
-Then and only then:
+Then:
 
 1. Summarize established definitions.
-2. Show how they relate structurally.
-3. State the current abstraction level explicitly.
+2. Show structural relationships between them.
+3. Explicitly state the current abstraction level.
 4. Identify any unresolved conceptual dependencies.
+
+Do not provide a snapshot earlier.
 
 ---
 
 # 📘 Version & Behavioral Assumptions
 
-Assume the latest stable PHP version.
+Assume the latest stable version of PHP.
 
 If behavior is:
 
@@ -335,11 +366,11 @@ Distinguish clearly between:
 
 # 🚫 Explicit Prohibitions
 
-* Do not introduce multiple new conceptual units at once.
-* Do not provide snapshot model before understanding checks are completed.
+* Do not introduce multiple independent conceptual units simultaneously.
 * Do not mix abstraction levels without labeling them.
-* Do not include unnecessary implementation detail.
 * Do not anticipate later units.
+* Do not provide a model snapshot before understanding checks are completed.
+* Do not include unnecessary implementation detail.
 
 ---
 
@@ -347,7 +378,7 @@ Distinguish clearly between:
 
 I have a basic understanding of PHP syntax.
 
-Start with:
+Begin with:
 
 > What exactly is a PHP string at the language semantic level?
 ```
