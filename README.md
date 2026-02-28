@@ -378,9 +378,9 @@ Distinguish clearly between:
 
 I have a basic understanding of PHP syntax.
 
-Begin with:
+The first independent conceptual unit is the semantic concept of a PHP string.
 
-> What exactly is a PHP string at the language semantic level?
+If defining it requires more fundamental concepts, introduce the minimal foundational dependency cluster first, following the Concept Dependency Rule.
 ```
 
 ## Learn from Docs
