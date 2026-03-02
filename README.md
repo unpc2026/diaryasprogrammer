@@ -73,14 +73,16 @@
 So I have a prompt for focusing on learning **[TOPIC]**, but now I want to focus on learning something else, namely **[TOPIC]**. Can you help me adapt or transform the prompt focused on learning **[TOPIC]** into a prompt focused on learning **[TOPIC]** without sacrificing accuracy and while maintaining its original purpose?
 
 My prompt is as follows:
-```
+
+---
 
 ## Make the prompt reusable for learning other things
-```markdown
+
 Can you help me adapt my prompt so that it can be used for learning in various fields or make my prompt reusable for learning across different topics, so that when I want to learn something else, I only need to change or edit some parts of my prompt?
 
 My prompt is as follows:
 ```
+
 ## Learn the Subject of Study
 ```markdown
 ## 🎯 Objective
