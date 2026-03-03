@@ -83,7 +83,7 @@ Can you help me adapt my prompt so that it can be used for learning in various f
 My prompt is as follows:
 ```
 
-## Learn the Subject of Study
+## [Learn the Subject of Study](https://chatgpt.com/s/t_69a562b84f10819190741a257a59d5db)
 ```markdown
 # 🎯 Objective
 
