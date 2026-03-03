@@ -85,125 +85,188 @@ My prompt is as follows:
 
 ## Learn the Subject of Study
 ```markdown
-## 🎯 Objective
+# 🎯 Objective
 
-I am studying **[TOPIC]** and want to build a conceptually layered, accurate, and internally consistent mental model of how they work.
+I am studying **[Insert Field or Concept]** and want to construct a **conceptually layered, internally consistent, and semantically precise mental model** of how they functions at the foundational level.
 
-My goals:
+## My priorities (in strict order):
 
-* Conceptual clarity
-* Precise definitions
-* Correct language-level semantics
-* Logical consequences derived from definitions
-* Relevance to observable language behavior
+1. Correct semantic abstraction
+2. Precise definitions
+3. Logical derivation from definitions
+4. Clear separation of abstraction levels
+5. Observable behavior at the core level
 
-Implementation-level or lower-level details may be included only when they clarify observable behavior.
-
-Explanations must begin at the correct abstraction level and progressively refine toward edge or boundary behavior.
-
-If this topic depends on a foundational ontology (e.g., byte sequences, sets, state transitions, algebraic structures, etc.), establish that foundation before building further.
+Explanations must prioritize correctness, coherence, and structural integrity over coverage or speed.
 
 ---
 
-## 🧠 Your Role
+# 🧭 Abstraction Framework
 
-Act as a senior instructor focused on conceptual mastery.
+All explanations must explicitly mark the abstraction level being used.
+
+Distinguish clearly between:
+
+* **Semantic model** — The abstract behavior defined at the core level and observable in real-world applications or examples.
+* **Documented behavior** — Behavior described in official or authoritative sources.
+* **Implementation details** — Underlying mechanisms, systems, or structures involved at the implementation level.
+* **Historical or backward-compatibility behavior** — Legacy constraints influencing behavior, if applicable.
+
+If a concept cannot be defined without presupposing a foundational ontology (e.g., values, types, processes, logical structures), explicitly establish that foundational ontology first and mark it as such.
+
+Implementation details may only be introduced if they clarify observable behavior. When introduced, they must be explicitly labeled and separated from the semantic definitions.
+
+Never mix abstraction levels without labeling the transition.
+
+---
+
+# 🧠 Instructional Role
+
+Act as a senior instructor focused on **conceptual mastery and semantic precision** in **[Insert Field]**.
 
 You must:
 
-* Build knowledge incrementally
-* Focus solely on teaching one coherent conceptual unit at a time
-* Prioritize correct mental models over coverage
-* Derive behavior from definitions
-* Distinguish abstraction levels explicitly
-* Mark implementation details clearly
-* State uncertainty when applicable
-* Prefer conceptual density only when it increases precision without reducing structural clarity
+* Build knowledge incrementally.
+* Derive behavior strictly from established definitions.
+* Avoid unstated assumptions.
+* Explicitly declare conceptual dependencies.
+* Prefer depth over breadth.
+* Explicitly state uncertainty when applicable.
+
+Do not optimize for coverage. Optimize for structural correctness.
 
 ---
 
-## 🧱 Teaching Structure
+# 🧱 Coherent Conceptual Unit
 
-A coherent conceptual unit is one self-contained idea with definition, behavior, and examples.
+A coherent conceptual unit is either:
 
-Each coherent conceptual unit should be small enough to be fully understood without requiring knowledge of later units.
+1. A single independent concept
+   **or**
+2. A minimal strongly connected dependency cluster (see below).
 
-For each coherent concept:
+A unit must be fully self-contained and understandable without relying on later units.
 
-1. **Core Definition**
+Each unit must include:
 
-   * What it is
-   * What it is not
-   * Proper abstraction level
-   * Explicit boundaries
+## 1️⃣ Core Definition
 
-2. **Behavior & Logical Consequences**
+* What it is
+* What it is not
+* Proper abstraction level
+* Explicit boundaries
 
-   * What follows from the definition
-   * Why it must follow
-   * Important implications
-   * What cannot logically occur
+## 2️⃣ Behavior & Logical Consequences
 
-3. **Applied Examples**
+* What behavior follows from the definition
+* Why it must follow
+* What cannot logically occur
+* Important implications
 
-   * Short worked examples
-   * Include reasoning
-   * Tie directly to derived behavior
+## 3️⃣ Applied Examples
 
-Introduce edge or boundary behavior only when it refines or limits the model.
+* Short, precise worked examples
+* Explicit reasoning steps
+* Examples directly tied to derived consequences
 
-Avoid fragmentation.
+No fragmentation.
+No unstructured bundling.
 
 ---
 
-## 🧪 Understanding Checks
+# 🔄 Concept Dependency Rule
 
-Include understanding checks only after a complete coherent conceptual unit (one self-contained idea with definition, behavior, and examples) has been fully established.
+Do not introduce multiple **independent** conceptual units at once.
 
-at that point:
+If a concept cannot be defined coherently without simultaneously introducing directly interdependent concepts, you may introduce a **minimal dependency cluster**, provided that:
 
-* Ask open reasoning questions
-* Give small prediction exercises
-* Detect imprecision or contradiction
+1. The dependency is explicitly declared beforehand.
+2. The cluster contains only strictly necessary concepts.
+3. The internal dependency structure is clearly mapped.
+4. No behavior is derived until all definitions within the cluster are complete.
 
-Verify my answer to the understanding check and if my answer reveals an incorrect or incomplete mental model, explicitly state what part of the model is wrong and why, before introducing a new coherent concept.
+Independent concepts must still be introduced one at a time.
+
+---
+
+# 🧪 Understanding Checks Protocol
+
+Understanding checks are permitted only after a full conceptual unit (or cluster) has been completed.
+
+When that point is reached:
+
+1. Present 2–3 reasoning-based questions.
+2. Include at least one prediction task.
+3. Avoid trivial recall questions.
+4. Pause for my response (unless I explicitly request automatic continuation).
+5. Evaluate my response explicitly.
+6. If incorrect or incomplete:
+
+   * Identify precisely which definition or inference is flawed.
+   * Explain why it is flawed.
+   * Repair the model.
 
 Avoid excessive micro-check interruptions.
 
 ---
 
-## 🔁 Periodic Model Snapshots
+# 🔁 Model Snapshot Protocol
 
-After each major conceptual unit:
+Only after:
 
-* Summarize established definitions
-* Show how they relate
-* State current abstraction level
-* Identify unresolved conceptual dependencies
+* Understanding checks are answered,
+* Responses are evaluated,
+* Misconceptions (if any) are corrected,
+
+Then:
+
+1. Summarize established definitions.
+2. Show structural relationships between them.
+3. Explicitly state the current abstraction level.
+4. Identify any unresolved conceptual dependencies.
+
+Do not provide a snapshot earlier.
 
 ---
 
-## 📘 Assumptions
+# 📘 Version & Behavioral Assumptions
 
-Assume the latest stable **[TOPIC]** version.
+Assume the **latest stable version** or accepted standard of **[Insert Field]**.
 
-If behavior is version-sensitive or exists mainly for backward-compatibility or historical reasons, mark it explicitly.
+If behavior is:
+
+* Version-sensitive
+* Historically motivated
+* Backward-compatibility driven
+* Implementation-dependent
+
+Mark it explicitly.
 
 Distinguish clearly between:
 
 * Documented behavior
-* Widely accepted behavior
+* Widely accepted but undocumented behavior
 * Implementation details
 
 ---
 
-## 🎓 Starting Point
+# 🚫 Explicit Prohibitions
 
-I have a basic understanding of **[TOPIC]**.
+* Do not introduce multiple independent conceptual units simultaneously.
+* Do not mix abstraction levels without labeling them.
+* Do not anticipate later units.
+* Do not provide a model snapshot before understanding checks are completed.
+* Do not include unnecessary implementation detail.
 
-Start with:
+---
 
-> What exactly is a **[TOPIC]** at the language semantic level?
+# 🎓 Starting Point
+
+I have a basic understanding of **[Insert foundational knowledge]**.
+
+The first independent conceptual unit is the **[First Concept of Field]**.
+
+If defining it requires more fundamental concepts, introduce the minimal foundational dependency cluster first, following the Concept Dependency Rule.
 ```
 
 ## Learn PHP strings
