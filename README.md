@@ -70,7 +70,7 @@
 ```markdown
 ## Adapt or Transform the prompt that focuses on learning this into focusing on learning something else
 
-So I have a prompt for focusing on learning **[TOPIC]**, but now I want to focus on learning something else, namely **[TOPIC]**. Can you help me adapt or transform the prompt focused on learning **[TOPIC]** into a prompt focused on learning **[TOPIC]** without sacrificing accuracy and while maintaining its original purpose?
+So I have a prompt for focusing on learning **[TOPIC]**, but now I want to focus on learning something else, namely **[TOPIC]**. Can you help me adapt or transform the prompt focused on learning **[TOPIC]** into a prompt focused on learning **[TOPIC]** without sacrificing consistency, accuracy and while maintaining its original purpose?
 
 My prompt is as follows:
 
