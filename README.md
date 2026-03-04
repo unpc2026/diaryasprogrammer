@@ -85,7 +85,7 @@ So, when I want to learn about another topic, I only need to change or edit some
 My prompt is as follows:
 ```
 
-## Learn the Subject of Study - [1](https://chatgpt.com/s/t_69a7eef083b881918ca7c5e85c3d213b), (2)[https://chatgpt.com/s/t_69a7ef1851c881919f06b779c184ee6d], (3)[https://chatgpt.com/s/t_69a7ef2e66408191bfb434bd75793096]
+## Learn the Subject of Study - [1](https://chatgpt.com/s/t_69a7eef083b881918ca7c5e85c3d213b), [2](https://chatgpt.com/s/t_69a7ef1851c881919f06b779c184ee6d), [3](https://chatgpt.com/s/t_69a7ef2e66408191bfb434bd75793096)
 ```markdown
 # 🎯 Objective
 
