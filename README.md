@@ -76,9 +76,11 @@ My prompt is as follows:
 
 ---
 
-## Make the prompt reusable for learning other things
+## Make the prompt reusable for learning different topics
 
-Can you help me adapt my prompt so that it can be used for learning in various fields or make my prompt reusable for learning across different topics, so that when I want to learn something else, I only need to change or edit some parts of my prompt?
+So I have a prompt and the goal of my prompt is to learn PHP strings, but right now I want to learn something else. Can you help me adapt my prompt so that it can be used for learning on various topics, or make my prompt reusable for learning on different topics?
+
+So, when I want to learn about another topic, I only need to change or edit some parts of my prompt.
 
 My prompt is as follows:
 ```
