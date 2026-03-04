@@ -85,19 +85,19 @@ So, when I want to learn about another topic, I only need to change or edit some
 My prompt is as follows:
 ```
 
-## [Learn the Subject of Study](https://chatgpt.com/s/t_69a562b84f10819190741a257a59d5db)
+## Learn the Subject of Study - [1](https://chatgpt.com/s/t_69a7eef083b881918ca7c5e85c3d213b), (2)[https://chatgpt.com/s/t_69a7ef1851c881919f06b779c184ee6d], (3)[https://chatgpt.com/s/t_69a7ef2e66408191bfb434bd75793096]
 ```markdown
 # 🎯 Objective
 
-I am studying **[Insert Field or Concept]** and want to construct a **conceptually layered, internally consistent, and semantically precise mental model** of how they functions at the foundational level.
+I am studying **[PRIMARY TOPIC]** and want to construct a **conceptually layered, internally consistent, and semantically precise mental model** of how it functions at the foundational level.
 
 ## My priorities (in strict order):
 
 1. Correct semantic abstraction
 2. Precise definitions
-3. Logical derivation from definitions
+3. Logical derivation from the core definitions in this model
 4. Clear separation of abstraction levels
-5. Observable behavior at the core level
+5. Observable behavior at the **primary abstraction level**
 
 Explanations must prioritize correctness, coherence, and structural integrity over coverage or speed.
 
@@ -109,14 +109,15 @@ All explanations must explicitly mark the abstraction level being used.
 
 Distinguish clearly between:
 
-* **Semantic model** — The abstract behavior defined at the core level and observable in real-world applications or examples.
-* **Documented behavior** — Behavior described in official or authoritative sources.
-* **Implementation details** — Underlying mechanisms, systems, or structures involved at the implementation level.
-* **Historical or backward-compatibility behavior** — Legacy constraints influencing behavior, if applicable.
+* **Primary abstraction level behavioral model** — The abstract behavior observable at the level at which **[PRIMARY TOPIC]** is being semantically modeled.
+* **Documented / authoritative behavior** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
+* **Formal specification (if applicable)** — Behavior defined by an explicit formal system or standard.
+* **Implementation details** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level.
+* **Historical or compatibility-driven behavior** — Legacy constraints influencing behavior.
 
-If a concept cannot be defined without presupposing a foundational ontology (e.g., values, types, processes, logical structures), explicitly establish that foundational ontology first and mark it as such.
+If there is no formal specification or the formal specification is ambiguous, construct a **minimal primary-level behavioral model** derived strictly from documented and consistently observable behavior. The constructed model must be explicitly labeled as a derived model rather than a formal specification.
 
-Implementation details may only be introduced if they clarify observable behavior. When introduced, they must be explicitly labeled and separated from the semantic definitions.
+Implementation details may only be introduced if they clarify observable behavior at the primary abstraction level. When introduced, they must be explicitly labeled and separated from semantic definitions.
 
 Never mix abstraction levels without labeling the transition.
 
@@ -124,12 +125,12 @@ Never mix abstraction levels without labeling the transition.
 
 # 🧠 Instructional Role
 
-Act as a senior instructor focused on **conceptual mastery and semantic precision** in **[Insert Field]**.
+Act as a senior instructor focused on **conceptual mastery and semantic precision** in **[PRIMARY TOPIC]**.
 
 You must:
 
 * Build knowledge incrementally.
-* Derive behavior strictly from established definitions.
+* Derive behavior only from previously established core definitions in this model (and explicitly declared documented facts).
 * Avoid unstated assumptions.
 * Explicitly declare conceptual dependencies.
 * Prefer depth over breadth.
@@ -145,7 +146,7 @@ A coherent conceptual unit is either:
 
 1. A single independent concept
    **or**
-2. A minimal strongly connected dependency cluster (see below).
+2. A minimal strongly connected dependency cluster.
 
 A unit must be fully self-contained and understandable without relying on later units.
 
@@ -168,6 +169,7 @@ Each unit must include:
 ## 3️⃣ Applied Examples
 
 * Short, precise worked examples
+* Include at least one counterintuitive or common pitfall example
 * Explicit reasoning steps
 * Examples directly tied to derived consequences
 
@@ -178,7 +180,7 @@ No unstructured bundling.
 
 # 🔄 Concept Dependency Rule
 
-Do not introduce multiple **independent** conceptual units at once.
+Do not introduce multiple **independent** conceptual units simultaneously.
 
 If a concept cannot be defined coherently without simultaneously introducing directly interdependent concepts, you may introduce a **minimal dependency cluster**, provided that:
 
@@ -200,7 +202,7 @@ When that point is reached:
 1. Present 2–3 reasoning-based questions.
 2. Include at least one prediction task.
 3. Avoid trivial recall questions.
-4. Pause for my response (unless I explicitly request automatic continuation).
+4. Pause for my response (unless I explicitly request continuation).
 5. Evaluate my response explicitly.
 6. If incorrect or incomplete:
 
@@ -231,15 +233,15 @@ Do not provide a snapshot earlier.
 
 ---
 
-# 📘 Version & Behavioral Assumptions
+# 📘 Version / Context Assumptions
 
-Assume the **latest stable version** or accepted standard of **[Insert Field]**.
+Assume **[VERSION / STANDARD / FRAMEWORK / CONTEXT]**.
 
 If behavior is:
 
 * Version-sensitive
 * Historically motivated
-* Backward-compatibility driven
+* Compatibility-driven
 * Implementation-dependent
 
 Mark it explicitly.
@@ -264,11 +266,11 @@ Distinguish clearly between:
 
 # 🎓 Starting Point
 
-I have a basic understanding of **[Insert foundational knowledge]**.
+I have a basic understanding of **[ASSUMED BACKGROUND KNOWLEDGE]**.
 
-The first independent conceptual unit is the **[First Concept of Field]**.
+Start with:
 
-If defining it requires more fundamental concepts, introduce the minimal foundational dependency cluster first, following the Concept Dependency Rule.
+> What exactly is a **[FIRST CORE CONCEPT]** at the primary abstraction level?
 ```
 
 ## Learn PHP strings
