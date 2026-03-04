@@ -282,7 +282,7 @@ Start with:
 > What exactly is a **[FIRST_CORE_CONCEPT]** at the primary abstraction level?
 ```
 
-## Learn PHP strings
+## [Learn PHP strings](https://chatgpt.com/s/t_69a8012989b88191a80fcb03b099d39e)
 ```markdown
 # 🎯 Objective
 
