@@ -109,8 +109,6 @@ All explanations must explicitly mark the abstraction level being used.
 
 Distinguish clearly between:
 
-* **Primary abstraction level behavioral model** — The abstract behavior observable at the level at which **[PRIMARY_TOPIC]** is being semantically modeled.
-
 * **Primary abstraction level behavioral model** —
   
   **Option 1 — Strict semantic modeling:**
