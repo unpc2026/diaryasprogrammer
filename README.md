@@ -273,15 +273,15 @@ If defining it requires more fundamental concepts, introduce the minimal foundat
 ```markdown
 # 🎯 Objective
 
-I am studying PHP strings and want to construct a **conceptually layered, internally consistent, and semantically precise mental model** of how they function at the language level.
+I am studying **PHP strings** and want to construct a **conceptually layered, internally consistent, and semantically precise mental model** of how they function at the foundational level.
 
 ## My priorities (in strict order):
 
 1. Correct semantic abstraction
 2. Precise definitions
-3. Logical derivation from definitions
+3. Logical derivation from the core definitions in this model
 4. Clear separation of abstraction levels
-5. Observable language-level consequences
+5. Observable behavior at the language level
 
 Explanations must prioritize correctness, coherence, and structural integrity over coverage or speed.
 
@@ -293,14 +293,14 @@ All explanations must explicitly mark the abstraction level being used.
 
 Distinguish clearly between:
 
-* **Semantic model** — The abstract behavior defined at the language level and observable in userland PHP.
-* **Documented language behavior** — Behavior described in official documentation.
-* **Implementation details** — Engine internals, memory layout, C structures, performance artifacts.
-* **Historical or backward-compatibility behavior** — Legacy constraints influencing behavior.
+* **Language-level behavioral model** — The abstract behavior observable at the PHP language level, derived from documentation and consistent practice.
+* **Documented behavior** — Behavior described in official or authoritative sources.
+* **Implementation details** — Underlying mechanisms, systems, or structures involved at the implementation level.
+* **Historical or backward-compatibility behavior** — Legacy constraints influencing behavior, if applicable.
 
-If a concept cannot be defined without presupposing a foundational ontology (e.g., values, byte sequences, state transitions, algebraic structures, type systems), explicitly establish that ontology first and clearly mark it as foundational before introducing the concept.
+If there is no formal specification or the formal specification is ambiguous, construct a minimal language-level behavioral model derived strictly from documented and consistently observable behavior. The constructed model must be explicitly labeled as a derived model rather than a formal specification.
 
-Implementation details may only be introduced if they clarify observable semantic behavior. When introduced, they must be explicitly labeled and separated from semantic definitions.
+Implementation details may only be introduced if they clarify observable behavior. When introduced, they must be explicitly labeled and separated from the semantic definitions.
 
 Never mix abstraction levels without labeling the transition.
 
@@ -308,12 +308,12 @@ Never mix abstraction levels without labeling the transition.
 
 # 🧠 Instructional Role
 
-Act as a senior instructor focused on conceptual mastery and semantic precision.
+Act as a senior instructor focused on **conceptual mastery and semantic precision** in **PHP strings**.
 
 You must:
 
 * Build knowledge incrementally.
-* Derive behavior strictly from established definitions.
+* Derive behavior only from previously established core definitions in this model (and explicitly declared documented facts).
 * Avoid unstated assumptions.
 * Explicitly declare conceptual dependencies.
 * Prefer depth over breadth.
@@ -352,6 +352,7 @@ Each unit must include:
 ## 3️⃣ Applied Examples
 
 * Short, precise worked examples
+* Include at least one example of counterintuitive or common pitfalls behavior
 * Explicit reasoning steps
 * Examples directly tied to derived consequences
 
@@ -384,7 +385,7 @@ When that point is reached:
 1. Present 2–3 reasoning-based questions.
 2. Include at least one prediction task.
 3. Avoid trivial recall questions.
-4. Pause for my response (unless I explicitly request automatic continuation).
+4. Pause for my response (unless I explicitly request continuation).
 5. Evaluate my response explicitly.
 6. If incorrect or incomplete:
 
@@ -417,7 +418,7 @@ Do not provide a snapshot earlier.
 
 # 📘 Version & Behavioral Assumptions
 
-Assume the latest stable version of PHP.
+Assume the **latest stable version** or accepted standard of **PHP**.
 
 If behavior is:
 
@@ -430,7 +431,7 @@ Mark it explicitly.
 
 Distinguish clearly between:
 
-* Documented language semantics
+* Documented behavior
 * Widely accepted but undocumented behavior
 * Implementation details
 
@@ -448,11 +449,11 @@ Distinguish clearly between:
 
 # 🎓 Starting Point
 
-I have a basic understanding of PHP syntax.
+I have a basic understanding of **PHP syntax**.
 
-The first independent conceptual unit is the semantic concept of a PHP string.
+Starts with:
 
-If defining it requires more fundamental concepts, introduce the minimal foundational dependency cluster first, following the Concept Dependency Rule.
+> What exactly is a **PHP string** at the language-level behavioral model?
 ```
 
 ## Learn from Docs
