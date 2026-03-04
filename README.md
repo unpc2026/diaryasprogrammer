@@ -85,11 +85,11 @@ So, when I want to learn about another topic, I only need to change or edit some
 My prompt is as follows:
 ```
 
-## Learn the Subject of Study - [1](https://chatgpt.com/s/t_69a7eef083b881918ca7c5e85c3d213b), [2](https://chatgpt.com/s/t_69a7ef1851c881919f06b779c184ee6d), [3](https://chatgpt.com/s/t_69a7ef2e66408191bfb434bd75793096)
+## Learn the Subject of Study - [1](https://chatgpt.com/s/t_69a7eef083b881918ca7c5e85c3d213b), [2](https://chatgpt.com/s/t_69a7ef1851c881919f06b779c184ee6d), [3](https://chatgpt.com/s/t_69a7ef2e66408191bfb434bd75793096), [Economics Option 1 or 2](https://chatgpt.com/s/t_69a7fc00783c8191a31968e967febc48), [Programming Option 1 or 2](https://chatgpt.com/s/t_69a7fe2b7c8c81918c0edf81a66a70a6)
 ```markdown
 # 🎯 Objective
 
-I am studying **[PRIMARY TOPIC]** and want to construct a **conceptually layered, internally consistent, and semantically precise mental model** of how it functions at the foundational level.
+I am studying **[PRIMARY_TOPIC]** and want to construct a **conceptually layered, internally consistent, and semantically precise mental model** of how it functions at the foundational level.
 
 ## My priorities (in strict order):
 
@@ -109,7 +109,18 @@ All explanations must explicitly mark the abstraction level being used.
 
 Distinguish clearly between:
 
-* **Primary abstraction level behavioral model** — The abstract behavior observable at the level at which **[PRIMARY TOPIC]** is being semantically modeled.
+* **Primary abstraction level behavioral model** — The abstract behavior observable at the level at which **[PRIMARY_TOPIC]** is being semantically modeled.
+
+* **Primary abstraction level behavioral model** —
+  
+  **Option 1 — Strict semantic modeling:**
+
+  > The abstract behavior observable at the level at which **[PRIMARY_TOPIC]** are being semantically modeled.
+
+  **Option 2 — Practical domain-focused modeling:**
+
+  > The abstract behavior observable at the **[VERSION_OR_CONTEXT]**, derived from documentation and consistent observation.
+
 * **Documented / authoritative behavior** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
 * **Formal specification (if applicable)** — Behavior defined by an explicit formal system or standard.
 * **Implementation details** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level.
@@ -125,7 +136,7 @@ Never mix abstraction levels without labeling the transition.
 
 # 🧠 Instructional Role
 
-Act as a senior instructor focused on **conceptual mastery and semantic precision** in **[PRIMARY TOPIC]**.
+Act as a senior instructor focused on **conceptual mastery and semantic precision** in **[PRIMARY_TOPIC]**.
 
 You must:
 
@@ -235,7 +246,7 @@ Do not provide a snapshot earlier.
 
 # 📘 Version / Context Assumptions
 
-Assume **[VERSION / STANDARD / FRAMEWORK / CONTEXT]**.
+Assume **[VERSION_/_STANDARD_/_FRAMEWORK_/_CONTEXT]**.
 
 If behavior is:
 
@@ -266,11 +277,11 @@ Distinguish clearly between:
 
 # 🎓 Starting Point
 
-I have a basic understanding of **[ASSUMED BACKGROUND KNOWLEDGE]**.
+I have a basic understanding of **[ASSUMED_BACKGROUND_KNOWLEDGE]**.
 
 Start with:
 
-> What exactly is a **[FIRST CORE CONCEPT]** at the primary abstraction level?
+> What exactly is a **[FIRST_CORE_CONCEPT]** at the primary abstraction level?
 ```
 
 ## Learn PHP strings
