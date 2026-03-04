@@ -286,7 +286,7 @@ Start with:
 ```markdown
 # 🎯 Objective
 
-I am studying **PHP strings** and want to construct a **conceptually layered, internally consistent, and semantically precise mental model** of how they function at the foundational level.
+I am studying **PHP strings** and want to construct a **conceptually layered, internally consistent, and semantically precise mental model** of how it functions at the foundational level.
 
 ## My priorities (in strict order):
 
@@ -294,7 +294,7 @@ I am studying **PHP strings** and want to construct a **conceptually layered, in
 2. Precise definitions
 3. Logical derivation from the core definitions in this model
 4. Clear separation of abstraction levels
-5. Observable behavior at the language level
+5. Observable behavior at the **primary abstraction level**
 
 Explanations must prioritize correctness, coherence, and structural integrity over coverage or speed.
 
@@ -306,14 +306,15 @@ All explanations must explicitly mark the abstraction level being used.
 
 Distinguish clearly between:
 
-* **Language-level behavioral model** — The abstract behavior observable at the PHP language level, derived from documentation and consistent practice.
-* **Documented behavior** — Behavior described in official or authoritative sources.
-* **Implementation details** — Underlying mechanisms, systems, or structures involved at the implementation level.
-* **Historical or backward-compatibility behavior** — Legacy constraints influencing behavior, if applicable.
+* **Primary abstraction level behavioral model** — The abstract behavior observable at the **PHP language level**, derived from documentation and consistent observation.
+* **Documented / authoritative behavior** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
+* **Formal specification (if applicable)** — Behavior defined by an explicit formal system or standard.
+* **Implementation details** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level.
+* **Historical or compatibility-driven behavior** — Legacy constraints influencing behavior.
 
-If there is no formal specification or the formal specification is ambiguous, construct a minimal language-level behavioral model derived strictly from documented and consistently observable behavior. The constructed model must be explicitly labeled as a derived model rather than a formal specification.
+If there is no formal specification or the formal specification is ambiguous, construct a **minimal primary-level behavioral model** derived strictly from documented and consistently observable behavior. The constructed model must be explicitly labeled as a derived model rather than a formal specification.
 
-Implementation details may only be introduced if they clarify observable behavior. When introduced, they must be explicitly labeled and separated from the semantic definitions.
+Implementation details may only be introduced if they clarify observable behavior at the primary abstraction level. When introduced, they must be explicitly labeled and separated from semantic definitions.
 
 Never mix abstraction levels without labeling the transition.
 
@@ -342,7 +343,7 @@ A coherent conceptual unit is either:
 
 1. A single independent concept
    **or**
-2. A minimal strongly connected dependency cluster (see below).
+2. A minimal strongly connected dependency cluster.
 
 A unit must be fully self-contained and understandable without relying on later units.
 
@@ -365,7 +366,7 @@ Each unit must include:
 ## 3️⃣ Applied Examples
 
 * Short, precise worked examples
-* Include at least one example of counterintuitive or common pitfalls behavior
+* Include at least one counterintuitive or common pitfall example
 * Explicit reasoning steps
 * Examples directly tied to derived consequences
 
@@ -376,7 +377,7 @@ No unstructured bundling.
 
 # 🔄 Concept Dependency Rule
 
-Do not introduce multiple **independent** conceptual units at once.
+Do not introduce multiple **independent** conceptual units simultaneously.
 
 If a concept cannot be defined coherently without simultaneously introducing directly interdependent concepts, you may introduce a **minimal dependency cluster**, provided that:
 
@@ -429,7 +430,7 @@ Do not provide a snapshot earlier.
 
 ---
 
-# 📘 Version & Behavioral Assumptions
+# 📘 Version / Context Assumptions
 
 Assume the **latest stable version** or accepted standard of **PHP**.
 
@@ -437,7 +438,7 @@ If behavior is:
 
 * Version-sensitive
 * Historically motivated
-* Backward-compatibility driven
+* Compatibility-driven
 * Implementation-dependent
 
 Mark it explicitly.
@@ -464,9 +465,9 @@ Distinguish clearly between:
 
 I have a basic understanding of **PHP syntax**.
 
-Starts with:
+Start with:
 
-> What exactly is a **PHP string** at the language-level behavioral model?
+> What exactly is a **PHP string** at the primary abstraction level?
 ```
 
 ## Learn from Docs
