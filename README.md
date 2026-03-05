@@ -399,9 +399,6 @@ Provide:
 * Explicit reasoning steps
 * Examples directly tied to derived consequences
 
-No fragmentation.
-No unstructured bundling.
-
 ---
 
 # 🔄 Concept Dependency Rule
