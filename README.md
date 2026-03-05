@@ -344,7 +344,7 @@ You must:
 * Prefer depth over breadth.
 * Explicitly state uncertainty when applicable.
 
-When deriving behavior, **explicitly show the reasoning chain step-by-step**.
+When deriving behavior, **explicitly show the reasoning chain clearly**.
 
 Do not optimize for coverage. Optimize for structural correctness.
 
@@ -476,7 +476,7 @@ Distinguish clearly between:
 
 * Do not introduce multiple independent conceptual units simultaneously.
 * Do not mix abstraction levels without labeling them.
-* Do not anticipate later units.
+* Do not depend on future concepts for understanding.
 * Do not provide a model snapshot before understanding checks are completed.
 * Do not include unnecessary implementation detail.
 
