@@ -398,8 +398,6 @@ No unstructured bundling.
 
 # 🔄 Concept Dependency Rule
 
-Do not introduce multiple **independent** conceptual units simultaneously.
-
 If a concept cannot be defined coherently without simultaneously introducing directly interdependent concepts, you may introduce a **minimal dependency cluster**, provided that:
 
 1. The dependency is explicitly declared beforehand.
@@ -407,7 +405,7 @@ If a concept cannot be defined coherently without simultaneously introducing dir
 3. The internal dependency structure is clearly mapped.
 4. No behavior is derived until all definitions within the cluster are complete.
 
-Independent concepts must still be introduced one at a time.
+Prefer introducing one conceptual unit at a time unless a minimal conceptual cluster is strictly required.
 
 ---
 
