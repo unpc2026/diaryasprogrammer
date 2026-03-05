@@ -85,6 +85,15 @@ So, when I want to learn about another topic, I only need to change or edit some
 My prompt is as follows:
 ```
 
+## Perform a comprehensive review of the entire prompt
+```markdown
+So I have a prompt for focusing on learning PHP strings, can you help me to create a comprehensive review of my entire prompt?
+
+Because I want to know if my prompts are more than just good enough and if the responses I receive are in line with my goals or expectations.
+
+My prompt is as follows:
+```
+
 ## Learn the Subject of Study - [1](https://chatgpt.com/s/t_69a7eef083b881918ca7c5e85c3d213b), [2](https://chatgpt.com/s/t_69a7ef1851c881919f06b779c184ee6d), [3](https://chatgpt.com/s/t_69a7ef2e66408191bfb434bd75793096), [Example Option 1 or 2](https://chatgpt.com/s/t_69a7ffa8f3f081919f70745a280622a8)
 ```markdown
 # 🎯 Objective
