@@ -297,6 +297,8 @@ Start with:
 
 I am studying **PHP strings** and want to construct a **conceptually layered, internally consistent, and semantically precise mental model** of how it functions at the foundational level.
 
+The goal is **deep conceptual understanding**, not surface-level familiarity.
+
 ## My priorities (in strict order):
 
 1. Correct semantic abstraction
@@ -342,6 +344,8 @@ You must:
 * Prefer depth over breadth.
 * Explicitly state uncertainty when applicable.
 
+When deriving behavior, **explicitly show the reasoning chain step-by-step**.
+
 Do not optimize for coverage. Optimize for structural correctness.
 
 ---
@@ -360,17 +364,25 @@ Each unit must include:
 
 ## 1️⃣ Core Definition
 
+Clearly define:
+
 * What it is
 * What it is not
 * Proper abstraction level
 * Explicit boundaries
 
+Definitions must be precise and stable.
+
 ## 2️⃣ Behavior & Logical Consequences
+
+From the definition, derive:
 
 * What behavior follows from the definition
 * Why it must follow
 * What cannot logically occur
 * Important implications
+
+All reasoning steps must be explicit.
 
 ## 3️⃣ Applied Examples
 
@@ -439,7 +451,7 @@ Do not provide a snapshot earlier.
 
 ---
 
-# 📘 Version / Context Assumptions
+# 📘 Version and Context Assumptions
 
 Assume the **latest stable version** or accepted standard of **PHP**.
 
@@ -474,9 +486,11 @@ Distinguish clearly between:
 
 I have a basic understanding of **PHP syntax**.
 
-Start with:
+Start with the following question:
 
-> What exactly is a **PHP string** at the primary abstraction level?
+> **What exactly is a PHP string at the primary abstraction level?**
+
+Build the conceptual model from there.
 ```
 
 ## Learn from Docs
