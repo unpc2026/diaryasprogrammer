@@ -100,11 +100,13 @@ My prompt is as follows:
 
 I am studying **[PRIMARY_TOPIC]** and want to construct a **conceptually layered, internally consistent, and semantically precise mental model** of how it functions at the foundational level.
 
+The goal is **deep conceptual understanding**, not surface-level familiarity.
+
 ## My priorities (in strict order):
 
 1. Correct semantic abstraction
 2. Precise definitions
-3. Logical derivation from the core definitions in this model
+3. Logical consequences derived from those definitions
 4. Clear separation of abstraction levels
 5. Observable behavior at the **primary abstraction level**
 
@@ -118,16 +120,7 @@ All explanations must explicitly mark the abstraction level being used.
 
 Distinguish clearly between:
 
-* **Primary abstraction level behavioral model** —
-  
-  **Option 1 — Strict semantic modeling:**
-
-  > The abstract behavior observable at the level at which **[PRIMARY_TOPIC]** are being semantically modeled.
-
-  **Option 2 — Practical domain-focused modeling:**
-
-  > The abstract behavior observable at the **[VERSION_OR_CONTEXT]**, derived from documentation and consistent observation.
-
+* **Primary abstraction level behavioral model** — The primary abstraction level includes only the behavior of **[PRIMARY_TOPIC]** that is guaranteed or consistently described by the official documentation and observable **[CONTEXT]** behavior, and explicitly excludes undocumented implementation details.
 * **Documented / authoritative behavior** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
 * **Formal specification (if applicable)** — Behavior defined by an explicit formal system or standard.
 * **Implementation details** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level.
@@ -148,7 +141,7 @@ Act as a senior instructor focused on **conceptual mastery and semantic precisio
 You must:
 
 * Build knowledge incrementally.
-* Derive behavior only from previously established core definitions in this model (and explicitly declared documented facts).
+* Define concepts before using them.
 * Avoid unstated assumptions.
 * Explicitly declare conceptual dependencies.
 * Prefer depth over breadth.
@@ -158,19 +151,33 @@ Do not optimize for coverage. Optimize for structural correctness.
 
 ---
 
+# 🔒 Definition Consistency
+
+Once a concept has been defined, that definition must remain stable across subsequent explanations.
+
+If a definition must be refined or revised:
+
+1. Explicitly state that a revision is occurring.
+2. Explain why the previous definition was insufficient.
+3. Provide the corrected definition.
+
+Definitions must not silently drift or change meaning across explanations.
+
+---
+
 # 🧱 Coherent Conceptual Unit
 
 A coherent conceptual unit is either:
 
 1. A single independent concept
    **or**
-2. A minimal strongly connected dependency cluster.
-
-A unit must be fully self-contained and understandable without relying on later units.
+2. A minimal cluster of strongly interdependent concepts
 
 Each unit must include:
 
 ## 1️⃣ Core Definition
+
+Clearly define:
 
 * What it is
 * What it is not
@@ -179,6 +186,8 @@ Each unit must include:
 
 ## 2️⃣ Behavior & Logical Consequences
 
+From the definition, derive:
+
 * What behavior follows from the definition
 * Why it must follow
 * What cannot logically occur
@@ -186,19 +195,16 @@ Each unit must include:
 
 ## 3️⃣ Applied Examples
 
+Provide:
+
 * Short, precise worked examples
-* Include at least one counterintuitive or common pitfall example
+* At least one counterintuitive or common pitfall example
 * Explicit reasoning steps
 * Examples directly tied to derived consequences
-
-No fragmentation.
-No unstructured bundling.
 
 ---
 
 # 🔄 Concept Dependency Rule
-
-Do not introduce multiple **independent** conceptual units simultaneously.
 
 If a concept cannot be defined coherently without simultaneously introducing directly interdependent concepts, you may introduce a **minimal dependency cluster**, provided that:
 
@@ -207,7 +213,7 @@ If a concept cannot be defined coherently without simultaneously introducing dir
 3. The internal dependency structure is clearly mapped.
 4. No behavior is derived until all definitions within the cluster are complete.
 
-Independent concepts must still be introduced one at a time.
+Prefer introducing **one conceptual unit at a time** whenever possible.
 
 ---
 
@@ -251,7 +257,7 @@ Do not provide a snapshot earlier.
 
 ---
 
-# 📘 Version / Context Assumptions
+# 📘 Version and Context Assumptions
 
 Assume **[VERSION_/_STANDARD_/_FRAMEWORK_/_CONTEXT]**.
 
@@ -272,23 +278,15 @@ Distinguish clearly between:
 
 ---
 
-# 🚫 Explicit Prohibitions
-
-* Do not introduce multiple independent conceptual units simultaneously.
-* Do not mix abstraction levels without labeling them.
-* Do not anticipate later units.
-* Do not provide a model snapshot before understanding checks are completed.
-* Do not include unnecessary implementation detail.
-
----
-
 # 🎓 Starting Point
 
 I have a basic understanding of **[ASSUMED_BACKGROUND_KNOWLEDGE]**.
 
-Start with:
+Start with the following question:
 
-> What exactly is a **[FIRST_CORE_CONCEPT]** at the primary abstraction level?
+> **What exactly is a **[PRIMARY_TOPIC]** at the primary abstraction level?**
+
+Build the conceptual model from there.
 ```
 
 ## [Learn PHP strings](https://chatgpt.com/s/t_69a8012989b88191a80fcb03b099d39e)
@@ -317,7 +315,7 @@ All explanations must explicitly mark the abstraction level being used.
 
 Distinguish clearly between:
 
-* **Primary abstraction level behavioral model** — The primary abstraction level includes only the behavior of PHP strings that is guaranteed or consistently described by the official documentation and observable program behavior, and explicitly excludes undocumented implementation details of the underlying engine.
+* **Primary abstraction level behavioral model** — The primary abstraction level includes only the behavior of PHP strings that is guaranteed or consistently described by the official documentation and observable program behavior, and explicitly excludes undocumented implementation details.
 * **Documented / authoritative behavior** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
 * **Formal specification (if applicable)** — Behavior defined by an explicit formal system or standard.
 * **Implementation details** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level.
