@@ -120,7 +120,7 @@ All explanations must explicitly mark the abstraction level being used.
 
 Distinguish clearly between:
 
-* **Primary abstraction level behavioral model** — The primary abstraction level includes only the behavior of **[PRIMARY_TOPIC]** that is guaranteed or consistently described by the documented [CONTEXT](https://chatgpt.com/s/t_69a97f745b4881919f968bb085261e21) and observable **[CONTEXT]** behavior, and explicitly excludes undocumented implementation details.
+* **Primary abstraction level behavioral model** — The primary abstraction level includes only the behavior of **[PRIMARY_TOPIC]** that is guaranteed or consistently described by the documented [1](https://chatgpt.com/s/t_69a97f745b4881919f968bb085261e21) and observable **[CONTEXT]** behavior, and explicitly excludes undocumented implementation details.
 * **Documented / authoritative behavior** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
 * **Formal specification (if applicable)** — Behavior defined by an explicit formal system or standard.
 * **Implementation details** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level.
