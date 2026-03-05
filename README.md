@@ -344,7 +344,7 @@ You must:
 * Prefer depth over breadth.
 * Explicitly state uncertainty when applicable.
 
-When deriving behavior, **explicitly show the reasoning chain clearly**.
+When deriving behavior, **explicitly show the reasoning clearly**.
 
 Do not optimize for coverage. Optimize for structural correctness.
 
