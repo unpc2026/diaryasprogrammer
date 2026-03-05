@@ -344,8 +344,6 @@ You must:
 * Prefer depth over breadth.
 * Explicitly state uncertainty when applicable.
 
-When deriving behavior, **explicitly show the reasoning clearly**.
-
 Do not optimize for coverage. Optimize for structural correctness.
 
 ---
@@ -371,8 +369,6 @@ Clearly define:
 * Proper abstraction level
 * Explicit boundaries
 
-Definitions must be precise and stable.
-
 ## 2️⃣ Behavior & Logical Consequences
 
 From the definition, derive:
@@ -381,8 +377,6 @@ From the definition, derive:
 * Why it must follow
 * What cannot logically occur
 * Important implications
-
-All reasoning steps must be explicit.
 
 ## 3️⃣ Applied Examples
 
