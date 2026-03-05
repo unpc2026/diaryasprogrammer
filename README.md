@@ -317,7 +317,7 @@ All explanations must explicitly mark the abstraction level being used.
 
 Distinguish clearly between:
 
-* **Primary abstraction level behavioral model** — The abstract behavior observable at the **PHP language level**, inferred from official documentation and consistently observable program behavior, representing the behavior that PHP programmers can rely on.
+* **Primary abstraction level behavioral model** — The primary abstraction level includes only the behavior of PHP strings that is guaranteed or consistently described by the official documentation and observable program behavior, and explicitly excludes undocumented implementation details of the underlying engine.
 * **Documented / authoritative behavior** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
 * **Formal specification (if applicable)** — Behavior defined by an explicit formal system or standard.
 * **Implementation details** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level.
