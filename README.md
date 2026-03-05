@@ -87,7 +87,7 @@ My prompt is as follows:
 
 ## Perform a comprehensive review of the entire prompt
 ```markdown
-So I have a prompt for focusing on learning PHP strings, can you help me to create a comprehensive review of my entire prompt?
+So I have a prompt for focusing on learning PHP strings. Can you help me review my entire prompt?
 
 And my question is whether my prompt can reliably produce the kind of explanations that build the mental model I want?
 
