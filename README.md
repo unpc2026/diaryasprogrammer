@@ -89,7 +89,7 @@ My prompt is as follows:
 ```markdown
 So I have a prompt for focusing on learning PHP strings, can you help me to create a comprehensive review of my entire prompt?
 
-Because I want to know if my prompts are more than just good enough and if the responses I receive are in line with my goals or expectations.
+And my question is whether my prompt can reliably produce the kind of explanations that build the mental model I want?
 
 My prompt is as follows:
 ```
