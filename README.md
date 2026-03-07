@@ -120,7 +120,8 @@ All explanations must explicitly mark the abstraction level being used.
 
 Distinguish clearly between:
 
-* **Primary abstraction level behavioral model** — The primary abstraction level includes only the behavior of **[PRIMARY_TOPIC]** that is guaranteed or consistently described by the documented **[CONTEXT]** and observable **[CONTEXT]** behavior, and explicitly excludes undocumented implementation details.
+* **Primary abstraction level behavioral model** — The primary abstraction level includes only behavior that a **[YOUR_ROLE]** can rely on when **[CONTEXT]**, as described by documented **[CONTEXT]** and consistently observable **[CONTEXT]** behavior.
+  Undocumented implementation details must be excluded from this level, even if they appear to explain the observed behavior.
 * **Documented / authoritative behavior** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
 * **Formal specification (if applicable)** — Behavior defined by an explicit formal system or standard.
 * **Implementation details** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level.
@@ -144,6 +145,7 @@ You must:
 * Define concepts before using them.
 * Avoid unstated assumptions.
 * Explicitly declare conceptual dependencies.
+* Avoid metaphors that replace or substitute for formal definitions.
 * Prefer depth over breadth.
 * Explicitly state uncertainty when applicable.
 
@@ -315,7 +317,8 @@ All explanations must explicitly mark the abstraction level being used.
 
 Distinguish clearly between:
 
-* **Primary abstraction level behavioral model** — The primary abstraction level includes only the behavior of PHP strings that is guaranteed or consistently described by the documented language features and observable program behavior, and explicitly excludes undocumented implementation details.
+* **Primary abstraction level behavioral model** — The primary abstraction level includes only behavior that a PHP programmer can rely on when writing portable PHP code, as described by documented language features and consistently observable program behavior.
+  Undocumented implementation details must be excluded from this level, even if they appear to explain the observed behavior.
 * **Documented / authoritative behavior** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
 * **Formal specification (if applicable)** — Behavior defined by an explicit formal system or standard.
 * **Implementation details** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level.
@@ -339,6 +342,7 @@ You must:
 * Define concepts before using them.
 * Avoid unstated assumptions.
 * Explicitly declare conceptual dependencies.
+* Avoid metaphors that replace or substitute for formal definitions.
 * Prefer depth over breadth.
 * Explicitly state uncertainty when applicable.
 
