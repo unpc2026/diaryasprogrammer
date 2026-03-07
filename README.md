@@ -284,7 +284,7 @@ I have a basic understanding of **[ASSUMED_BACKGROUND_KNOWLEDGE]**.
 
 Begin by constructing the first coherent conceptual unit answering:
 
-"What exactly is a PHP string at the primary abstraction level?"
+"What exactly is a **[PRIMARY_TOPIC]** at the primary abstraction level?"
 
 Follow the conceptual unit structure strictly.
 ```
