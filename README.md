@@ -94,7 +94,7 @@ And my question is whether my prompt can reliably produce the kind of explanatio
 My prompt is as follows:
 ```
 
-## Learn the Subject of Study - [1](https://chatgpt.com/s/t_69a7eef083b881918ca7c5e85c3d213b), [2](https://chatgpt.com/s/t_69a7ef1851c881919f06b779c184ee6d), [3](https://chatgpt.com/s/t_69a7ef2e66408191bfb434bd75793096)
+## Learn the Subject of Study - [1](https://chatgpt.com/s/t_69a7eef083b881918ca7c5e85c3d213b), [2](https://chatgpt.com/s/t_69a7ef1851c881919f06b779c184ee6d), [3](https://chatgpt.com/s/t_69a7ef2e66408191bfb434bd75793096), [TOPIC_AGNOSTIC_vERSION](https://chatgpt.com/s/t_69abfcf8333c819186cfde44b3dd5e41)
 ```markdown
 # 🎯 Objective
 
@@ -122,6 +122,8 @@ Distinguish clearly between:
 
 * **Primary abstraction level behavioral model** — The primary abstraction level includes only behavior that a **[YOUR_ROLE]** can rely on when **[CONTEXT]**, as described by documented **[CONTEXT]** and consistently observable **[CONTEXT]** behavior.
   Undocumented implementation details must be excluded from this level, even if they appear to explain the observed behavior.
+* **Primary abstraction level behavioral model** — The primary abstraction level includes only behavior, relationships, or principles that practitioners in the domain can reliably depend on for reasoning, prediction, or analysis, as supported by authoritative sources and consistently observable evidence.
+  Lower-level mechanisms, speculative explanations, or undocumented details must be excluded from this level unless they are explicitly introduced as a separate abstraction level.
 * **Documented / authoritative behavior** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
 * **Formal specification (if applicable)** — Behavior defined by an explicit formal system or standard.
 * **Implementation details** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level.
@@ -319,6 +321,8 @@ Distinguish clearly between:
 
 * **Primary abstraction level behavioral model** — The primary abstraction level includes only behavior that a PHP programmer can rely on when writing portable PHP code, as described by documented language features and consistently observable program behavior.
   Undocumented implementation details must be excluded from this level, even if they appear to explain the observed behavior.
+* **Primary abstraction level behavioral model** — The primary abstraction level includes only behavior, relationships, or principles that practitioners in the domain can reliably depend on for reasoning, prediction, or analysis, as supported by authoritative sources and consistently observable evidence.
+  Lower-level mechanisms, speculative explanations, or undocumented details must be excluded from this level unless they are explicitly introduced as a separate abstraction level.
 * **Documented / authoritative behavior** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
 * **Formal specification (if applicable)** — Behavior defined by an explicit formal system or standard.
 * **Implementation details** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level.
