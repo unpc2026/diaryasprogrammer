@@ -282,11 +282,11 @@ Distinguish clearly between:
 
 I have a basic understanding of **[ASSUMED_BACKGROUND_KNOWLEDGE]**.
 
-Start with the following question:
+Begin by constructing the first coherent conceptual unit answering:
 
-> **What exactly is a **[PRIMARY_TOPIC]** at the primary abstraction level?**
+"What exactly is a PHP string at the primary abstraction level?"
 
-Build the conceptual model from there.
+Follow the conceptual unit structure strictly.
 ```
 
 ## [Learn PHP strings](https://chatgpt.com/s/t_69a8012989b88191a80fcb03b099d39e)
@@ -477,11 +477,11 @@ Distinguish clearly between:
 
 I have a basic understanding of **PHP syntax**.
 
-Start with the following question:
+Begin by constructing the first coherent conceptual unit answering:
 
-> **What exactly is a PHP string at the primary abstraction level?**
+"What exactly is a PHP string at the primary abstraction level?"
 
-Build the conceptual model from there.
+Follow the conceptual unit structure strictly.
 ```
 
 ## Learn from Docs
