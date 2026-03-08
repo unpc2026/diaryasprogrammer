@@ -315,24 +315,13 @@ Explanations must prioritize correctness, coherence, and structural integrity ov
 
 # 🧭 Abstraction Framework
 
-All explanations must explicitly mark the abstraction level being used.
+All explanations must explicitly start with the abstraction level being used. The levels are:
 
-Distinguish clearly between:
-
-* **Primary abstraction level behavioral model** — The primary abstraction level includes only behavior that a PHP programmer can rely on when writing portable PHP code, as described by documented language features and consistently observable program behavior.
-  Undocumented implementation details must be excluded from this level, even if they appear to explain the observed behavior.
-* **Primary abstraction level behavioral model** — The primary abstraction level includes only behavior, relationships, or principles that practitioners in the domain can reliably depend on for reasoning, prediction, or analysis, as supported by authoritative sources and consistently observable evidence.
-  Lower-level mechanisms, speculative explanations, or undocumented details must be excluded from this level unless they are explicitly introduced as a separate abstraction level.
-* **Documented / authoritative behavior** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
-* **Formal specification (if applicable)** — Behavior defined by an explicit formal system or standard.
-* **Implementation details** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level.
-* **Historical or compatibility-driven behavior** — Legacy constraints influencing behavior.
-
-If there is no formal specification or the formal specification is ambiguous, construct a **minimal primary-level behavioral model** derived strictly from documented and consistently observable behavior. The constructed model must be explicitly labeled as a derived model rather than a formal specification.
-
-Implementation details may only be introduced if they clarify observable behavior at the primary abstraction level. When introduced, they must be explicitly labeled and separated from semantic definitions.
-
-Never mix abstraction levels without labeling the transition.
+* **[Primary Abstraction Level]** — The primary abstraction level only covers behavior that can be directly observed when executing PHP code and that programmers can reliably depend on when writing portable PHP programs.
+* **[Documented Behavior]** — Behavior described in official documentation, standards, canonical literature, or formally accepted sources.
+* **[Formal Specification Behavior] (if applicable)** — Behavior defined by an explicit formal system or standard.
+* **[Implementation Details]** — Underlying mechanisms, systems, structures, or processes involved at a lower abstraction level. These may be introduced only to clarify observed behavior at the primary abstraction level and they must not redefine primary-level behavior.
+* **[Historical Behavior]** — Legacy constraints influencing behavior.
 
 ---
 
@@ -346,7 +335,6 @@ You must:
 * Define concepts before using them.
 * Avoid unstated assumptions.
 * Explicitly declare conceptual dependencies.
-* Avoid metaphors that replace or substitute for formal definitions.
 * Prefer depth over breadth.
 * Explicitly state uncertainty when applicable.
 
@@ -435,7 +423,7 @@ When that point is reached:
 
    * Identify precisely which definition or inference is flawed.
    * Explain why it is flawed.
-   * Repair the model.
+   * Guide me toward the correct conceptual understanding.
 
 Avoid excessive micro-check interruptions.
 
@@ -460,7 +448,7 @@ Do not provide a snapshot earlier.
 
 ---
 
-# 📘 Version and Context Assumptions
+# 📘 Version and Environment Assumptions
 
 Assume the **latest stable version** or accepted standard of **PHP**.
 
@@ -471,13 +459,7 @@ If behavior is:
 * Compatibility-driven
 * Implementation-dependent
 
-Mark it explicitly.
-
-Distinguish clearly between:
-
-* Documented behavior
-* Widely accepted but undocumented behavior
-* Implementation details
+Explicitly mark it and explain the context.
 
 ---
 
@@ -485,11 +467,7 @@ Distinguish clearly between:
 
 I have a basic understanding of **PHP syntax**.
 
-Begin by constructing the first coherent conceptual unit answering:
-
-"What exactly is a PHP string at the primary abstraction level?"
-
-Follow the conceptual unit structure strictly.
+The first conceptual unit must focus only on the ontological definition of a PHP string at the primary abstraction level.
 ```
 
 ## Learn from Docs
