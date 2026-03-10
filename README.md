@@ -332,8 +332,6 @@ If behavior is:
 
 Explicitly label it and explain the context.
 
-Do not treat **undocumented behavior** as guaranteed language semantics.
-
 ---
 
 # 🎓 Starting Point
