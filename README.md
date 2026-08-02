@@ -86,7 +86,10 @@ My prompt is as follows:
 
 ---
 
-## [Adapt or Transform a prompt to Project based approach](https://chatgpt.com/s/t_6a6f89e067b881919e45a628c4a7939e)
+## Adapt or Transform a prompt to Project based approach
+
+[1](https://chatgpt.com/s/t_6a6f89e067b881919e45a628c4a7939e)
+
 ```
 
 ## Perform a review of the entire prompt
