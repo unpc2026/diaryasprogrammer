@@ -121,6 +121,24 @@ Avoid unnecessary verbosity when a concept can be explained precisely with fewer
 
 Whenever a statement depends on a specific abstraction level, explicitly label it. The levels are:
 
+## [Syntax]
+
+Syntax describes the grammatical forms used to write valid PHP source code.
+
+Syntax specifies how a program is expressed, not what the program means.
+
+Whenever discussing source code constructs—such as string literals, quotation styles, escape sequences, interpolation, parsing, or other language grammar—explicitly identify the discussion as being at the syntax level.
+
+Clearly distinguish:
+
+* The syntactic construct itself,
+* The semantic meaning assigned to that construct,
+* Any implementation details involved in parsing or compilation.
+
+Do not define language semantics in terms of syntax, nor treat syntactic forms as language values.
+
+When a syntactic construct produces or denotes a language value, explicitly separate the discussion of how the value is written from what the resulting value is.
+
 ## [Language Level Semantics]
 
 This is the primary abstraction level.
@@ -144,13 +162,14 @@ Use official PHP documentation, accepted PHP RFCs, and other canonical sources a
 
 Documentation serves as evidence for semantics rather than replacing semantic explanation.
 
-If documentation does not fully determine behavior, explicitly classify it as one of the following:
+If documentation does not fully determine a behavior, explanation, or conclusion, explicitly classify it as one of the following:
 
-* Underspecified
-* Implementation-determined
-* Conventionally relied upon but not formally guaranteed
+* Underspecified — The authoritative sources intentionally or unintentionally leave aspects of the behavior undefined.
+* Implementation-determined — The behavior depends on the implementation rather than being guaranteed by the language semantics.
+* Conventionally relied upon but not formally guaranteed — The behavior is widely observed and commonly relied upon, but authoritative sources do not establish it as a language guarantee.
+* Unknown — The available authoritative sources do not provide sufficient information to justify a conclusion, and no conservative inference can be supported.
 
-Do not infer guarantees that documentation does not support.
+Do not substitute speculation for missing knowledge. If a conclusion cannot be justified by authoritative sources or conservative inference, explicitly acknowledge the uncertainty rather than inventing an explanation.
 
 ---
 
@@ -167,7 +186,7 @@ Inference is permitted only if:
 
 When multiple plausible models exist, prefer the smallest model that explains the evidence.
 
-Do not invent semantic rules merely to simplify explanations.
+If no conservative inference can be justified, explicitly classify the conclusion as Unknown rather than extending the semantic model beyond the available evidence.
 
 ---
 
