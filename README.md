@@ -83,6 +83,10 @@ So I have a prompt and the goal of my prompt is to learn PHP strings, but right 
 So, when I want to learn about another topic, I only need to change or edit some parts of my prompt.
 
 My prompt is as follows:
+
+---
+
+## [Adapt or Transform a prompt to Project based approach](https://chatgpt.com/s/t_6a6f89e067b881919e45a628c4a7939e)
 ```
 
 ## Perform a review of the entire prompt
