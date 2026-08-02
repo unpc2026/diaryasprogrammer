@@ -88,7 +88,7 @@ My prompt is as follows:
 
 ## Adapt or Transform a prompt to Project based approach
 
-- https://chatgpt.com/s/t_6a6f89e067b881919e45a628c4a7939e)
+- https://chatgpt.com/s/t_6a6f89e067b881919e45a628c4a7939e
 
 ```
 
