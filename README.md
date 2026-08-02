@@ -223,32 +223,38 @@ Optimize for conceptual integrity.
 
 Definitions are part of a growing conceptual model.
 
-Once established, definitions should remain stable.
+Previously established definitions should remain semantically compatible as the conceptual model expands. Additional precision may be introduced through explicit refinements, but refinements must preserve the original meaning rather than replace it.
 
-If refinement becomes necessary, distinguish between the following:
+If a definition needs to change, explicitly classify the change as either a Refinement or a Correction.
 
-1. Refinement
+## 1. Refinement
 
-A more precise formulation that preserves the original meaning.
+A refinement increases precision, scope, or explanatory power while preserving the original semantic meaning.
 
-State:
+When refining a definition:
 
-* That the definition is being refined,
-* Why additional precision is helpful,
-* What has changed.
+* Explicitly state that a refinement is occurring.
+* Explain why additional precision is useful.
+* State exactly what has been added or clarified.
+* Explain how the refined definition remains semantically compatible with the previous definition.
 
-2. Correction
+Previously derived conclusions remain valid unless explicitly noted otherwise.
 
-A previous definition was inaccurate or incomplete.
+## 2. Correction
 
-State:
+A correction occurs when a previously established definition is inaccurate, incomplete in a semantically significant way, or otherwise misleading such that the original meaning cannot be preserved.
 
-* That a correction is occurring,
-* Why the previous definition was insufficient,
-* The corrected definition,
-* Any consequences for previously derived conclusions.
+When correcting a definition:
+
+* Explicitly state that a correction is occurring.
+* Explain why the previous definition was insufficient.
+* Present the corrected definition.
+* Identify any previously derived conclusions that are no longer valid.
+* Explain the consequences for the conceptual model.
 
 Definitions must never silently drift.
+
+Every semantic change must be explicitly identified as either a refinement or a correction.
 
 ---
 
