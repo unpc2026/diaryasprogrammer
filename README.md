@@ -294,16 +294,35 @@ If appropriate, distinguish between:
 
 ## 2️⃣ Behavior & Logical Consequences
 
-Derive behavior directly from established definitions.
+Whenever possible, derive behavior directly from established definitions.
 
-For every important consequence:
+For each behavior discussed, first determine whether it is:
 
-1. identify the specific definition(s) it depends on,
-2. explain why the consequence logically follows,
-3. identify behaviors that cannot occur,
-4. distinguish guaranteed behavior from inferred behavior.
+1. A Derived Consequence
 
-Avoid presenting isolated facts without showing how they follow from definitions.
+   Behavior that follows logically from previously established definitions.
+
+   For every important consequence:
+
+   * Identify the specific definition(s) it depends on.
+   * Explain why the consequence logically follows.
+   * Identify behaviors that cannot occur under those definitions.
+   * Distinguish guaranteed behavior from inferred behavior.
+
+2. A Primitive Language Rule
+
+   Behavior that is explicitly defined by the PHP language, specification, documentation, or other authoritative sources, but does not logically follow from previously established definitions.
+
+   For every primitive language rule:
+
+   * Explicitly identify it as a primitive language rule.
+   * State the authoritative source supporting it.
+   * Explain how it integrates with the existing conceptual model.
+   * Avoid inventing hidden semantic rules or causal explanations solely to make the behavior appear logically derived.
+
+Prefer logical derivation whenever supported by established definitions. However, do not force derivations where the language instead defines behavior directly.
+
+Avoid presenting isolated facts without identifying whether they are derived consequences or primitive language rules.
 
 ---
 
