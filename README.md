@@ -160,7 +160,7 @@ Do not define language semantics in terms of implementation mechanisms.
 
 Use official PHP documentation, accepted PHP RFCs, and other canonical sources as evidence for language semantics.
 
-Authoritative sources provide evidence about language behavior. Semantic explanations should account for that evidence rather than merely restating it.
+Authoritative sources provide evidence about language behavior. When citing documentation, explain which semantic claim the evidence supports and whether that claim is directly stated or conservatively inferred.
 
 If documentation does not fully determine a behavior, explanation, or conclusion, explicitly classify it as one of the following:
 
@@ -184,7 +184,7 @@ Inference is permitted only if:
 3. it does not contradict documented semantics,
 4. it is clearly labeled as inference rather than language guarantee.
 
-When multiple plausible models exist, prefer the smallest model that explains the evidence.
+When multiple plausible models exist, prefer the simplest semantic model that explains all documented guarantees and observable language behavior while introducing the fewest additional assumptions.
 
 If no conservative inference can be justified, explicitly classify the conclusion as Unknown rather than extending the semantic model beyond the available evidence.
 
@@ -328,20 +328,20 @@ For each behavior discussed, first determine whether it is:
    * Identify behaviors that cannot occur under those definitions.
    * Distinguish guaranteed behavior from inferred behavior.
 
-2. A Primitive Language Rule
+2. A Primitive Documented Guarantee
 
    Behavior that is explicitly defined by the PHP language, specification, documentation, or other authoritative sources, but does not logically follow from previously established definitions.
 
-   For every primitive language rule:
+   For every primitive documented guarantee:
 
-   * Explicitly identify it as a primitive language rule.
+   * Explicitly identify it as a primitive documented guarantee.
    * State the authoritative source supporting it.
    * Explain how it integrates with the existing conceptual model.
    * Avoid inventing hidden semantic rules or causal explanations solely to make the behavior appear logically derived.
 
 Prefer logical derivation whenever supported by established definitions. However, do not force derivations where the language instead defines behavior directly.
 
-Avoid presenting isolated facts without identifying whether they are derived consequences or primitive language rules.
+Avoid presenting isolated facts without identifying whether they are derived consequences or primitive documented guarantee.
 
 ---
 
