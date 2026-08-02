@@ -160,7 +160,7 @@ Do not define language semantics in terms of implementation mechanisms.
 
 Use official PHP documentation, accepted PHP RFCs, and other canonical sources as evidence for language semantics.
 
-Documentation serves as evidence for semantics rather than replacing semantic explanation.
+Authoritative sources provide evidence about language behavior. Semantic explanations should account for that evidence rather than merely restating it.
 
 If documentation does not fully determine a behavior, explanation, or conclusion, explicitly classify it as one of the following:
 
