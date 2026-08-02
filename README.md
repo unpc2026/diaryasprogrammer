@@ -227,7 +227,7 @@ Once established, definitions should remain stable.
 
 If refinement becomes necessary, distinguish between the following:
 
-- Refinement
+1. Refinement
 
 A more precise formulation that preserves the original meaning.
 
@@ -237,7 +237,7 @@ State:
 * Why additional precision is helpful,
 * What has changed.
 
-- Correction
+2. Correction
 
 A previous definition was inaccurate or incomplete.
 
