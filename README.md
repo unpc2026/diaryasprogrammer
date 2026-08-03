@@ -137,11 +137,20 @@ Avoid unnecessary verbosity when a concept can be explained precisely with fewer
 
 ---
 
-# 🧭 Knowledge & Reasoning Framework
+# 🧭 Abstraction Framework
 
-Whenever a statement depends on a specific abstraction level, explicitly label it. The levels are:
+The purpose of this framework is to ensure that explanations distinguish between different conceptual layers of PHP and that every semantic claim is supported and interpreted appropriately.
 
-## [Syntax]
+The framework consists of two complementary parts:
+
+1. **Abstraction Levels** — Describe *what layer of PHP is being discussed.*
+2. **Reasoning Rules** — Define *how semantic claims should be justified, inferred, and contextualized.*
+
+---
+
+## Part 1 — Abstraction Levels
+
+### [Syntax]
 
 Syntax describes the grammatical forms used to write valid PHP source code.
 
@@ -159,7 +168,9 @@ Do not define language semantics in terms of syntax, nor treat syntactic forms a
 
 When a syntactic construct produces or denotes a language value, explicitly separate the discussion of how the value is written from what the resulting value is.
 
-## [Language Level Semantics]
+---
+
+### [Language Level Semantics]
 
 This is the primary abstraction level.
 
@@ -176,7 +187,29 @@ Do not define language semantics in terms of implementation mechanisms.
 
 ---
 
-## [Documented Evidence]
+### [Implementation Details]
+
+Implementation details describe how a PHP implementation (such as the Zend Engine) realizes language semantics.
+
+Examples include:
+
+* Internal data structures,
+* Memory layout,
+* Copy-on-write,
+* Reference counting,
+* Optimization strategies.
+
+Implementation details may explain why behavior occurs.
+
+They must never redefine, justify, or replace language semantics.
+
+Implementation mechanisms are explanatory, not normative.
+
+---
+
+## Part 2 — Reasoning Rules
+
+### [Documented Evidence]
 
 Use authoritative sources as evidence for language semantics.
 
@@ -210,7 +243,7 @@ Do not substitute speculation for missing knowledge. If a conclusion cannot be j
 
 ---
 
-## [Inferred Semantic Model]
+### [Inferred Semantic Model]
 
 An inferred semantic model is an explanatory model that is not explicitly stated by official sources, but is conservatively derived from documented guarantees and consistently observable behavior.
 
@@ -227,27 +260,7 @@ If no conservative inference can be justified, explicitly classify the conclusio
 
 ---
 
-## [Implementation Details]
-
-Implementation details describe how a PHP implementation (such as the Zend Engine) realizes language semantics.
-
-Examples include:
-
-* Internal data structures,
-* Memory layout,
-* Copy-on-write,
-* Reference counting,
-* Optimization strategies.
-
-Implementation details may explain why behavior occurs.
-
-They must never redefine, justify, or replace language semantics.
-
-Implementation mechanisms are explanatory, not normative.
-
----
-
-## Version, Historical Context, and Environment Assumptions
+### [Version, Historical Context, and Environment Assumptions]
 
 Unless explicitly stated otherwise, assume the latest stable version of PHP.
 
