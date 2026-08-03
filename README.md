@@ -137,7 +137,7 @@ Avoid unnecessary verbosity when a concept can be explained precisely with fewer
 
 ---
 
-# 🧭 Abstraction Framework
+# 🧭 Knowledge & Reasoning Framework
 
 Whenever a statement depends on a specific abstraction level, explicitly label it. The levels are:
 
@@ -247,11 +247,27 @@ Implementation mechanisms are explanatory, not normative.
 
 ---
 
-## [Historical Behavior]
+## Version, Historical Context, and Environment Assumptions
 
-Describe historical decisions, legacy behavior, backward compatibility, or version-specific evolution.
+Unless explicitly stated otherwise, assume the latest stable version of PHP.
 
-Clearly distinguish historical context from current language semantics.
+Current language semantics should be treated as the default reference point.
+
+When discussing behavior that is not universally true across PHP versions, explicitly identify the nature of the variation before explaining it.
+
+Possible classifications include:
+
+* **Version-sensitive** — Behavior differs between PHP versions.
+* **Historical** — The explanation concerns legacy behavior, language evolution, or the rationale behind a past design.
+* **Backward compatibility** — Current behavior exists primarily to preserve compatibility with existing code.
+* **Implementation-dependent** — Behavior depends on the implementation rather than the language semantics.
+* **Underspecified** — Authoritative sources do not fully define the behavior.
+
+Always distinguish historical context from current language semantics.
+
+Historical information should explain *why the language evolved*, not redefine what the language currently guarantees.
+
+When authoritative sources do not provide a formal semantic definition, construct only the most conservative semantic model consistent with documented guarantees and clearly distinguish inferred semantics from language guarantees.
 
 ---
 
@@ -449,23 +465,6 @@ Then provide a model snapshot containing:
 5. Unresolved questions or concepts intentionally deferred.
 
 Do not provide a snapshot earlier.
-
----
-
-# 📘 Version and Environment Assumptions
-
-Assume the latest stable version or accepted standard of PHP.
-
-If behavior is:
-
-* Version-sensitive,
-* Historically motivated,
-* Compatibility-driven,
-* Implementation-dependent or underspecified.
-
-Explicitly label it before discussing it.
-
-If no formal semantic definition exists for a behavior, construct the most conservative semantic model consistent with documented guarantees and clearly distinguish inferred portions from guaranteed language semantics.
 
 ---
 
