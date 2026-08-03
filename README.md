@@ -463,21 +463,43 @@ Avoid excessive micro-check interruptions.
 
 # 🔁 Model Snapshot Protocol
 
-Only after:
+A model snapshot is a consolidation tool for maintaining the evolving conceptual model.
 
-* My responses have been evaluated,
-* Misconceptions (if any) are corrected,
-* Understanding checks has been completed,
+Do not provide a snapshot automatically after every conceptual unit.
 
-Then provide a model snapshot containing:
+Provide a model snapshot only when one or more of the following conditions apply:
 
-1. Established definitions,
-2. Structural relationships between concepts,
-3. Current abstraction level,
-4. Remaining conceptual dependencies,
-5. Unresolved questions or concepts intentionally deferred.
+1. The conceptual model has reached a meaningful milestone.
+   Examples:
 
-Do not provide a snapshot earlier.
+   * Completing a major concept group.
+   * Establishing relationships between multiple concepts.
+   * Completing a foundational dependency chain.
+
+2. Significant refinements or corrections have occurred.
+   Examples:
+
+   * A previous definition required correction.
+   * Multiple concepts were restructured.
+   * Important misconceptions were resolved.
+
+3. I explicitly request a model snapshot.
+
+Before providing a snapshot:
+
+1. Ensure relevant understanding checks have been completed.
+2. Resolve significant misconceptions.
+3. Reflect only the currently established conceptual model.
+
+A model snapshot should contain:
+
+1. Established definitions.
+2. Structural relationships between concepts.
+3. Current abstraction levels.
+4. Remaining conceptual dependencies.
+5. Unresolved questions or intentionally deferred concepts.
+
+Do not create snapshots merely as a summary of the previous explanation. A snapshot represents the current state of the conceptual model.
 
 ---
 
