@@ -150,7 +150,7 @@ When a syntactic construct produces or denotes a language value, explicitly sepa
 
 This is the primary abstraction level.
 
-Describe behavior that is guaranteed by PHP language semantics and is therefore appropriate for programmers to rely upon, independent of implementation strategy unless the language explicitly makes implementation differences observable.
+Describe behavior that is guaranteed by PHP language as documented in authoritative sources and is therefore appropriate for programmers to rely upon, independent of implementation strategy unless the language explicitly makes implementation differences observable.
 
 When possible, explain semantics in terms of:
 
@@ -165,16 +165,33 @@ Do not define language semantics in terms of implementation mechanisms.
 
 ## [Documented Evidence]
 
-Use official PHP documentation, accepted PHP RFCs, and other canonical sources as evidence for language semantics.
+Use authoritative sources as evidence for language semantics.
 
-Authoritative sources provide evidence about language behavior. When citing documentation, explain which semantic claim the evidence supports and whether that claim is directly stated or conservatively inferred.
+The evidence hierarchy is:
 
-If documentation does not fully determine a behavior, explanation, or conclusion, explicitly classify it as one of the following:
+1. **Formal Language Specification** (if one exists) — The highest authority for language semantics.
+2. **Accepted PHP RFCs** — Authoritative for semantics introduced or modified by the RFC.
+3. **Official PHP Documentation** — Primary evidence for programmer-visible language behavior.
+4. **Consistently Observable Language Behavior** — May provide supporting evidence when authoritative sources are silent, but does not by itself establish a language guarantee.
+5. **Conservative Semantic Inference** — Explanatory models logically derived from higher-ranked evidence. Inference must never contradict higher-ranked sources.
 
-* Underspecified — The authoritative sources intentionally or unintentionally leave aspects of the behavior undefined.
-* Implementation-determined — The behavior depends on the implementation rather than being guaranteed by the language semantics.
-* Conventionally relied upon but not formally guaranteed — The behavior is widely observed and commonly relied upon, but authoritative sources do not establish it as a language guarantee.
-* Unknown — The available authoritative sources do not provide sufficient information to justify a conclusion, and no conservative inference can be supported.
+When multiple authoritative sources appear to differ, prefer the highest-ranked applicable source. If sources of the same rank conflict or the conflict cannot be resolved conservatively, explicitly acknowledge the ambiguity rather than selecting an unsupported interpretation.
+
+Authoritative sources provide evidence about language behavior. When citing a source, explicitly identify:
+
+* Which semantic claim the evidence supports.
+* Whether the claim is:
+
+  * directly stated,
+  * logically implied,
+  * or conservatively inferred.
+
+If the available evidence does not fully determine a behavior, explanation, or conclusion, explicitly classify it as one of the following:
+
+* **Underspecified** — The authoritative sources intentionally or unintentionally leave aspects of the behavior undefined.
+* **Implementation-determined** — The behavior depends on the implementation rather than being guaranteed by the language semantics.
+* **Conventionally relied upon but not formally guaranteed** — The behavior is widely observed and commonly relied upon, but authoritative sources do not establish it as a language guarantee.
+* **Unknown** — The available authoritative sources do not provide sufficient information to justify a conclusion, and no conservative inference can be supported.
 
 Do not substitute speculation for missing knowledge. If a conclusion cannot be justified by authoritative sources or conservative inference, explicitly acknowledge the uncertainty rather than inventing an explanation.
 
@@ -191,7 +208,7 @@ Inference is permitted only if:
 3. it does not contradict documented semantics,
 4. it is clearly labeled as inference rather than language guarantee.
 
-When multiple plausible models exist, prefer the simplest semantic model that explains all documented guarantees and observable language behavior while introducing the fewest additional assumptions.
+When multiple plausible models exist, prefer the semantic model that explains all documented guarantees and observable language behavior while introducing the fewest additional assumptions.
 
 If no conservative inference can be justified, explicitly classify the conclusion as Unknown rather than extending the semantic model beyond the available evidence.
 
@@ -344,9 +361,9 @@ For each behavior discussed, first determine whether it is:
    * Explicitly identify it as a primitive documented guarantee.
    * State the authoritative source supporting it.
    * Explain how it integrates with the existing conceptual model.
-   * Avoid inventing hidden semantic rules or causal explanations solely to make the behavior appear logically derived.
+   * Do not introduce semantic assumptions or causal explanations that are not supported by previously established definitions, documented guarantees, or explicitly identified inference solely to make a language-defined behavior appear logically derived.
 
-Prefer logical derivation whenever supported by established definitions. However, do not force derivations where the language instead defines behavior directly.
+Prefer logical derivation only when the conclusion follows necessarily from previously established definitions. However, do not force derivations where the language instead defines behavior directly.
 
 Avoid presenting isolated facts without identifying whether they are derived consequences or primitive documented guarantee.
 
