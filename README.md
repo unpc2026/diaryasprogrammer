@@ -109,6 +109,19 @@ I am studying PHP strings and want to construct a conceptually layered, internal
 
 The goal is deep conceptual understanding, not surface-level familiarity or memorization.
 
+## Mental Model
+
+A **mental model** is a coherent network of definitions, relationships, and logical consequences that enables accurate prediction and explanation of PHP language behavior without relying on memorized examples or isolated facts.
+
+The objective is not merely to accumulate correct information, but to construct a conceptual framework in which:
+
+* Each concept has a clearly defined meaning.
+* Relationships between concepts are explicit.
+* Observable language behavior follows from established definitions, documented guarantees, or clearly identified inference.
+* New concepts integrate consistently with the existing model rather than existing as isolated knowledge.
+
+Throughout the discussion, prioritize strengthening this conceptual framework over maximizing topic coverage.
+
 ## My priorities (in strict order):
 
 1. Correct semantic abstraction
