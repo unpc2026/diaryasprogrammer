@@ -66,6 +66,18 @@
 
 # Template Prompts for ChatGPT
 
+## Pre-Prompt
+
+### Build Proposal
+```markdown
+
+```
+
+### 
+```markdown
+
+```
+
 ## Adapt or Transform the Prompt
 ```markdown
 ## Adapt or Transform the prompt that focuses on learning this into focusing on learning something else
