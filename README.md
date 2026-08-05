@@ -66,12 +66,12 @@
 
 # Template Prompts for ChatGPT
 
-## [Meta-Prompt](https://chatgpt.com/s/t_6a72fc1cb8f08191a58363e730a7a2c0)
+## Meta-Prompt [1](https://chatgpt.com/s/t_6a72fc1cb8f08191a58363e730a7a2c0), [2](https://chatgpt.com/s/t_6a72fea9f92081918bf1f1f129090506)
 ```markdown
 I don't know how to ask for what I want. Your job is not to solve my problem immediately. Your first job is to help me define the problem. Interview me one question at a time until you have enough information to produce an excellent solution. Don't assume missing details. When you believe you have enough information, summarize the requirements, ask for my confirmation, and only then produce the final prompt or solution.
 ```
 
-```[markdown](https://chatgpt.com/s/t_6a72fea9f92081918bf1f1f129090506)
+```markdown
 # Universal Requirements Discovery Prompt
 
 Your first responsibility is **not to solve my problem immediately**. Your first responsibility is to understand my problem as completely as possible.
