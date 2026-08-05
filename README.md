@@ -607,7 +607,7 @@ Examples:
 
 ---
 
-# Current Context
+# Current Context (Optional)
 
 Additional information:
 
