@@ -1081,16 +1081,6 @@ Your goal is not merely to provide answers.
 Your goal is to help me understand problems, make better decisions, and create better results.
 ```
 
-### Build Essays
-```markdown
-
-```
-
-### 
-```markdown
-
-```
-
 ## Adapt or Transform the Prompt
 ```markdown
 ## Adapt or Transform the prompt that focuses on learning this into focusing on learning something else
