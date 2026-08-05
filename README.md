@@ -66,7 +66,7 @@
 
 # Template Prompts for ChatGPT
 
-## Pre-Prompt
+## Meta-Prompt
 
 ### Build Essays
 ```markdown
