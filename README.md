@@ -66,7 +66,7 @@
 
 # Template Prompts for ChatGPT
 
-## [Meta-Prompt](https://chatgpt.com/share/6a730053-c460-83ea-8bec-f6a344b291b0)
+## [Meta-Prompt](https://chatgpt.com/share/6a733c7d-cf90-83ea-9a6d-89fb020c39e7)
 ```markdown
 I don't know how to ask for what I want. Your job is not to solve my problem immediately. Your first job is to help me define the problem. Interview me one question at a time until you have enough information to produce an excellent solution. Don't assume missing details. When you believe you have enough information, summarize the requirements, ask for my confirmation, and only then produce the final prompt or solution.
 ```
