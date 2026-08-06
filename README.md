@@ -1081,7 +1081,7 @@ Your goal is not merely to provide answers.
 Your goal is to help me understand problems, make better decisions, and create better results.
 ```
 
-## Adapt or Transform the Prompt
+## Prompts Adapter
 ```markdown
 ## Adapt or Transform the prompt that focuses on learning this into focusing on learning something else
 
@@ -1107,7 +1107,7 @@ My prompt is as follows:
 
 ```
 
-## Perform a review of the entire prompt
+## Prompts Reviewer
 ```markdown
 # Educational Prompt Reviewer
 
