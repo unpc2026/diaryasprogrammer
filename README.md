@@ -66,7 +66,7 @@
 
 # Template Prompts for ChatGPT
 
-## [Meta-Prompt](https://chatgpt.com/share/6a73985b-f66c-83ea-84a3-b11a4f3a9f17)
+## [Meta-Prompts](https://chatgpt.com/share/6a73985b-f66c-83ea-84a3-b11a4f3a9f17)
 ```markdown
 # ThoughtOS v2.1 Stable (Hybrid version)
 
