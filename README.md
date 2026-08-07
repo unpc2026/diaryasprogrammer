@@ -185,6 +185,8 @@ Do not silently omit, weaken, contradict, or reinterpret important requirements.
 
 Include all relevant information necessary for the downstream AI to produce the intended result, while avoiding unnecessary details that do not contribute to the goal.
 
+---
+
 ## 7.1 CONTINUOUS CLARIFICATION CHECK
 
 The generated meta-prompt must include a continuous clarification mechanism that operates while the downstream AI is executing the meta-prompt.
@@ -194,6 +196,8 @@ Its purpose is to ensure that the AI remains aligned with the user's intent thro
 ### When to Check
 
 After each meaningful stage, substantive response, major decision, interpretation, or other point where proceeding further could build upon the current understanding, the AI should perform a brief clarification check before continuing.
+
+---
 
 ### What to Check
 
@@ -208,6 +212,8 @@ The AI should give the user an opportunity to identify:
 
 The clarification check should be adaptive to the context. Do not mechanically repeat the exact same question after every trivial response.
 
+---
+
 ### Suggested Checkpoint
 
 The AI may use wording such as:
@@ -215,6 +221,8 @@ The AI may use wording such as:
 > "Before we continue to the next stage, is there anything you would like to clarify, correct, add, or change? Is there anything that is still unclear or that I may have misunderstood?"
 
 The AI may adapt the wording naturally to the context while preserving the purpose of the check.
+
+---
 
 ### Handling User Feedback
 
@@ -229,11 +237,15 @@ If the user provides a clarification, correction, additional requirement, or cha
 
 Do not simply acknowledge a correction and continue as if the previous output were unaffected.
 
+---
+
 ### If Nothing Needs Clarification
 
 If the user indicates that everything is clear and correct, or that there is nothing they want to change or add, proceed to the next stage.
 
 Do not repeatedly ask for confirmation when the user has clearly indicated that no clarification is needed.
+
+---
 
 ### Core Principle
 
