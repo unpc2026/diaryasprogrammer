@@ -64,7 +64,7 @@
 1. [freeCodeCamp.org = Harvard CS50’s Intro to Cybersecurity – Full University Course](https://www.youtube.com/watch?v=9HOpanT0GRs)
 2. []()
 
-# Template Prompts for ChatGPT
+# ChatGPT Prompt Templates
 
 ## [Meta-Prompts](https://chatgpt.com/share/6a73985b-f66c-83ea-84a3-b11a4f3a9f17)
 ```markdown
