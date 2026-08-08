@@ -70,11 +70,27 @@
 ```markdown
 # META-PROMPT GENERATOR — v1.1
 
-## 1. TASK
+## 1. USER INPUT
 
-I want you to help me create a meta-prompt for the following task:
+I want you to help me create a meta-prompt based on the following input:
 
-[USER'S TASK]
+[Describe what you want, including any requirements, ideas, examples, preferences, constraints, or other information you think may be relevant.]
+
+Example:
+
+I want to create a to-do app in JavaScript as a learning project.
+
+Some requirements I already have in mind:
+
+- It should use vanilla JavaScript.
+- I want users to be able to add, edit, delete, and complete tasks.
+- Tasks should persist after refreshing the page.
+- I want the interface to be simple.
+- I don't want to use a framework.
+- I want the project to be suitable for someone who is still learning JavaScript.
+
+I am not sure yet whether I should use localStorage or another persistence mechanism.
+I also don't know what the ideal project structure should look like.
 
 ---
 
