@@ -68,221 +68,125 @@
 
 ## [Meta-Prompts](https://chatgpt.com/share/6a73985b-f66c-83ea-84a3-b11a4f3a9f17)
 ```markdown
-# META-PROMPT GENERATION WORKFLOW
+# META-PROMPT GENERATOR — v1.1
 
-## 1. CONTEXT
+## 1. TASK
 
-I am currently planning to build a to-do app in JavaScript as a practice project because I am currently learning JavaScript.
+I want you to help me create a meta-prompt for the following task:
 
-I want you to help me create a meta-prompt that contains everything relevant and necessary to generate the JavaScript to-do app I have in mind.
-
-By "everything relevant and necessary," I mean all requirements, specifications, constraints, decisions, preferences, and other details that could materially affect the final result.
+[USER'S TASK]
 
 ---
 
 ## 2. OBJECTIVE
 
-Your objective is to create a meta-prompt that accurately reflects what I actually want.
+Create a meta-prompt that accurately reflects what I actually want.
 
-Do not focus merely on producing a long or detailed meta-prompt.
-
-Instead, focus on producing a meta-prompt that is:
-
-* complete enough for the intended purpose;
-* aligned with my actual requirements;
-* clear and actionable;
-* internally consistent;
-* and free from unnecessary assumptions.
+The goal is not to make the meta-prompt unnecessarily long, but to make it sufficiently complete, clear, actionable, and aligned with my intent.
 
 ---
 
 ## 3. REQUIREMENT DISCOVERY
 
-Before generating the meta-prompt, analyze my request carefully.
+Before generating the meta-prompt, analyze my request and identify:
 
-Identify:
+* what is already clear;
+* what is ambiguous or missing;
+* what important decisions have not been made;
+* what assumptions need confirmation;
+* and what requirements may conflict.
 
-* what I have explicitly specified;
-* what I appear to want but have not fully specified;
-* what is still ambiguous;
-* what important information is missing;
-* what assumptions would need confirmation;
-* what decisions have not yet been made;
-* and whether any requirements conflict with one another.
+Determine what information is relevant based on the specific task and topic. Do not use a rigid checklist or ask about details that would not materially affect the result.
 
-Determine what kinds of information are relevant based on the specific task and topic I am asking about.
-
-Do not use a rigid checklist or assume that every possible category is relevant.
-
-Instead, dynamically determine which aspects could materially affect the final result.
+Do not make important assumptions silently. If a non-trivial assumption is necessary, ask me for clarification or clearly state the assumption before proceeding.
 
 ---
 
 ## 4. CLARIFICATION LOOP
 
-If you identify something that could significantly affect the final result, do not guess.
-
-Ask me about it directly and specifically.
+If important information is unclear, missing, ambiguous, or conflicting, ask me about it before generating the meta-prompt.
 
 After I answer:
 
 1. update your understanding;
-2. incorporate my answer into the requirements;
-3. check whether my answer introduces any new ambiguity, requirement, conflict, or decision;
-4. reassess what information is still missing;
-5. ask the next necessary clarification question if needed.
+2. incorporate my answer;
+3. reassess what is still unclear;
+4. identify any new ambiguity, requirement, or conflict;
+5. ask another question if necessary.
 
-Repeat this process as many times as necessary.
+If new information changes an earlier requirement or decision, treat it as an update and adjust any affected understanding accordingly.
 
-The goal is not to ask as many questions as possible.
+Repeat this process until you have enough information to accurately reflect my intent.
 
-The goal is to eliminate the important uncertainties that could cause the final meta-prompt to differ from what I actually want.
-
-Therefore:
-
-> Do not ask about something merely because it could be specified. Ask only when the uncertainty could materially affect the result.
+Do not ask unnecessary questions merely to obtain more information.
 
 ---
 
-## 5. READINESS CHECK
+## 5. CONFIRMATION
 
-Before generating the meta-prompt, verify that:
+Once you determine that the requirements are sufficiently clear, briefly summarize your understanding and ask me to confirm it.
 
-* the important requirements are sufficiently clear;
-* major ambiguities have been resolved;
-* important decisions have been determined;
-* there are no unresolved conflicts that could materially affect the result;
-* the scope is sufficiently clear;
-* and you have enough information to create the meta-prompt without making significant unsupported assumptions.
+If I provide corrections, changes, or additional information, return to the clarification loop.
 
-If these conditions are not satisfied, return to the clarification loop.
-
-Do not generate the meta-prompt yet.
+Do not generate the final meta-prompt until I confirm that your understanding is correct.
 
 ---
 
-## 6. FINAL UNDERSTANDING
+## 6. META-PROMPT GENERATION
 
-Once you determine that the requirements are sufficiently clear, do not immediately generate the meta-prompt.
+After my confirmation, generate the meta-prompt based on the confirmed requirements.
 
-First, briefly summarize your current understanding of what I want.
+The generated meta-prompt must:
 
-Highlight the decisions and requirements that are most important to the final result.
+* accurately represent the confirmed requirements;
+* preserve important decisions and constraints;
+* avoid unsupported assumptions;
+* be clear and actionable;
+* and contain the relevant information needed to achieve the intended result.
 
-Then ask me to confirm whether your understanding is correct.
+Do not add unnecessary requirements simply to make the meta-prompt appear more comprehensive.
 
-If I correct or change anything, return to the clarification loop and reassess the requirements.
+### Continuous Clarification Check
 
----
+The generated meta-prompt must include a mechanism that keeps the downstream AI aligned with the user's intent while executing the task.
 
-## 7. META-PROMPT GENERATION
+After each meaningful stage, major decision, interpretation, or substantive response, the AI should give the user an opportunity to clarify, correct, add, or change anything before proceeding.
 
-Only after I confirm your understanding should you generate the final meta-prompt.
+For example:
 
-The generated meta-prompt must faithfully represent the confirmed requirements.
+> "Before we continue, is there anything you would like to clarify, correct, add, or change? Is there anything that is still unclear or that I may have misunderstood?"
 
-Do not silently omit, weaken, contradict, or reinterpret important requirements.
+If the user provides feedback, the AI must update its understanding and revise affected work when necessary before continuing.
 
-Include all relevant information necessary for the downstream AI to produce the intended result, while avoiding unnecessary details that do not contribute to the goal.
+If new information changes an earlier requirement or decision, the AI must treat it as an update and adjust affected work accordingly.
 
----
+If the user indicates that everything is clear, continue to the next stage.
 
-## 7.1 CONTINUOUS CLARIFICATION CHECK
-
-The generated meta-prompt must include a continuous clarification mechanism that operates while the downstream AI is executing the meta-prompt.
-
-Its purpose is to ensure that the AI remains aligned with the user's intent throughout the entire interaction, rather than relying only on the requirements established before the meta-prompt was generated.
-
-### When to Check
-
-After each meaningful stage, substantive response, major decision, interpretation, or other point where proceeding further could build upon the current understanding, the AI should perform a brief clarification check before continuing.
+This mechanism should be adaptive and should not unnecessarily interrupt trivial interactions.
 
 ---
 
-### What to Check
+## 7. FINAL CHECK
 
-The AI should give the user an opportunity to identify:
+Before presenting the final meta-prompt, verify that it:
 
-* anything that is unclear;
-* anything that was misunderstood;
-* anything that is incorrect;
-* anything important that is missing;
-* anything that should be changed;
-* or anything that should be added.
+* reflects the confirmed requirements;
+* preserves important decisions and constraints;
+* does not introduce significant unsupported assumptions;
+* is clear and actionable;
+* and contains the Continuous Clarification Check.
 
-The clarification check should be adaptive to the context. Do not mechanically repeat the exact same question after every trivial response.
-
----
-
-### Suggested Checkpoint
-
-The AI may use wording such as:
-
-> "Before we continue to the next stage, is there anything you would like to clarify, correct, add, or change? Is there anything that is still unclear or that I may have misunderstood?"
-
-The AI may adapt the wording naturally to the context while preserving the purpose of the check.
+If something important is missing or inconsistent, correct it before presenting the final result.
 
 ---
 
-### Handling User Feedback
+### CORE PRINCIPLE
 
-If the user provides a clarification, correction, additional requirement, or change:
+**Understand → Discover → Clarify → Confirm → Generate → Validate**
 
-1. update the current understanding;
-2. identify which previous decisions or outputs are affected;
-3. revise affected content when necessary;
-4. ensure the revised understanding remains internally consistent;
-5. briefly confirm the updated understanding when appropriate;
-6. perform another clarification check before proceeding.
+First ensure that you understand what the user wants. Then generate the meta-prompt only after the important uncertainties have been resolved and the user has confirmed your understanding.
 
-Do not simply acknowledge a correction and continue as if the previous output were unaffected.
-
----
-
-### If Nothing Needs Clarification
-
-If the user indicates that everything is clear and correct, or that there is nothing they want to change or add, proceed to the next stage.
-
-Do not repeatedly ask for confirmation when the user has clearly indicated that no clarification is needed.
-
----
-
-### Core Principle
-
-> Before moving forward, give the user a meaningful opportunity to clarify, correct, add, or change anything that could affect the next stage.
-
-The purpose of this mechanism is continuous alignment, not unnecessary questioning.
-
----
-
-## 8. FINAL QUALITY CHECK
-
-Before presenting the meta-prompt as final, perform a final internal check.
-
-Verify that:
-
-* the confirmed requirements are represented;
-* important decisions have not been lost;
-* no major requirement has been contradicted;
-* the scope remains consistent;
-* unnecessary assumptions have not been introduced;
-* the meta-prompt is clear and actionable;
-* the meta-prompt is aligned with my confirmed intent;
-* and the Continuous Clarification Check has been properly incorporated into the generated meta-prompt.
-
-The Continuous Clarification Check must remain a mechanism of the generated meta-prompt itself. It must operate during the downstream AI's execution of that meta-prompt, not merely during the process of generating the meta-prompt.
-
-If something important is missing or inconsistent, fix it before presenting the meta-prompt as final.
-
----
-
-## 9. CORE PRINCIPLE
-
-Follow this process throughout the interaction:
-
-**Understand → Discover → Clarify → Reassess → Check Readiness → Confirm → Generate → Validate**
-
-Do not skip the clarification and confirmation stages when important uncertainty remains.
+The generated meta-prompt must also contain the Continuous Clarification Check so that the downstream AI can maintain alignment with the user throughout execution.
 ```
 
 ## Prompts Adapter
