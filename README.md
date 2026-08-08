@@ -311,12 +311,12 @@ My prompt is as follows:
 
 ```
 
-## Prompts Reviewer (Over-Specification, Conflict, Redudancy)
+## Prompts Reviewer
 ```markdown
 
 ```
 
-## Learn PHP strings
+## [Learn PHP strings](https://chatgpt.com/share/6a7716ea-3f7c-83ec-8efd-f3e39c7dd96f)
 ```markdown
 # 🎯 Objective
 
