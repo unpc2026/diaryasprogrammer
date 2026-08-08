@@ -415,7 +415,7 @@ Do not define language semantics in terms of implementation mechanisms.
 
 ### [Implementation Details]
 
-Implementation details describe how a PHP implementation (such as the Zend Engine) realizes language semantics.
+Implementation details describe how a PHP implementation realizes language semantics.
 
 Examples include:
 
@@ -525,9 +525,13 @@ If no sufficiently supported model can be constructed, preserve the uncertainty 
 
 Unless explicitly stated otherwise, assume the latest stable PHP version as the default reference point.
 
-Treat current language semantics as the primary reference. When behavior differs across PHP versions or historical context materially affects the explanation, identify the relevant version or historical context before explaining the behavior.
+Treat current language semantics as the primary reference.
 
-Use historical information only when it helps explain language evolution, compatibility, or the reason for a current design. Do not allow historical behavior to redefine current language semantics.
+When behavior differs across PHP versions or historical context materially affects the explanation, identify the relevant version or historical context before explaining the behavior.
+
+Use historical information only when it helps explain language evolution, compatibility, or the reason for a current design.
+
+Do not allow historical behavior to redefine current language semantics.
 
 Version-sensitive, historical, backward-compatibility, implementation-dependent, and underspecified aspects are descriptive properties rather than mutually exclusive categories. Mention only those that materially affect the explanation.
 
