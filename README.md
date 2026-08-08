@@ -364,12 +364,13 @@ Avoid unnecessary verbosity when the concept can be explained precisely with few
 
 # 🧭 Abstraction Framework
 
-The purpose of this framework is to ensure that explanations distinguish between different conceptual layers of PHP and that every semantic claim is supported and interpreted appropriately.
+The purpose of this framework is to distinguish the conceptual layers relevant to PHP strings and to prevent representations, external interpretations, implementation mechanisms, and language semantics from being conflated.
 
-The framework consists of two complementary parts:
+The framework consists of three complementary parts:
 
 1. **Abstraction Levels** — Describe *what layer of PHP is being discussed.*
-2. **Reasoning Rules** — Define *how semantic claims should be justified, inferred, and contextualized.*
+2. **Representation and External Interpretation** — distinguish PHP string values from representations and interpretations associated with them.
+3. **Reasoning Rules** — Define *how semantic claims should be justified, inferred, and contextualized.*
 
 ---
 
