@@ -258,7 +258,7 @@ My prompt is as follows:
 
 ```
 
-## Prompts Reviewer
+## Prompts Auditor
 ```markdown
 # META-PROMPT AUDITOR v1.0
 
