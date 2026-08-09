@@ -1,69 +1,3 @@
-# Roadmap from Zero to Hero
-[Handmade Hero Complete Episodes (1 - 667)](https://www.youtube.com/playlist?list=PL0PAV3gVZ9gmiTxKufnvxw2-WMFHTMX6c)
-
-## Internet
-1. [Boot dev = TCP to HTTP | Full Course by @ThePrimeagen](https://www.youtube.com/watch?v=FknTw9bJsXM)
-2. []()
-
-### DNS (Domain Name System)
-1. []()
-2. []()
-
-## Hardware
-1. [Theo t3.gg = I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
-2. []()
-
-## Software
-
-### Compiler, Interpreter, and Transpiler
-1. [Compiler, Interpreter, and Transpiler](https://www.youtube.com/playlist?list=PLWaJCgc9HpL1FX8WFt4EcgrJgZSVPL1L7)
-2. []()
-
-### Low or Middle Level Language
-
-#### C and C++
-1. [Boot dev = C Programming and Memory Management - Full Course](https://www.youtube.com/watch?v=rJrd2QMVbGM)
-2. []()
-
-### High Level Language
-
-#### HTML
-1. []()
-2. []()
-
-#### CSS
-1. []()
-2. []()
-
-##### Tailwind CSS
-1. []()
-2. []()
-
-#### JavaScript and TypeScript
-1. [Lydia Hallie = JavaScript Visualized - Event Loop, Web APIs, (Micro)task Queue](https://www.youtube.com/watch?v=eiC58R16hb8)
-2. [Lydia Hallie = JavaScript Visualized - Execution Contexts](https://www.youtube.com/watch?v=zdGfo6I1yrA)
-3. [Lydia Hallie = JavaScript Visualized - Closures](https://www.youtube.com/watch?v=6Ixyltr8_R0)
-4. [Boot dev = The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
-5. []()
-
-##### ReactJS
-1. []()
-2. []()
-
-### DevOps
-1. []()
-2. []()
-
-### APIs
-
-#### RESTful API
-1. [FreeCodeCamp.org = Full HTTP Networking Course - Fetch and REST APIs in JavaScript](https://www.youtube.com/watch?v=2JYT5f2isg4)
-2. []()
-
-## Cybersecuriy
-1. [freeCodeCamp.org = Harvard CS50’s Intro to Cybersecurity – Full University Course](https://www.youtube.com/watch?v=9HOpanT0GRs)
-2. []()
-
 # ChatGPT Prompt Templates
 
 ## [Meta-Prompts](https://chatgpt.com/share/6a73985b-f66c-83ea-84a3-b11a4f3a9f17)
@@ -2011,3 +1945,69 @@ Avoid excessive micro-check interruptions.
 
 The absence of an understanding check does not imply that mastery has been demonstrated.
 ```
+
+# Roadmap from Zero to Hero
+[Handmade Hero Complete Episodes (1 - 667)](https://www.youtube.com/playlist?list=PL0PAV3gVZ9gmiTxKufnvxw2-WMFHTMX6c)
+
+## Internet
+1. [Boot dev = TCP to HTTP | Full Course by @ThePrimeagen](https://www.youtube.com/watch?v=FknTw9bJsXM)
+2. []()
+
+### DNS (Domain Name System)
+1. []()
+2. []()
+
+## Hardware
+1. [Theo t3.gg = I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
+2. []()
+
+## Software
+
+### Compiler, Interpreter, and Transpiler
+1. [Compiler, Interpreter, and Transpiler](https://www.youtube.com/playlist?list=PLWaJCgc9HpL1FX8WFt4EcgrJgZSVPL1L7)
+2. []()
+
+### Low or Middle Level Language
+
+#### C and C++
+1. [Boot dev = C Programming and Memory Management - Full Course](https://www.youtube.com/watch?v=rJrd2QMVbGM)
+2. []()
+
+### High Level Language
+
+#### HTML
+1. []()
+2. []()
+
+#### CSS
+1. []()
+2. []()
+
+##### Tailwind CSS
+1. []()
+2. []()
+
+#### JavaScript and TypeScript
+1. [Lydia Hallie = JavaScript Visualized - Event Loop, Web APIs, (Micro)task Queue](https://www.youtube.com/watch?v=eiC58R16hb8)
+2. [Lydia Hallie = JavaScript Visualized - Execution Contexts](https://www.youtube.com/watch?v=zdGfo6I1yrA)
+3. [Lydia Hallie = JavaScript Visualized - Closures](https://www.youtube.com/watch?v=6Ixyltr8_R0)
+4. [Boot dev = The TypeScript Course for JS Devs](https://www.youtube.com/watch?v=K01hLNDdqg4)
+5. []()
+
+##### ReactJS
+1. []()
+2. []()
+
+### DevOps
+1. []()
+2. []()
+
+### APIs
+
+#### RESTful API
+1. [FreeCodeCamp.org = Full HTTP Networking Course - Fetch and REST APIs in JavaScript](https://www.youtube.com/watch?v=2JYT5f2isg4)
+2. []()
+
+## Cybersecuriy
+1. [freeCodeCamp.org = Harvard CS50’s Intro to Cybersecurity – Full University Course](https://www.youtube.com/watch?v=9HOpanT0GRs)
+2. []()
