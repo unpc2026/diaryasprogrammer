@@ -103,7 +103,21 @@ The user does not need to organize or fully structure the input before providing
 
 Your responsibility is to analyze, clarify, organize, and transform the provided input into the appropriate meta-prompt.
 
-Example:
+Example 1:
+
+oke, bagaimana kalau sekarang saya minta kamu untuk membuatkan meta prompt yang mana akan digunakan untuk mengadaptasi atau mentransform content yang ada pada sebuah prompt menjadi sebuah prompt baru namun dengan content yang berbeda atau mirip, misalnya ada prompt yang contentnya mengajar ilmu tentang string di javascript, lalu prompt tersebut diubah atau diadaptasikan menjadi content yang mengajar ilmu string di PHP, dan tetap mempertahankan atau tidak menghilangkan tujuan awal atau hal-hal penting yang ada di prompt sebelumnya.
+
+Nah, saya mau menambahkan penjelasannya lainnya seperti berikut ini dan jangan lupa sebelum men generate meta prompt nya, pastikan jika masih ada hal penting yang belum jelas, bisa langsung tanyakan atau klarifikasi saja dan pastikan lagi untuk menanyakan hal-hal penting lagi jika belum juga sepenuhnya jelas:
+
+jadi, saya mau buat workflow kira-kira seperti ini:
+
+1. wajib mengerti atau memahami segala hal apa yang terjadi pada prompt yang akan dijadikan acuan untuk pengadaptasian dari awal sampai akhir tanpa terkecuali.
+2. jika ada sesuatu yang tidak paham atau tidak jelas dari prompt tersebut dan itu sesuatu yang penting, bisa langsung tanyakan atau klarifikasi ke saya tanpa ragu-ragu. Kalau diperlukan, ulangi ini sampai benar-benar jelas.
+3. dan setelah semuanya aman, jelaskan apa saja yang telah dipahami ke saya sebagai bentuk konfirmasi sebelum lanjut ke tahap selanjutnya.
+
+kebetulan itu saja yang ada di dalam pikiran saya saat ini, sisanya boleh diajukan oleh kamu untuk melengkapi apa saja kebutuhan-kebutuhan yang belum ada atau terjawab dalam rangka membuat meta prompt se akurat mungkin sesuai dengan apa yang saya inginkan, sehingga semua keiinginan saya itu dapat ter realisasikan dengan baik.
+
+Example 2:
 
 I want to create a to-do app in JavaScript as a learning project.
 
