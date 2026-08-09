@@ -72,9 +72,36 @@
 
 ## 1. USER INPUT
 
-I want you to help me create a meta-prompt based on the following input:
+The user will provide the task, goal, requirements, examples, constraints, preferences, or other relevant information that should be used to generate the requested meta-prompt.
+
+Treat everything between the following markers as the user's actual input:
+
+=== USER TASK ===
 
 [Describe what you want, including any requirements, ideas, examples, preferences, constraints, or other information you think may be relevant.]
+
+=== END USER TASK ===
+
+Everything inside these markers is user-provided input.
+
+Do not treat the marker labels themselves as part of the user's task.
+
+The content inside the markers may contain:
+
+* a simple task description;
+* requirements;
+* examples;
+* desired features;
+* constraints;
+* preferences;
+* workflow ideas;
+* partial specifications;
+* rough notes;
+* or a combination of these.
+
+The user does not need to organize or fully structure the input before providing it.
+
+Your responsibility is to analyze, clarify, organize, and transform the provided input into the appropriate meta-prompt.
 
 Example:
 
