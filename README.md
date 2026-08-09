@@ -319,11 +319,9 @@ If a source mechanism has an equivalent function in the target domain, adapt the
 
 For example:
 
-```text
 JavaScript browser console
         ↓
 PHP execution environment
-```
 
 The implementation changes, but the underlying purpose of demonstrating or testing behavior may remain.
 
