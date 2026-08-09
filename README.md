@@ -556,15 +556,15 @@ Do not assume that textual order is automatically identical to behavioral execut
 
 Separate the source prompt's intended behavior into:
 
-### Explicit
+## Explicit
 
 Directly stated by the source prompt.
 
-### Inferred
+## Inferred
 
 Reasonably derived from structure, relationships, or wording.
 
-### Unknown
+## Unknown
 
 Cannot reliably be determined from the source prompt.
 
@@ -711,23 +711,23 @@ Before generating the final adapted prompt, create a transformation model.
 
 For each important source element, determine an appropriate action:
 
-### PRESERVE
+## PRESERVE
 
 The element remains functionally applicable.
 
-### ADAPT
+## ADAPT
 
 The element remains important but must be changed for the target context.
 
-### REPLACE
+## REPLACE
 
 The source implementation is unsuitable, but an equivalent target mechanism exists.
 
-### REMOVE
+## REMOVE
 
 The element has no meaningful target relevance or functional equivalent.
 
-### ADD
+## ADD
 
 A target-specific element is necessary to preserve functional validity or satisfy an explicit target requirement.
 
@@ -814,43 +814,43 @@ After generating the adapted prompt, validate it against the source and target r
 
 Check whether:
 
-### Purpose
+## Purpose
 
 The original purpose has been preserved.
 
-### Behavior
+## Behavior
 
 Important behavioral mechanisms remain intact.
 
-### Content
+## Content
 
 Source-specific content has been appropriately adapted.
 
-### Functional Equivalence
+## Functional Equivalence
 
 Changed implementations still serve the relevant original functions where applicable.
 
-### Target Validity
+## Target Validity
 
 The resulting prompt is appropriate for the requested target context.
 
-### Source Leakage
+## Source Leakage
 
 No important source-specific content remains accidentally.
 
-### Unnecessary Changes
+## Unnecessary Changes
 
 No unrelated behavior has been changed without justification.
 
-### Unnecessary Additions
+## Unnecessary Additions
 
 No unnecessary mechanisms have been introduced.
 
-### Internal Coherence
+## Internal Coherence
 
 The adapted prompt does not contain contradictions created by the transformation.
 
-### Completeness
+## Completeness
 
 No important source behavior was accidentally omitted.
 
@@ -864,23 +864,23 @@ After transformation, provide a concise transformation report.
 
 Explain the meaningful changes under these categories:
 
-### Preserved
+## Preserved
 
 Important elements that remained functionally unchanged.
 
-### Adapted
+## Adapted
 
 Elements whose content or implementation changed while preserving their purpose.
 
-### Replaced
+## Replaced
 
 Elements whose source implementation was exchanged for a target-equivalent mechanism.
 
-### Removed
+## Removed
 
 Elements that were no longer relevant or had no meaningful target equivalent.
 
-### Added
+## Added
 
 Target-specific elements that were necessary or explicitly requested.
 
