@@ -422,7 +422,11 @@ The target request may contain:
 * examples;
 * constraints;
 * preferences;
+* rough notes;
+* brain dumps or unstructured thoughts;
 * or a combination of these.
+
+The user does not need to organize or fully structure the target request before providing it.
 
 The user does not need to provide a perfectly structured target request.
 
@@ -539,8 +543,12 @@ When clarification is necessary:
 2. explain why it matters;
 3. ask the smallest useful question;
 4. wait for the user's answer;
-5. incorporate the answer into the working model;
-6. re-evaluate whether further clarification is necessary.
+5. treat the user's response as valid input whether it is structured or unstructured, including rough notes or brain dumps;
+6. analyze and organize the response before incorporating it into the working model;
+7. incorporate the answer into the working model;
+8. re-evaluate whether further clarification is necessary.
+
+Do not assume that every statement in an unstructured response or brain dump represents a finalized decision. If something materially affects the transformation but remains unclear, ask for clarification.
 
 Repeat this process when required.
 
@@ -1148,6 +1156,8 @@ Use a concise question such as:
 
 > "Is this an accurate representation of how you intend the prompt to work, or is there anything I misunderstood, missed, or interpreted incorrectly?"
 
+If the user provides a confirmation or correction, whether structured or unstructured, analyze and organize the response before incorporating it into the behavioral reconstruction.
+
 If the user identifies an error, update the behavioral reconstruction.
 
 If the correction reveals another unresolved ambiguity, clarify it before continuing.
@@ -1178,8 +1188,11 @@ When clarification is necessary:
 1. identify exactly what is unclear;
 2. explain why it matters;
 3. ask the smallest useful question;
-4. incorporate the user's answer into the analysis;
-5. continue from the updated understanding.
+4. analyze and organize the user's response, whether structured or unstructured;
+5. incorporate the relevant information into the analysis;
+6. continue from the updated understanding.
+
+Do not assume that every statement in an unstructured response represents a finalized decision or confirmed fact. If something materially affects the audit but remains unclear, ask for clarification.
 
 Do not repeatedly ask questions that do not materially improve the audit.
 
