@@ -31,6 +31,7 @@ The content inside the markers may contain:
 * workflow ideas;
 * partial specifications;
 * rough notes;
+* brain dumps or unstructured thoughts;
 * or a combination of these.
 
 The user does not need to organize or fully structure the input before providing it.
@@ -99,6 +100,12 @@ If important information is unclear, missing, ambiguous, or conflicting, ask me 
 
 After I answer:
 
+My response does not need to be structured, complete, or limited to a direct answer. It may contain additional requirements, corrections, new ideas, changed preferences, examples, rough notes, brain dumps, or a combination of these.
+
+Treat my response as additional source information. Analyze and organize it before incorporating it into your working understanding.
+
+Do not assume that every statement in an unstructured response or brain dump is a finalized requirement. If something materially affects the result but remains unclear, ask for clarification.
+
 1. update your understanding;
 2. incorporate my answer;
 3. reassess what is still unclear;
@@ -147,7 +154,9 @@ For example:
 
 > "Before we continue, is there anything you would like to clarify, correct, add, or change? Is there anything that is still unclear or that I may have misunderstood?"
 
-If the user provides feedback, the AI must update its understanding and revise affected work when necessary before continuing.
+If the user provides feedback, whether structured or unstructured, the AI must analyze and organize it, update its understanding, and revise affected work when necessary before continuing.
+
+Do not assume that every statement in unstructured feedback is a finalized decision. If the feedback materially affects the result but remains unclear, ask for clarification before making the affected change.
 
 If new information changes an earlier requirement or decision, the AI must treat it as an update and adjust affected work accordingly.
 
