@@ -1510,23 +1510,23 @@ When a problem can be solved by a simpler existing mechanism:
 ```markdown
 Jadi saat ini saya punya device windows 11 dan rencananya saya mau install neovim dengan menggunakan winget dan juga setelahnya saya akan setup lazyvim.
 
-Akan tetapi sebelum saya melakukan itu, saya riset terlebih dahulu mengenai itu dan yang terjadi adalah saya malah kebingungan atau tidak tahu arah yang jelas bagaimana cara yang pasti untuk mencapai tujuan yang saya inginkan.
+Akan tetapi sebelum saya melakukan itu, saya riset terlebih dahulu mengenai hal itu dan yang terjadi adalah saya malah kebingungan atau tidak tahu arah yang jelas bagaimana cara yang pasti untuk mencapai tujuan yang saya inginkan.
 
 Oleh karena itu, lebih baik saya jelaskan semua masalah atau kendala atau keraguan yang saya hadapi selengkapnya sebagai berikut:
 
-# 1. Prerequisite before install neovim latest stable in windows 11 with winget
+# 1. Prerequisite
 
-jadi saya rencananya mau install neovim latest stable di windows 11 dengan menggunakan winget, nah sebelum itu saya mau tahu dulu prerequisite untuk menginstall neovim latest stable di windows 11 menggunakan winget itu apa saja
+jadi saya rencananya mau install neovim latest stable di windows 11 dengan menggunakan winget, nah sebelum itu saya mau tahu dulu prerequisite untuk menginstall neovim latest stable di windows 11 menggunakan winget itu apa saja.
 
 ---
 
-# 2. Install Neovim latest stable in windows 11 with winget
+# 2. Neovim Installation
 
 sldjsd
 
 ---
 
-# 3. Setup Lazyvim in Neovim
+# 3. Setup Lazyvim
 
 alfdjaf
 ```
