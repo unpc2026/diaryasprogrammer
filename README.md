@@ -1539,7 +1539,7 @@ Nah, aku mau kamu membantu saya dari tahap ke tahap atau satu per satu tanpa ter
 Nah, kebetulan yang ada dipikiran saya saat ini cuman bisa segitu aja penjelasannya dan maaf tulisan saya itu tidak terstruktur karena memang saya tidak tahu bagaimana cara menulis yang berstruktur. Oleh karena itu, kalau ada hal yang masih belum jelas dipersilakan untuk bertanya atau klarifikasi terlebih dahulu ke saya.
 
 Sekali lagi saya tegaskan di seluruh kesempatan atau perbincangan kali ini, kamu boleh bertanya atau klarifikasi mengenai hal apa saja tanpa terkecuali dan juga itu berlaku kepada saya juga.
----
+```
 
 ```markdown
 kalau saya lihat-lihat sepertinya chat session di bagian ini sudah terlalu banyak. Sebenarnya saya mau lanjut untuk chat lagi, tapi karena sudah terlalu banyak sudah saatnya saya buat yang baru. Cuman aku mau bawa bagian-bagian yang penting dari session chat ini untuk saya gunakan di chat session yang baru sebagai salah satu cara untuk AI mengetahui konteks yang sedang dibicarakan oleh saya.
@@ -1547,11 +1547,6 @@ kalau saya lihat-lihat sepertinya chat session di bagian ini sudah terlalu banya
 Oleh karena itu, bantu aku untuk membuat mungkin semacam meta prompt atau checkpoint atau saya sebenarnya gak tahu persisnya apa.
 
 intinya saya mau mempertahankan konteks-konteks yang penting dari chat ini dan itu akan berguna supaya si AI tetap tahu keseluruhan context yang akan saya bicarakan, sehingga saya tidak repot-repot menjelaskan ketika si AI bertanya mengenai konteksnya.
-```
-
-# 3. Setup Lazyvim
-
-alfdjaf
 ```
 
 ## [Learn PHP strings](https://chatgpt.com/share/6a7716ea-3f7c-83ec-8efd-f3e39c7dd96f)
