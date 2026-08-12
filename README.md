@@ -1508,9 +1508,9 @@ When a problem can be solved by a simpler existing mechanism:
 
 ## Brain Dumps
 ```markdown
-Jadi saat ini saya punya device windows 11 dan rencananya saya mau install neovim dengan menggunakan winget dan juga setelahnya saya akan setup lazyvim.
+Jadi saat ini saya punya device windows 11 dan rencananya saya mau install neovim dengan menggunakan winget dan juga setelahnya saya mau setup lazyvim di neovim yang telah terinstall.
 
-Akan tetapi sebelum saya melakukan itu, saya riset terlebih dahulu mengenai hal itu dan yang terjadi adalah saya malah kebingungan atau tidak tahu arah yang jelas bagaimana cara yang pasti untuk mencapai tujuan yang saya inginkan.
+Akan tetapi sebelum saya melakukan itu, saya riset terlebih dahulu di internet mengenai hal itu dan yang terjadi adalah saya malah kebingungan atau tidak tahu arah yang jelas bagaimana cara yang pasti untuk mencapai tujuan yang saya inginkan.
 
 Oleh karena itu, lebih baik saya jelaskan semua masalah atau kendala atau keraguan yang saya hadapi selengkapnya sebagai berikut:
 
@@ -1518,13 +1518,36 @@ Oleh karena itu, lebih baik saya jelaskan semua masalah atau kendala atau keragu
 
 jadi saya rencananya mau install neovim latest stable di windows 11 dengan menggunakan winget, nah sebelum itu saya mau tahu dulu prerequisite untuk menginstall neovim latest stable di windows 11 menggunakan winget itu apa saja.
 
+Karena ingin memastikan tidak ada keraguan atau tidak ada hal yang bisa membuat saya overthinking.
+
 ---
 
 # 2. Neovim Installation
 
-sldjsd
+Tolong pandu saya tahap demi tahap untuk menginstall neovim di windows 11 menggunakan winget
 
 ---
+
+# 3. Setup Lazyvim
+
+Tolong pandu saya tahap demi tahap untuk setup Lazyvim di neovim yang telah terinstall dengan cara bootstrap saja (bukan native), sebelum itu saya mau tanya apakah cara yang saya inginkan tersebut merupakan cara yang aman dan dijamin bakal aman seterusnya atau seperti apa.
+
+---
+
+Nah, aku mau kamu membantu saya dari tahap ke tahap atau satu per satu tanpa terkecuali dan nantinya aku juga akan secara bertahap mengikuti instruksi yang diberikan kepada saya
+
+Nah, kebetulan yang ada dipikiran saya saat ini cuman bisa segitu aja penjelasannya dan maaf tulisan saya itu tidak terstruktur karena memang saya tidak tahu bagaimana cara menulis yang berstruktur. Oleh karena itu, kalau ada hal yang masih belum jelas dipersilakan untuk bertanya atau klarifikasi terlebih dahulu ke saya.
+
+Sekali lagi saya tegaskan di seluruh kesempatan atau perbincangan kali ini, kamu boleh bertanya atau klarifikasi mengenai hal apa saja tanpa terkecuali dan juga itu berlaku kepada saya juga.
+---
+
+```markdown
+kalau saya lihat-lihat sepertinya chat session di bagian ini sudah terlalu banyak. Sebenarnya saya mau lanjut untuk chat lagi, tapi karena sudah terlalu banyak sudah saatnya saya buat yang baru. Cuman aku mau bawa bagian-bagian yang penting dari session chat ini untuk saya gunakan di chat session yang baru sebagai salah satu cara untuk AI mengetahui konteks yang sedang dibicarakan oleh saya.
+
+Oleh karena itu, bantu aku untuk membuat mungkin semacam meta prompt atau checkpoint atau saya sebenarnya gak tahu persisnya apa.
+
+intinya saya mau mempertahankan konteks-konteks yang penting dari chat ini dan itu akan berguna supaya si AI tetap tahu keseluruhan context yang akan saya bicarakan, sehingga saya tidak repot-repot menjelaskan ketika si AI bertanya mengenai konteksnya.
+```
 
 # 3. Setup Lazyvim
 
