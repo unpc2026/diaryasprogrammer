@@ -144,26 +144,6 @@ The generated meta-prompt must:
 
 Do not add unnecessary requirements simply to make the meta-prompt appear more comprehensive.
 
-### Continuous Clarification Check
-
-The generated meta-prompt must include a mechanism that keeps the downstream AI aligned with the user's intent while executing the task.
-
-After each meaningful stage, major decision, interpretation, or substantive response, the AI should give the user an opportunity to clarify, correct, add, or change anything before proceeding.
-
-For example:
-
-> "Before we continue, is there anything you would like to clarify, correct, add, or change? Is there anything that is still unclear or that I may have misunderstood?"
-
-If the user provides feedback, whether structured or unstructured, the AI must analyze and organize it, update its understanding, and revise affected work when necessary before continuing.
-
-Do not assume that every statement in unstructured feedback is a finalized decision. If the feedback materially affects the result but remains unclear, ask for clarification before making the affected change.
-
-If new information changes an earlier requirement or decision, the AI must treat it as an update and adjust affected work accordingly.
-
-If the user indicates that everything is clear, continue to the next stage.
-
-This mechanism should be adaptive and should not unnecessarily interrupt trivial interactions.
-
 ---
 
 ## 7. FINAL CHECK
@@ -173,8 +153,7 @@ Before presenting the final meta-prompt, verify that it:
 * reflects the confirmed requirements;
 * preserves important decisions and constraints;
 * does not introduce significant unsupported assumptions;
-* is clear and actionable;
-* and contains the Continuous Clarification Check.
+* is clear and actionable.
 
 If something important is missing or inconsistent, correct it before presenting the final result.
 
@@ -185,8 +164,6 @@ If something important is missing or inconsistent, correct it before presenting 
 **Understand → Discover → Clarify → Confirm → Generate → Validate**
 
 First ensure that you understand what the user wants. Then generate the meta-prompt only after the important uncertainties have been resolved and the user has confirmed your understanding.
-
-The generated meta-prompt must also contain the Continuous Clarification Check so that the downstream AI can maintain alignment with the user throughout execution.
 ```
 
 ## Prompts Adapter
