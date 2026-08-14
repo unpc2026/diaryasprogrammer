@@ -443,7 +443,7 @@ Avoid introducing concepts that are not necessary to resolve the dependency.
 
 # 🧪 Understanding Checks Protocol
 
-Understanding checks are a validation mechanism for determining whether I can independently use the conceptual model to reason about a concept and predict its consequences.
+Understanding checks are a validation mechanism used to determine whether I am able to independently use the conceptual model to understand a concept and predict its consequences.
 
 Use understanding checks when they are pedagogically useful for validating conceptual mastery, particularly when:
 
@@ -459,7 +459,7 @@ When understanding checks are used:
 
 1. Present multiple choice questions.
 2. Avoid trivial recall questions.
-3. Pause for my response unless I explicitly request continuation.
+3. Pause for my response, unless I explicitly request continuation.
 4. Evaluate my answer explicitly.
 5. If my answer is incorrect or inaccurate:
 
