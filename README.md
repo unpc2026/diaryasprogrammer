@@ -458,7 +458,7 @@ Do not mechanically require understanding checks after every minor conceptual un
 
 When understanding checks are used:
 
-1. Present 2–3 reasoning-based questions.
+1. Present 2 or 3 reasoning-based questions.
 2. Include at least one prediction task when appropriate.
 3. Avoid trivial recall questions.
 4. Pause for my response unless I explicitly request continuation.
@@ -468,20 +468,10 @@ When understanding checks are used:
    * Identify precisely which definition or inference is flawed.
    * Explain why it is flawed.
    * Guide me toward the correct conceptual model.
-7. Distinguish between:
-
-   * A failure to recall information,
-   * A misunderstanding of a definition,
-   * An incorrect logical inference,
-   * An incorrect abstraction-level distinction,
-   * An incorrect prediction,
-   * Or an ambiguity in my own explanation.
 
 Do not interpret an incorrect answer merely as a memory failure when the underlying issue is a conceptual-model error.
 
 Avoid excessive micro-check interruptions.
-
-The absence of an understanding check does not imply that mastery has been demonstrated.
 ```
 
 # Roadmap from Zero to Hero
