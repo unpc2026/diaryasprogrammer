@@ -451,7 +451,6 @@ Use understanding checks when they are pedagogically useful for validating conce
 * multiple concepts have been integrated,
 * the concept is easily confused with a related concept,
 * the concept supports important downstream reasoning,
-* the learner's clarification or response suggests a possible conceptual misunderstanding,
 * or independent prediction would provide meaningful evidence of understanding.
 
 Do not mechanically require understanding checks after every minor conceptual unit when doing so would interrupt learning without providing meaningful additional evidence.
