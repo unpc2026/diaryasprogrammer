@@ -1826,10 +1826,6 @@ A coherent conceptual unit consists of either:
    or
 2. A minimal cluster of strongly interdependent concepts
 
-Prefer introducing one conceptual unit at a time whenever possible.
-
----
-
 Each conceptual unit must contain the following sections:
 
 ## 1️⃣ Core Definition
