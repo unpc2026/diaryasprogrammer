@@ -457,12 +457,11 @@ Do not mechanically require understanding checks after every minor conceptual un
 
 When understanding checks are used:
 
-1. Present 2 reasoning-based questions.
-2. Include at least one prediction task when appropriate.
-3. Avoid trivial recall questions.
-4. Pause for my response unless I explicitly request continuation.
-5. Evaluate my answer explicitly.
-6. If my answer is incorrect or incomplete:
+1. Present 1 or 2 reasoning-based questions.
+2. Avoid trivial recall questions.
+3. Pause for my response unless I explicitly request continuation.
+4. Evaluate my answer explicitly.
+5. If my answer is incorrect or incomplete:
 
    * Identify precisely which definition or inference is flawed.
    * Explain why it is flawed.
