@@ -457,7 +457,7 @@ Do not mechanically require understanding checks after every minor conceptual un
 
 When understanding checks are used:
 
-1. Present 1 or 2 reasoning-based questions.
+1. Present 1 or 2 multiple choice questions.
 2. Avoid trivial recall questions.
 3. Pause for my response unless I explicitly request continuation.
 4. Evaluate my answer explicitly.
