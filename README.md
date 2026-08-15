@@ -15,7 +15,7 @@
 
 ```
 
-## Brain Dumps
+## Unstructured Texts
 ```markdown
 Jadi saat ini saya punya device windows 11 dan rencananya saya mau install neovim dengan menggunakan winget dan juga setelahnya saya mau setup lazyvim di neovim yang telah terinstall.
 
