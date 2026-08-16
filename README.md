@@ -1,21 +1,8 @@
 # ChatGPT Prompt Templates
 
-## Meta-Prompts
-```markdown
-
-```
-
-## Prompts Adapter
-```markdown
-
-```
-
-## Prompts Auditor
-```markdown
-
-```
-
 ## Unstructured Texts
+
+- ?
 ```markdown
 Jadi saat ini saya punya device windows 11 dan rencananya saya mau install neovim dengan menggunakan winget dan juga setelahnya saya mau setup lazyvim di neovim yang telah terinstall.
 
@@ -50,6 +37,7 @@ Nah, kebetulan yang ada dipikiran saya saat ini cuman bisa segitu aja penjelasan
 Sekali lagi saya tegaskan di seluruh kesempatan atau perbincangan kali ini, kamu boleh bertanya atau klarifikasi mengenai hal apa saja tanpa terkecuali dan juga itu berlaku kepada saya juga.
 ```
 
+- ?
 ```markdown
 kalau saya lihat-lihat sepertinya chat session di bagian ini sudah terlalu banyak. Sebenarnya saya mau lanjut untuk chat lagi, tapi karena sudah terlalu banyak sudah saatnya saya buat yang baru. Cuman aku mau bawa bagian-bagian yang penting dari session chat ini untuk saya gunakan di chat session yang baru sebagai salah satu cara untuk AI mengetahui konteks yang sedang dibicarakan oleh saya.
 
