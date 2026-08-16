@@ -1,8 +1,6 @@
 # ChatGPT Prompt Templates
 
 ## Unstructured Texts
-
-Prompt Auditor:
 ```markdown
 Jadi saat ini saya punya device windows 11 dan rencananya saya mau install neovim dengan menggunakan winget dan juga setelahnya saya mau setup lazyvim di neovim yang telah terinstall.
 
@@ -37,13 +35,17 @@ Nah, kebetulan yang ada dipikiran saya saat ini cuman bisa segitu aja penjelasan
 Sekali lagi saya tegaskan di seluruh kesempatan atau perbincangan kali ini, kamu boleh bertanya atau klarifikasi mengenai hal apa saja tanpa terkecuali dan juga itu berlaku kepada saya juga.
 ```
 
-Meta-Prompt:
 ```markdown
 kalau saya lihat-lihat sepertinya chat session di bagian ini sudah terlalu banyak. Sebenarnya saya mau lanjut untuk chat lagi, tapi karena sudah terlalu banyak sudah saatnya saya buat yang baru. Cuman aku mau bawa bagian-bagian yang penting dari session chat ini untuk saya gunakan di chat session yang baru sebagai salah satu cara untuk AI mengetahui konteks yang sedang dibicarakan oleh saya.
 
 Oleh karena itu, bantu aku untuk membuat mungkin semacam meta prompt atau checkpoint atau saya sebenarnya gak tahu persisnya apa.
 
 intinya saya mau mempertahankan konteks-konteks yang penting dari chat ini dan itu akan berguna supaya si AI tetap tahu keseluruhan context yang akan saya bicarakan, sehingga saya tidak repot-repot menjelaskan ketika si AI bertanya mengenai konteksnya.
+```
+
+Meta-Prompt:
+```markdown
+
 ```
 
 ## [Learn PHP strings](https://chatgpt.com/share/6a7716ea-3f7c-83ec-8efd-f3e39c7dd96f)
