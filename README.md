@@ -1,14 +1,17 @@
 # ChatGPT Prompt Templates
 
 ## Unstructured Texts
+Install or Setup a Software:
 ```markdown
+# Install Neovim and Setup Lazyvim
+
 Jadi saat ini saya punya device windows 11 dan rencananya saya mau install neovim dengan menggunakan winget dan juga setelahnya saya mau setup lazyvim di neovim yang telah terinstall.
 
 Akan tetapi sebelum saya melakukan itu, saya riset terlebih dahulu di internet mengenai hal itu dan yang terjadi adalah saya malah kebingungan atau tidak tahu arah yang jelas bagaimana cara yang pasti untuk mencapai tujuan yang saya inginkan.
 
 Oleh karena itu, lebih baik saya jelaskan semua masalah atau kendala atau keraguan yang saya hadapi selengkapnya sebagai berikut:
 
-# 1. Prerequisite
+## 1. Prerequisite
 
 jadi saya rencananya mau install neovim latest stable di windows 11 dengan menggunakan winget, nah sebelum itu saya mau tahu dulu prerequisite untuk menginstall neovim latest stable di windows 11 menggunakan winget itu apa saja.
 
@@ -16,19 +19,49 @@ Karena ingin memastikan tidak ada keraguan atau tidak ada hal yang bisa membuat 
 
 ---
 
-# 2. Neovim Installation
+## 2. Neovim Installation
 
 Tolong pandu saya tahap demi tahap untuk menginstall neovim di windows 11 menggunakan winget
 
 ---
 
-# 3. Setup Lazyvim
+## 3. Setup Lazyvim
 
 Tolong pandu saya tahap demi tahap untuk setup Lazyvim di neovim yang telah terinstall dengan cara bootstrap saja (bukan native), sebelum itu saya mau tanya apakah cara yang saya inginkan tersebut merupakan cara yang aman dan dijamin bakal aman seterusnya atau seperti apa.
 
 ---
 
 Nah, aku mau kamu membantu saya dari tahap ke tahap atau satu per satu tanpa terkecuali dan nantinya aku juga akan secara bertahap mengikuti instruksi yang diberikan kepada saya
+
+Nah, kebetulan yang ada dipikiran saya saat ini cuman bisa segitu aja penjelasannya dan maaf tulisan saya itu tidak terstruktur karena memang saya tidak tahu bagaimana cara menulis yang berstruktur. Oleh karena itu, kalau ada hal yang masih belum jelas dipersilakan untuk bertanya atau klarifikasi terlebih dahulu ke saya.
+
+Sekali lagi saya tegaskan di seluruh kesempatan atau perbincangan kali ini, kamu boleh bertanya atau klarifikasi mengenai hal apa saja tanpa terkecuali dan juga itu berlaku kepada saya juga.
+
+---
+
+# Install Zed Text Editor
+
+Jadi saat ini saya punya device windows 11 dan rencananya saya mau install Zed Text Editor yang akan digunakan untuk kebutuhan koding saya. Nah, sebelumnya saya telah install Neovim dan juga sudah bisa setup Lazyvim, cuman ternyata saya tidak cocok dengan cara kerja neovim yang menurut saya ribet. Oleh karena itu, saya mau mencoba Text Editor yang simpel dan ringan untuk device saya yaitu Zed.
+
+Akan tetapi sebelum saya melakukan itu, saya riset terlebih dahulu di internet mengenai hal itu dan yang terjadi adalah saya malah kebingungan atau tidak tahu arah yang jelas bagaimana cara yang pasti untuk mencapai tujuan yang saya inginkan.
+
+Oleh karena itu, lebih baik saya jelaskan semua masalah atau kendala atau keraguan yang saya hadapi selengkapnya sebagai berikut:
+
+## 1. Prerequisite
+
+Jadi saya rencananya mau install Zed Text Editor di windows 11 saya, tetapi sebelum itu saya mau tahu dulu setiap prerequisite untuk menginstall Zed Text Editor di windows 11 itu apa saja.
+
+Karena saya ingin memastikan tidak ada keraguan atau tidak ada hal yang bisa membuat saya overthinking.
+
+---
+
+## 2. Zed Installation
+
+Setelah setiap prerequisite terpenuhi, tolong pandu saya secara bertahap cara untuk menginstall Zed Text Editor di windows 11 sampai terinstall dengan baik dan benar.
+
+---
+
+Nah, aku mau kamu membantu saya dari tahap ke tahap atau satu per satu tanpa terkecuali dan nantinya aku juga akan secara bertahap mengikuti instruksi yang diberikan kepada saya.
 
 Nah, kebetulan yang ada dipikiran saya saat ini cuman bisa segitu aja penjelasannya dan maaf tulisan saya itu tidak terstruktur karena memang saya tidak tahu bagaimana cara menulis yang berstruktur. Oleh karena itu, kalau ada hal yang masih belum jelas dipersilakan untuk bertanya atau klarifikasi terlebih dahulu ke saya.
 
