@@ -61,11 +61,9 @@ Setelah setiap prerequisite terpenuhi, tolong pandu saya secara bertahap cara un
 
 ---
 
-Nah, aku mau kamu membantu saya dari tahap ke tahap atau satu per satu tanpa terkecuali dan nantinya aku juga akan secara bertahap mengikuti instruksi yang diberikan kepada saya.
+Nah, kebetulan yang ada dipikiran saya saat ini cuman bisa segitu aja penjelasannya dan maaf tulisan saya itu tidak terstruktur karena memang saya tidak tahu bagaimana cara menulis yang terstruktur. Oleh karena itu, kalau ada hal yang masih belum jelas dipersilakan untuk bertanya atau klarifikasi terlebih dahulu ke saya.
 
-Nah, kebetulan yang ada dipikiran saya saat ini cuman bisa segitu aja penjelasannya dan maaf tulisan saya itu tidak terstruktur karena memang saya tidak tahu bagaimana cara menulis yang berstruktur. Oleh karena itu, kalau ada hal yang masih belum jelas dipersilakan untuk bertanya atau klarifikasi terlebih dahulu ke saya.
-
-Sekali lagi saya tegaskan di seluruh kesempatan atau perbincangan kali ini, kamu boleh bertanya atau klarifikasi mengenai hal apa saja tanpa terkecuali dan juga itu berlaku kepada saya juga.
+Sekali lagi saya tegaskan di seluruh kesempatan atau session kali ini, kamu boleh bertanya atau klarifikasi mengenai hal apa saja tanpa terkecuali dan juga itu berlaku kepada saya juga.
 ```
 
 Session Handoff or Context Checkpoint:
