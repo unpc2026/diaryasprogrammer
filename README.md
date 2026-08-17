@@ -3,7 +3,7 @@
 ## Unstructured Texts
 Install or Setup a Software:
 ```markdown
-# Install Neovim and Setup Lazyvim
+# Neovim & Lazyvim
 
 Jadi saat ini saya punya device windows 11 dan rencananya saya mau install neovim dengan menggunakan winget dan juga setelahnya saya mau setup lazyvim di neovim yang telah terinstall.
 
@@ -39,7 +39,7 @@ Sekali lagi saya tegaskan di seluruh kesempatan atau perbincangan kali ini, kamu
 
 ---
 
-# Install Zed Text Editor
+# Zed Text Editor
 
 Jadi saat ini saya punya device windows 11 dan rencananya saya mau install Zed Text Editor yang akan digunakan untuk kebutuhan koding saya. Nah, sebelumnya saya telah install Neovim dan juga sudah bisa setup Lazyvim, cuman ternyata saya tidak cocok dengan cara kerja neovim yang menurut saya ribet. Oleh karena itu, saya mau mencoba Text Editor yang simpel dan ringan untuk device saya yaitu Zed.
 
