@@ -1,6 +1,6 @@
 # *ChatGPT Prompt Templates*
 
-## *Unstructured Texts*
+## Unstructured Texts
 __Install or Setup a Software:__
 ```markdown
 # Install Neovim & Setup Lazyvim
