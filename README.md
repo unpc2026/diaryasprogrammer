@@ -80,7 +80,7 @@ __Meta-Prompt:__
 
 ```
 
-## [*Learn PHP strings*](https://chatgpt.com/share/6a7716ea-3f7c-83ec-8efd-f3e39c7dd96f)
+## [Learn PHP strings](https://chatgpt.com/share/6a7716ea-3f7c-83ec-8efd-f3e39c7dd96f)
 ```markdown
 # 🎯 Objective
 
