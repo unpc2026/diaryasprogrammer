@@ -1,6 +1,6 @@
-# ChatGPT Prompt Templates
+# *ChatGPT Prompt Templates*
 
-## Unstructured Texts
+## *Unstructured Texts*
 __Install or Setup a Software:__
 ```markdown
 # Install Neovim & Setup Lazyvim
@@ -80,7 +80,7 @@ __Meta-Prompt:__
 
 ```
 
-## [Learn PHP strings](https://chatgpt.com/share/6a7716ea-3f7c-83ec-8efd-f3e39c7dd96f)
+## [*Learn PHP strings*](https://chatgpt.com/share/6a7716ea-3f7c-83ec-8efd-f3e39c7dd96f)
 ```markdown
 # 🎯 Objective
 
@@ -494,7 +494,7 @@ Do not interpret an incorrect answer merely as a memory failure when the underly
 Avoid excessive micro-check interruptions.
 ```
 
-# Roadmap from Zero to Hero
+# *Roadmap from Zero to Hero*
 [Handmade Hero Complete Episodes (1 - 667)](https://www.youtube.com/playlist?list=PL0PAV3gVZ9gmiTxKufnvxw2-WMFHTMX6c)
 
 ## Internet
