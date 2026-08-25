@@ -513,10 +513,6 @@ Avoid excessive micro-check interruptions.
 1. [Theo t3.gg = I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
 2. []()
 
-- CPU Cache
-  1. [Theo t3.gg = I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
-  2. []()
-
 ## Software
 
 ### Compiler, Interpreter, and Transpiler
