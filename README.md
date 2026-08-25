@@ -514,8 +514,8 @@ Avoid excessive micro-check interruptions.
 2. []()
 
 - CPU Cache
-1. [Theo t3.gg = I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
-2. []()
+  1. [Theo t3.gg = I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
+  2. []()
 
 ## Software
 
@@ -540,8 +540,8 @@ Avoid excessive micro-check interruptions.
 2. []()
 
 - Tailwind CSS
-1. []()
-2. []()
+  1. []()
+  2. []()
 
 #### JavaScript and TypeScript
 1. [Lydia Hallie = JavaScript Visualized - Event Loop, Web APIs, (Micro)task Queue](https://www.youtube.com/watch?v=eiC58R16hb8)
@@ -551,8 +551,8 @@ Avoid excessive micro-check interruptions.
 5. []()
 
 - ReactJS
-1. []()
-2. []()
+  1. []()
+  2. []()
 
 ### DevOps
 1. []()
