@@ -497,13 +497,13 @@ Avoid excessive micro-check interruptions.
 # *Roadmap from Zero to Hero*
 [Handmade Hero Complete Episodes (1 - 667)](https://www.youtube.com/playlist?list=PL0PAV3gVZ9gmiTxKufnvxw2-WMFHTMX6c)
 
-  ## Internet
-  1. [Boot dev = TCP to HTTP | Full Course by @ThePrimeagen](https://www.youtube.com/watch?v=FknTw9bJsXM)
-  2. []()
+## Internet
+1. [Boot dev = TCP to HTTP | Full Course by @ThePrimeagen](https://www.youtube.com/watch?v=FknTw9bJsXM)
+2. []()
 
-     ### DNS (Domain Name System)
-     1. []()
-     2. []()
+### DNS (Domain Name System)
+1. []()
+2. []()
 
 ## Hardware
 1. [Theo t3.gg = I finally know how CPUs work (w/ Casey Muratori)](https://www.youtube.com/watch?v=jC_z1vL1OCI)
