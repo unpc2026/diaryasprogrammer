@@ -80,6 +80,26 @@ __Meta-Prompt:__
 
 ```
 
+__Prompt Auditor:__
+```markdown
+oke jadi saya rencananya mau membuat prompt yang mana prompt yang akan saya buat bertujuan untuk mereview atau mengaudit prompt punya saya juga, yang mana prompt saya tersebut berisi semacam metode pengajaran atau teaching kepada ChatGPT mengenai PHP Strings.
+
+Nah, ketika saya mau membuat prompt tersebut saya tidak tahu apa saja yang harus saya masukan ke prompt supaya mencapai hasil yang saya inginkan. Oleh karena itu, saya mau menulis promptnya dengan format yang tidak terstruktur saja seperti sebagai berikut:
+
+Jadi setelah kamu benar-benar memahami apa yang saya inginkan, saya akan berikan prompt punya saya yang akan dijadikan bahan untuk kamu review atau audit. Sebelum itu, saya mau kasih tahu kamu hal-hal apa saja yang saya inginkan untuk mencapai hasil yang dapat memuaskan saya. Berikut merupakan daftar dari keinginan saya:
+
+Saya mau kamu coba review atau audit prompt dengan menjawab pertanyaan sederhana dari saya dengan sebagai berikut.
+
+1. apakah ada over-specification
+2. apakah ada conflict
+3. apakah ada yang bisa ditambah supaya kualitasnya meningkat tanpa menimbulkan over-specification
+4. ...
+
+Kebetulan saat ini hanya itu saja yang bisa saya tuangkan dari yang ada di pikiran saya. Jadi, kalau kamu masih belum sepenuhnya paham atau ada hal yang bisa kamu tambahkan, bisa langsung tanyakan ke saya saja sampai kamu benar-benar yakin sepenuhnya memahami setiap apa saja keinginan saya.
+
+Setelah itu, kamu boleh meminta langsung ke saya mana prompt yang akan dijadikan bahan untuk direview atau diaudit dan saya akan meresponnya dengan memberikan keseluruhan prompt tersebut.
+```
+
 ## [Learn PHP strings](https://chatgpt.com/share/6a7716ea-3f7c-83ec-8efd-f3e39c7dd96f)
 ```markdown
 # 🎯 Objective
