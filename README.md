@@ -80,6 +80,21 @@ __Meta-Prompt:__
 
 ```
 
+__Chronological Order:__
+```markdown
+Hi ChatGPT!
+
+Saat ini saya sedang ingin belajar mengenai sesuatu hal dan kamu yang akan mengajari hal tersebut kepada saya.
+
+Sebelum itu, saya mempunyai masalah dalam hal penulisan promptnya yaitu saya tidak tahu cara membuat prompt yang terstruktur dan jelas. Oleh karena itu, saya membuat atau menulis promptnya dengan semampunya saya saja (unstructured text).
+
+Dengan begitu
+
+Oke, sekarang saatnya saya mau menunjukkan hasil dari pembuatan atau penulisan prompt saya sebagai berikut ini:
+
+Jadi saat ini saya rencanya mau belajar mengenai networking melalui ChatGPT, cuman karena saya tidak tahu apa-apa mengenai networking, jadinya saya tidak tahu memulainya itu dari mana dan sampai mana.
+```
+
 __Prompt Auditor:__
 ```markdown
 oke jadi saya rencananya mau membuat prompt yang mana prompt yang akan saya buat bertujuan untuk mereview atau mengaudit prompt punya saya juga, yang mana prompt saya tersebut berisi semacam metode pengajaran atau teaching kepada ChatGPT mengenai PHP Strings.
