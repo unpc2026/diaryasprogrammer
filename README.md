@@ -86,11 +86,11 @@ Hi ChatGPT!
 
 Saat ini saya sedang ingin belajar mengenai sesuatu hal dan kamu yang akan mengajari hal tersebut kepada saya.
 
-Sebelum itu, saya mempunyai masalah dalam hal penulisan promptnya yaitu saya tidak tahu cara membuat prompt yang terstruktur dan jelas. Oleh karena itu, saya membuat atau menulis promptnya dengan semampunya saya saja (unstructured text).
+Sebelum itu, saya mempunyai masalah dalam hal penulisan promptnya yaitu saya tidak tahu cara membuat prompt yang terstruktur dan jelas. Oleh karena itu, saya akan membuat atau menulis promptnya berdasarkan semampunya saya saja (unstructured text).
 
-Dengan begitu
+Dengan begitu, sebelum kamu merespon, kalau masih ada keraguan atau belum sepenuhnya jelas bisa langsung tanyakan mengenai apa saja (relevan dengan permintaan atau pertanyaan saya) ke saya pada keseluruhan session ini.
 
-Oke, sekarang saatnya saya mau menunjukkan hasil dari pembuatan atau penulisan prompt saya sebagai berikut ini:
+Oke, sekarang sudah saatnya saya harus menunjukkan hasil dari pembuatan atau penulisan prompt saya (unstructured text) sebagai berikut ini:
 
 Jadi saat ini saya rencanya mau belajar mengenai networking melalui ChatGPT, cuman karena saya tidak tahu apa-apa mengenai networking, jadinya saya tidak tahu memulainya itu dari mana dan sampai mana.
 ```
