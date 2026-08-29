@@ -529,7 +529,7 @@ Do not interpret an incorrect answer merely as a memory failure when the underly
 Avoid excessive micro-check interruptions.
 ```
 
-# *Jalan Ninjaku*
+# *Nindō (忍道) a.k.a Ninja Way*
 [Handmade Hero Complete Episodes (1 - 667)](https://www.youtube.com/playlist?list=PL0PAV3gVZ9gmiTxKufnvxw2-WMFHTMX6c)
 
 ## Internet
