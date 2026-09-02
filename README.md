@@ -80,7 +80,7 @@ __Meta-Prompt:__
 
 ```
 
-__Chronological Order:__
+__Subject in Chronological Order:__
 ```markdown
 Hi ChatGPT!
 
