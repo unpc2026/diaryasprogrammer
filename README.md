@@ -84,13 +84,15 @@ __Subject in Chronological Order:__
 ```markdown
 Hi ChatGPT!
 
-Saat ini saya sedang ingin belajar mengenai sesuatu hal dan kamu yang akan mengajari hal tersebut kepada saya.
+Saat ini saya sedang ingin belajar mengenai networking untuk saya yang tidak tahu apa-apa mengenai networking dan saya mau belajar networking melalui ChatGPT. 
 
-Sebelum itu, saya mempunyai masalah dalam hal penulisan promptnya yaitu saya tidak tahu cara membuat prompt yang terstruktur dan jelas. Oleh karena itu, saya akan membuat atau menulis promptnya berdasarkan semampunya saya saja (unstructured text).
+Namun sebelum itu, saya harus tahu dulu apa saja yang harus saya pelajari di subjek tersebut dan dari mana saya harus memulai belajarnya berdasarkan urutan yang sesuai.
+
+Nah, itu merupakan sebagian kecil dari keseluruhan prompt yang akan saya berikan ke kamu, cuman sebelum saya memberikan keseluruhan promptnya, saya mendapati sebuah masalah dalam hal penulisan promptnya yaitu saya tidak tahu cara membuat atau menulis prompt secara terstruktur dan jelas. Oleh karena itu, saya akan membuat atau menulis keseluruhan promptnya berdasarkan semampunya saya saja (unstructured text).
 
 Dengan begitu, sebelum kamu merespon, kalau masih ada keraguan atau belum sepenuhnya jelas bisa langsung tanyakan mengenai apa saja (relevan dengan permintaan atau pertanyaan saya) ke saya pada keseluruhan session ini.
 
-Oke, sekarang sudah saatnya saya harus menunjukkan hasil dari pembuatan atau penulisan prompt saya (unstructured text) sebagai berikut ini:
+Oke, sekarang sudah saatnya saya harus menunjukkan hasil keseluruhan dari pembuatan atau penulisan prompt saya (unstructured text) sebagai berikut ini:
 
 Jadi saat ini saya rencanya mau belajar mengenai networking melalui ChatGPT, cuman karena saya tidak tahu apa-apa mengenai networking, jadinya saya tidak tahu memulainya itu dari mana dan sampai mana.
 ```
